@@ -435,9 +435,9 @@ html, body {height: 100%}
   }
 }
 
-@media (min-width: 760px) {
+@media (min-width: 1000px) {
   .max-width {
-    width: 720px;
+    width: 900px;
   }
 }
 
@@ -458,6 +458,7 @@ html, body {height: 100%}
   text-align: center;
 }
 
+
  /*Prevent address from flowing onto seperate lines*/
 .address-subsection {
   width: 100%;
@@ -470,6 +471,7 @@ html, body {height: 100%}
     width: auto;
   }
 }
+
 
  /*Prevent phone number from flowing onto seperate lines*/
 .contact-subsection {
@@ -498,7 +500,7 @@ html, body {height: 100%}
 /* Logo */
 .logo {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
 }
 
 
@@ -507,17 +509,30 @@ html, body {height: 100%}
   font-style: normal;
   line-height: 1.5;
   font-size: 14px;
+  letter-spacing: 1px
 }
 
 @media (min-width: 480px) {
   .contact {
     font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 2px
   }
 }
 
 @media (min-width: 720px) {
   .contact {
     font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 3px
+  }
+}
+
+@media (min-width: 1000px) {
+  .contact {
+    font-size: 20px;
+    line-height: 36px;
+    letter-spacing: 4px
   }
 }
 
@@ -530,15 +545,15 @@ html, body {height: 100%}
 }
 
 body, a {
-  font-family: "aktiv-grotesk-std", georgia, sans-serif;
+  font-family: "aktiv-grotesk-std", arial, sans-serif;
   color: #232732;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 a {text-decoration: none;}
 
 a:hover, a:focus {
-  font-weight: 500;
+  font-weight: bold;
 }
 
 
