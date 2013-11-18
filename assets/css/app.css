@@ -496,6 +496,10 @@ html, body {height: 100%}
   }
 }
 
+.second-break {
+  display: none;
+}
+
 @media (min-width: 945px) {
   .second-break {
     display: inline;
