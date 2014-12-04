@@ -1,0 +1,65 @@
+section {
+	&.fp-product-intro {
+
+		margin-bottom: -14px;
+
+		.row {
+			background-color: $fp-color-primary-1;
+			padding: rem-calc(60) 0 rem-calc(60) 0;
+
+			h1, h2, p {
+				color: $white;
+			}
+			h1 {
+				@include lato-light;
+				font-size: rem-calc(37);
+				margin: 0 0 rem-calc(28) 0;
+			}
+
+			h2 {
+				@include lato-bold;
+				font-size: rem-calc(16);
+				line-height: rem-calc(16);
+				margin: rem-calc(8) 0 rem-calc(4) 0;
+			}
+
+			p {
+				font-size: rem-calc(17);
+				line-height: rem-calc(21);
+				margin: 0 0 rem-calc(38) 0;
+			}
+
+			ul {
+				li {
+					.icon {
+						color: $white;
+						float: left;
+						border-radius: 100%;
+						border-style: solid;
+						border-color: $white;
+						border-width: rem-calc(2);
+						width: rem-calc(64);;
+						height: rem-calc(64);;
+
+						i {
+							font-size: rem-calc(27);
+						}
+					}
+
+
+					.text {
+						display: block;
+						margin-left: rem-calc(84);;
+
+						p {
+							@include lato-light;
+							font-size: rem-calc(11);
+							line-height: rem-calc(13);
+							margin: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

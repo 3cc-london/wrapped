@@ -1,0 +1,42 @@
+section {
+	&.fp-product {
+		.row {
+			background-color: $white;
+			padding: rem-calc(55) rem-calc(60);
+
+			img {
+				margin-bottom: rem-calc(20);
+			}
+
+			h1 {
+				@include lato-bold;
+				font-size: rem-calc(14);
+				line-height: 1em;
+				margin-bottom: rem-calc(12);
+			}
+
+			p {
+				font-size: rem-calc(14);
+				margin: 0 0 rem-calc(8) 0;
+				line-height: rem-calc(17);
+
+				span {
+					&.label {
+						margin-bottom: 1em;
+					}
+
+					&.price {
+						@include lato-bold;
+						font-size: rem-calc(17);
+						color: $fp-color-primary-1;
+					}
+
+					&.strike {
+						color: $fp-color-primary-3;
+						margin-right: 0.5em;
+					}
+				}
+			}
+		}
+	}
+}

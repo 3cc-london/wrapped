@@ -1,0 +1,59 @@
+// Lato
+/*
+@mixin lato-thin {
+	font-family: "Lato",sans-serif;
+	font-style: normal;
+	font-weight: 100;
+}
+@mixin lato-thin-italic {
+	font-family: "Lato",sans-serif;
+	font-style: italic;
+	font-weight: 100;
+}
+*/
+
+@mixin lato-light {
+	font-family: "Lato",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+}
+
+@mixin lato-light-italic {
+	font-family: "Lato",sans-serif;
+	font-style: italic;
+	font-weight: 300;
+}
+
+@mixin lato-normal {
+	font-family: "Lato",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+}
+@mixin lato-italic {
+	font-family: "Lato",sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+@mixin lato-bold {
+	font-family: "Lato",sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+@mixin lato-bold-italic {
+	font-family: "Lato",sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
+
+/*
+@mixin lato-ultrabold {
+	font-family: "Lato",sans-serif;
+	font-style: normal;
+	font-weight: 900;
+}
+@mixin lato-ultrabold-italic {
+	font-family: "Lato",sans-serif;
+	font-style: italic;
+	font-weight: 900;
+}
+*/

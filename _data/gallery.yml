@@ -1,0 +1,21 @@
+mobilepath: assets/images/mobile/
+path: assets/images/
+
+mobilethumbs: assets/images/mobile/
+thumbs: assets/images/
+
+gallery: 
+ - name: clementine_oliver_by_buttercupphotography_1.jpg
+ - name: clementine_oliver_by_buttercupphotography_2.jpg
+ - name: clementine_oliver_by_buttercupphotography_3.jpg
+ - name: clementine_oliver_by_buttercupphotography_4.jpg
+ - name: clementine_oliver_by_buttercupphotography_5.jpg
+ - name: clementine_oliver_by_buttercupphotography_6.jpg
+ - name: clementine_oliver_by_buttercupphotography_7.jpg
+ - name: clementine_oliver_by_buttercupphotography_8.jpg
+ - name: clementine_oliver_by_buttercupphotography_9.jpg
+ - name: clementine_oliver_by_buttercupphotography_10.jpg
+ - name: clementine_oliver_by_buttercupphotography_11.jpg
+ - name: clementine_oliver_by_buttercupphotography_12.jpg
+
+

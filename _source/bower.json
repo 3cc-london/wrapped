@@ -1,0 +1,22 @@
+{
+  "name": "wrapped",
+  "version": "0.0.0",
+  "homepage": "https://github.com/Shinobi-Corp/frequency-precision",
+  "description": "Wrapped",
+  "license": "NA",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "foundation": "~5.4.6",
+    "webfontloader-min": "~1.5.1",
+    "holderjs": "~2.4.0",
+    "font-awesome": "~4.2.0"
+  }
+}

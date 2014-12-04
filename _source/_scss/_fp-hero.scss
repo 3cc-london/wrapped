@@ -1,0 +1,51 @@
+section {
+
+	margin-bottom: 14px;
+
+	&.fp-hero {
+		background: $black;
+		height: 360px;
+
+		div {
+			height: 100%;
+		}
+		
+		h1,h2 {
+			@include lato-light;
+
+			color: $white;
+			line-height: 1em;
+		}
+
+		h1 {
+			font-size: rem-calc(37);
+			margin: 0 0 rem-calc(37) 0;
+		}
+		h2 {
+			font-size: rem-calc(16);
+			text-transform: uppercase;
+			margin: 0 0 rem-calc(14) 0;
+		}
+	}
+
+	&.fp-tabs {
+		.row {
+			background: $white;
+		}
+	}
+
+	&.fp-product-intro {
+
+		margin-bottom: -14px;
+
+		.row {
+			background-color: $fp-color-primary-1;
+		}
+	}
+
+	&.fp-product {
+		.row {
+			background-color: $white;
+		}
+	}
+}

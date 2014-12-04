@@ -1,0 +1,7 @@
+# Site settings
+title: Wrapped Productions LLP
+description: Wrapped Productions LLP
+url: "http://wrappeduk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
