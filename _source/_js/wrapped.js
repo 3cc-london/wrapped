@@ -1,8 +1,17 @@
 $(document).ready(function () {
+	
+
+	function minheightResize(){
+		var minheight = $('.minheight').width();
+		$('.minheight').css("height",minheight);
+	}
+
+	window.onresize = minheightResize;     // When the browser changes size
+	minheightResize();
+
 
 	$('body').css('visibility','visible').hide().fadeIn('slow');
-	var curtainwidth = $('.menu-curtain').width();
-
+	var curtainwidth = $('.text').width();
 	var closed = true;
 
 	document.querySelector( "#nav-toggle " ).addEventListener( "click", function() {
@@ -15,16 +24,16 @@ $(document).ready(function () {
 
 		if (closed)
 		{
-			if (curtainwidth < 1)
-			{
-				$('.menu-curtain').animate({
-				    width: '100%'
-					  }, 500, function() {
+
+			$('.menu-curtain').animate({
+				width: '100%'
+				}, 500, function() {
 					    
-				});			
-			}
+			});			
+
 
 			$('.text').css('visibility','hidden').hide().fadeOut('slow');
+			$('.left-content').css("z-index","4");
 
 			  setTimeout(function()
 			    {
@@ -47,18 +56,17 @@ $(document).ready(function () {
 		}
 		else
 		{
-			if (curtainwidth < 1)
-			{
-				$('.menu-curtain').animate({
-				    width: '0px'
-					  }, 500, function() {
+
+			$('.menu-curtain').animate({
+				width: '0px'
+				}, 500, function() {
 					    
-				});
-			}
+			});
 
 			$('.social-holder > .fa').css('visibility','hidden').hide().fadeIn('slow');
 			$('.menu > li').css('visibility','hidden').hide().fadeIn('slow');
 			$('.text').css('visibility','visible').hide().fadeIn('slow');
+			$('.left-content').css("z-index","3");
 			 closed = true;
 		}
 

@@ -10434,40 +10434,229 @@ section.fp-tabs .row {
 #nav-toggle.active span:after {
   transform: rotate(-45deg); }
 
-/* line 84, _scss/wrapped.scss */
+/* line 4, _scss/covers.scss */
+.indexcover {
+  background: url("../assets/images/home_5.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 13, _scss/covers.scss */
+.aboutcover {
+  background: url("../assets/images/cover_red.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 22, _scss/covers.scss */
+.whyuscover {
+  background: url("../assets/images/cover_guy.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 31, _scss/covers.scss */
+.servicescover {
+  background: url("../assets/images/services.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 40, _scss/covers.scss */
+.contactcover {
+  background: url("../assets/images/contact.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 50, _scss/covers.scss */
+.arcadia {
+  background: url("../assets/images/wrapped_thumbs/thumb_arcadia_10.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 59, _scss/covers.scss */
+.evans {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_big_sur.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 68, _scss/covers.scss */
+.evanshudson {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_hudson.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 77, _scss/covers.scss */
+.laura {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_laura_catterall.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 86, _scss/covers.scss */
+.lingerie {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_lingerie.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 95, _scss/covers.scss */
+.liveunlimited {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_live_unlimited.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 105, _scss/covers.scss */
+.palmsprings {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_palm_springs.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 114, _scss/covers.scss */
+.scenes {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_show_behind_the_scenes.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 124, _scss/covers.scss */
+.lookbook {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_ss14_lookbook.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 135, _scss/covers.scss */
+.cut2013 {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_the_cut_2013.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 144, _scss/covers.scss */
+.cut2014 {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_the_cut_2014.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 153, _scss/covers.scss */
+.turks {
+  background: url("../assets/images/wrapped_thumbs/thumb_evans_turks.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 162, _scss/covers.scss */
+.stilllife {
+  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_beauty_still_life.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 171, _scss/covers.scss */
+.grooming {
+  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_grooming_still_life.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 180, _scss/covers.scss */
+.hair {
+  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_hair_beauty.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 189, _scss/covers.scss */
+.womanswear {
+  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_womenswear.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 198, _scss/covers.scss */
+.menswear {
+  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_37_menswear.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 208, _scss/covers.scss */
+.sopexa {
+  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_37_sopexa.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 86, _scss/wrapped.scss */
 body {
   height: 100%;
   margin: 0px;
   font-size: 16px;
-  visibility: hidden;
-  font-family: "alternate-gothic-no-2-d",sans-serif;
-  font-style: normal;
-  font-weight: 200; }
-  /* line 94, _scss/wrapped.scss */
+  visibility: hidden; }
+  /* line 93, _scss/wrapped.scss */
   body h1, body h2, body h3 {
     color: white;
     text-transform: uppercase; }
-  /* line 100, _scss/wrapped.scss */
+  /* line 99, _scss/wrapped.scss */
   body h1 {
     font-size: 3rem; }
-  /* line 105, _scss/wrapped.scss */
+  /* line 104, _scss/wrapped.scss */
   body p {
     font-size: 1.5rem;
-    color: white; }
-  /* line 111, _scss/wrapped.scss */
+    color: white;
+    letter-spacing: 0.03em;
+    font-family: "aktiv-grotesk-std",sans-serif;
+    font-style: normal;
+    font-weight: 200; }
+  /* line 114, _scss/wrapped.scss */
+  body a:link, body a:visited, body a:hover, body a:active {
+    color: white;
+    text-decoration: none; }
+  /* line 120, _scss/wrapped.scss */
   body .cover-holder {
     max-width: 100%;
     height: 100%;
     position: fixed;
     z-index: 1; }
-    /* line 118, _scss/wrapped.scss */
+    /* line 127, _scss/wrapped.scss */
     body .cover-holder .cover {
       position: fixed;
       z-index: 1;
       width: 100%;
       height: 100%;
       transition: 10s ease; }
-  /* line 129, _scss/wrapped.scss */
+  /* line 138, _scss/wrapped.scss */
   body .covertransition {
     -webkit-transform: scale(1.1);
     /* Safari and Chrome */
@@ -10483,159 +10672,224 @@ body {
     -o-transition: all 10s ease;
     -ms-transition: all 10s ease;
     transition: all 10s ease; }
-  /* line 145, _scss/wrapped.scss */
-  body .indexcover {
-    background: url("../assets/images/cover_index.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-  /* line 154, _scss/wrapped.scss */
-  body .aboutcover {
-    background: url("../assets/images/cover_red.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-  /* line 163, _scss/wrapped.scss */
+  /* line 153, _scss/wrapped.scss */
   body .logo-holder {
     position: absolute;
     z-index: 99;
     top: 40px;
     left: 40px; }
-    /* line 170, _scss/wrapped.scss */
+    /* line 160, _scss/wrapped.scss */
     body .logo-holder #nav-toggle {
       display: inline-block;
       vertical-align: top;
       background: grey; }
-    /* line 178, _scss/wrapped.scss */
+    /* line 168, _scss/wrapped.scss */
     body .logo-holder #toggle {
       width: 30px;
       height: 40px;
       background: transparent;
       position: absolute;
       margin-top: -40px; }
-    /* line 187, _scss/wrapped.scss */
+    /* line 177, _scss/wrapped.scss */
     body .logo-holder img {
       width: 220px;
       display: inline-block;
       vertical-align: top;
       margin-left: 80px;
       margin-top: -12px; }
-  /* line 198, _scss/wrapped.scss */
+  /* line 188, _scss/wrapped.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
-    width: 25%;
-    max-width: 600px;
+    width: 40%;
+    max-width: 800px;
     position: absolute;
     z-index: 2; }
-    /* line 207, _scss/wrapped.scss */
+    /* line 197, _scss/wrapped.scss */
     body .left-content .menu-holder {
       padding-top: 120px;
       position: absolute;
-      z-index: 4;
+      z-index: 3;
       color: white; }
-      /* line 216, _scss/wrapped.scss */
+      /* line 206, _scss/wrapped.scss */
       body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
         color: white;
         text-decoration: none; }
-      /* line 223, _scss/wrapped.scss */
+      /* line 213, _scss/wrapped.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 229, _scss/wrapped.scss */
+        /* line 219, _scss/wrapped.scss */
         body .left-content .menu-holder ul li {
-          font-size: 3.5rem;
+          padding-top: 30px;
+          padding-bottom: 30px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
           visibility: hidden; }
-    /* line 240, _scss/wrapped.scss */
+          /* line 227, _scss/wrapped.scss */
+          body .left-content .menu-holder ul li img {
+            width: auto;
+            height: 40px; }
+    /* line 237, _scss/wrapped.scss */
     body .left-content .social-holder {
       position: absolute;
       z-index: 4;
       bottom: 40px;
       color: white; }
-      /* line 247, _scss/wrapped.scss */
+      /* line 244, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 257, _scss/wrapped.scss */
+  /* line 254, _scss/wrapped.scss */
   body .text {
-    padding: 40px;
-    height: 100%;
-    width: 25%;
-    max-width: 600px;
+    min-height: 100%;
+    height: auto;
+    width: 40%;
+    max-width: 800px;
     position: absolute;
-    z-index: 3;
-    padding-top: 120px; }
-    /* line 267, _scss/wrapped.scss */
-    body .text .why-us-bottom {
-      position: absolute;
-      bottom: 30px;
-      right: 20px; }
-      /* line 273, _scss/wrapped.scss */
-      body .text .why-us-bottom h3 {
-        display: inline;
-        padding-right: 20px; }
-      /* line 279, _scss/wrapped.scss */
-      body .text .why-us-bottom img {
-        width: 12px;
-        height: auto;
-        display: inline;
-        margin-top: -10px; }
-  /* line 289, _scss/wrapped.scss */
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.5); }
+    /* line 264, _scss/wrapped.scss */
+    body .text .text-content {
+      padding: 40px;
+      padding-top: 120px;
+      padding-bottom: 0px; }
+      /* line 270, _scss/wrapped.scss */
+      body .text .text-content .title-image {
+        padding-bottom: 40px; }
+        /* line 274, _scss/wrapped.scss */
+        body .text .text-content .title-image img {
+          width: auto;
+          height: 50px; }
+      /* line 281, _scss/wrapped.scss */
+      body .text .text-content ul {
+        color: white; }
+        /* line 285, _scss/wrapped.scss */
+        body .text .text-content ul li {
+          font-family: "aktiv-grotesk-std",sans-serif;
+          font-style: normal;
+          font-weight: 200;
+          padding: 5px;
+          font-size: 1.3rem; }
+      /* line 295, _scss/wrapped.scss */
+      body .text .text-content .why-us-bottom {
+        position: absolute;
+        bottom: 0px;
+        right: 20px;
+        padding-bottom: 30px;
+        letter-spacing: 0.03em;
+        font-family: "aktiv-grotesk-std",sans-serif;
+        font-style: normal;
+        font-weight: 200; }
+        /* line 306, _scss/wrapped.scss */
+        body .text .text-content .why-us-bottom .why-us-image {
+          display: inline;
+          padding-right: 20px; }
+          /* line 311, _scss/wrapped.scss */
+          body .text .text-content .why-us-bottom .why-us-image img {
+            width: auto;
+            height: 27px; }
+        /* line 318, _scss/wrapped.scss */
+        body .text .text-content .why-us-bottom .why-us-arrow {
+          display: inline;
+          margin-top: -10px; }
+          /* line 323, _scss/wrapped.scss */
+          body .text .text-content .why-us-bottom .why-us-arrow img {
+            width: 12px;
+            height: auto; }
+  /* line 335, _scss/wrapped.scss */
   body .menu-curtain {
     width: 0px;
     max-width: 600px;
     height: 100%;
-    background: black;
-    opacity: 0.6;
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
     z-index: 1; }
-  /* line 302, _scss/wrapped.scss */
-  body .page-content .menu-curtain {
-    width: 25%; }
+  /* line 345, _scss/wrapped.scss */
+  body .page-content {
+    height: 100%; }
+    /* line 349, _scss/wrapped.scss */
+    body .page-content .work-grid {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 1; }
+      /* line 356, _scss/wrapped.scss */
+      body .page-content .work-grid .fullwidth {
+        margin: 0px;
+        width: 100%;
+        max-width: 100%; }
+      /* line 363, _scss/wrapped.scss */
+      body .page-content .work-grid .fullheight {
+        height: 100%; }
+      /* line 368, _scss/wrapped.scss */
+      body .page-content .work-grid .fifty {
+        height: 50%; }
+      /* line 373, _scss/wrapped.scss */
+      body .page-content .work-grid .fiftymob {
+        height: 50%; }
+      /* line 378, _scss/wrapped.scss */
+      body .page-content .work-grid .twntyfive {
+        height: 25%; }
+      /* line 388, _scss/wrapped.scss */
+      body .page-content .work-grid .image {
+        width: 100%;
+        height: 100%; }
+      /* line 394, _scss/wrapped.scss */
+      body .page-content .work-grid .row {
+        margin: 0px; }
+        /* line 398, _scss/wrapped.scss */
+        body .page-content .work-grid .row .left-outer, body .page-content .work-grid .row .right-outer {
+          height: 100%; }
+        /* line 403, _scss/wrapped.scss */
+        body .page-content .work-grid .row .columns {
+          height: 100%;
+          margin: 0px;
+          padding: 0px; }
 
+@media screen and (max-width: 1024px) {
+  /* line 419, _scss/wrapped.scss */
+  .left-content, .text {
+    width: 50% !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 315, _scss/wrapped.scss */
+  /* line 434, _scss/wrapped.scss */
   .left-content {
     width: 100% !important; }
-    /* line 319, _scss/wrapped.scss */
+    /* line 438, _scss/wrapped.scss */
     .left-content .menu-holder {
       padding-top: 50px !important; }
-      /* line 325, _scss/wrapped.scss */
+      /* line 444, _scss/wrapped.scss */
       .left-content .menu-holder ul li {
-        font-size: 2.5rem !important; }
-    /* line 332, _scss/wrapped.scss */
+        padding-top: 15px !important;
+        padding-bottom: 15px !important; }
+        /* line 449, _scss/wrapped.scss */
+        .left-content .menu-holder ul li img {
+          height: 25px !important; }
+    /* line 457, _scss/wrapped.scss */
     .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 336, _scss/wrapped.scss */
+      /* line 461, _scss/wrapped.scss */
       .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
 
-  /* line 345, _scss/wrapped.scss */
-  .page-content .menu-curtain {
-    width: 100% !important; }
-
-  /* line 351, _scss/wrapped.scss */
+  /* line 468, _scss/wrapped.scss */
   .text {
     width: 100% !important;
-    max-width: 100% !important; }
-    /* line 356, _scss/wrapped.scss */
-    .text .why-us-bottom {
-      position: absolute;
-      bottom: 30px;
-      right: 20px; }
-      /* line 362, _scss/wrapped.scss */
-      .text .why-us-bottom h3 {
-        display: inline;
-        padding-right: 20px; }
-      /* line 368, _scss/wrapped.scss */
-      .text .why-us-bottom img {
-        width: 12px;
-        height: auto;
-        display: inline;
-        margin-top: -10px; } }
+    max-width: 100% !important;
+    margin-top: 60% !important;
+    height: auto !important; }
+    /* line 475, _scss/wrapped.scss */
+    .text .text-content {
+      padding-top: 10px !important; }
+      /* line 479, _scss/wrapped.scss */
+      .text .text-content .why-us-bottom {
+        position: relative !important;
+        width: 100% !important;
+        text-align: right !important;
+        padding-top: 100px !important; }
+
+  /* line 492, _scss/wrapped.scss */
+  .work-grid .fiftymob {
+    height: 100% !important; } }
