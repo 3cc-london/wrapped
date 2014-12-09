@@ -1,14 +1,4 @@
 $(document).ready(function () {
-	
-
-	function minheightResize(){
-		var minheight = $('.minheight').width();
-		$('.minheight').css("height",minheight);
-	}
-
-	window.onresize = minheightResize;     // When the browser changes size
-	minheightResize();
-
 
 	$('body').css('visibility','visible').hide().fadeIn('slow');
 	var curtainwidth = $('.text').width();

@@ -10474,150 +10474,6 @@ section.fp-tabs .row {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 50, _scss/covers.scss */
-.arcadia {
-  background: url("../assets/images/wrapped_thumbs/thumb_arcadia_10.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 59, _scss/covers.scss */
-.evans {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_big_sur.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 68, _scss/covers.scss */
-.evanshudson {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_hudson.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 77, _scss/covers.scss */
-.laura {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_laura_catterall.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 86, _scss/covers.scss */
-.lingerie {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_lingerie.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 95, _scss/covers.scss */
-.liveunlimited {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_live_unlimited.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 105, _scss/covers.scss */
-.palmsprings {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_palm_springs.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 114, _scss/covers.scss */
-.scenes {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_show_behind_the_scenes.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 124, _scss/covers.scss */
-.lookbook {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_ss14_lookbook.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 135, _scss/covers.scss */
-.cut2013 {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_the_cut_2013.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 144, _scss/covers.scss */
-.cut2014 {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_the_cut_2014.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 153, _scss/covers.scss */
-.turks {
-  background: url("../assets/images/wrapped_thumbs/thumb_evans_turks.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 162, _scss/covers.scss */
-.stilllife {
-  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_beauty_still_life.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 171, _scss/covers.scss */
-.grooming {
-  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_grooming_still_life.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 180, _scss/covers.scss */
-.hair {
-  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_hair_beauty.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 189, _scss/covers.scss */
-.womanswear {
-  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_36_womenswear.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 198, _scss/covers.scss */
-.menswear {
-  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_37_menswear.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
-/* line 208, _scss/covers.scss */
-.sopexa {
-  background: url("../assets/images/wrapped_thumbs/thumb_toni_guy_37_sopexa.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 /* line 86, _scss/wrapped.scss */
 body {
   height: 100%;
@@ -10822,74 +10678,54 @@ body {
         width: 100%;
         max-width: 100%; }
       /* line 363, _scss/wrapped.scss */
-      body .page-content .work-grid .fullheight {
-        height: 100%; }
-      /* line 368, _scss/wrapped.scss */
-      body .page-content .work-grid .fifty {
-        height: 50%; }
-      /* line 373, _scss/wrapped.scss */
-      body .page-content .work-grid .fiftymob {
-        height: 50%; }
-      /* line 378, _scss/wrapped.scss */
-      body .page-content .work-grid .twntyfive {
-        height: 25%; }
-      /* line 388, _scss/wrapped.scss */
-      body .page-content .work-grid .image {
-        width: 100%;
-        height: 100%; }
-      /* line 394, _scss/wrapped.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 398, _scss/wrapped.scss */
-        body .page-content .work-grid .row .left-outer, body .page-content .work-grid .row .right-outer {
-          height: 100%; }
-        /* line 403, _scss/wrapped.scss */
+        /* line 367, _scss/wrapped.scss */
         body .page-content .work-grid .row .columns {
-          height: 100%;
           margin: 0px;
           padding: 0px; }
+          /* line 372, _scss/wrapped.scss */
+          body .page-content .work-grid .row .columns img {
+            min-width: 100%;
+            height: auto; }
 
 @media screen and (max-width: 1024px) {
-  /* line 419, _scss/wrapped.scss */
+  /* line 388, _scss/wrapped.scss */
   .left-content, .text {
     width: 50% !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 434, _scss/wrapped.scss */
+  /* line 398, _scss/wrapped.scss */
   .left-content {
     width: 100% !important; }
-    /* line 438, _scss/wrapped.scss */
+    /* line 402, _scss/wrapped.scss */
     .left-content .menu-holder {
       padding-top: 50px !important; }
-      /* line 444, _scss/wrapped.scss */
+      /* line 408, _scss/wrapped.scss */
       .left-content .menu-holder ul li {
         padding-top: 15px !important;
         padding-bottom: 15px !important; }
-        /* line 449, _scss/wrapped.scss */
+        /* line 413, _scss/wrapped.scss */
         .left-content .menu-holder ul li img {
           height: 25px !important; }
-    /* line 457, _scss/wrapped.scss */
+    /* line 421, _scss/wrapped.scss */
     .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 461, _scss/wrapped.scss */
+      /* line 425, _scss/wrapped.scss */
       .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
 
-  /* line 468, _scss/wrapped.scss */
+  /* line 432, _scss/wrapped.scss */
   .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 60% !important;
     height: auto !important; }
-    /* line 475, _scss/wrapped.scss */
+    /* line 439, _scss/wrapped.scss */
     .text .text-content {
       padding-top: 10px !important; }
-      /* line 479, _scss/wrapped.scss */
+      /* line 443, _scss/wrapped.scss */
       .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
-        padding-top: 100px !important; }
-
-  /* line 492, _scss/wrapped.scss */
-  .work-grid .fiftymob {
-    height: 100% !important; } }
+        padding-top: 100px !important; } }
