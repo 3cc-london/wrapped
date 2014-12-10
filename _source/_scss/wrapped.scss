@@ -152,9 +152,12 @@ body
 	.logo-holder
 	{
 		position:absolute;
-		z-index:99;
-		top:40px;
-		left:40px;
+		z-index:98;
+		padding:40px;
+		width:100%;
+		height:100px;
+		background:url('#{$assets}/gradient.png');
+		background-repeat: x y;
 
 			#nav-toggle
 			{
@@ -235,7 +238,7 @@ body
 		
 		.social-holder
 		{
-			position:absolute;
+			position:fixed;
 			z-index: 4;
 			bottom:40px;
 			color:white;
@@ -337,7 +340,18 @@ body
 		max-width:600px;
 		height:100%;
 		background: rgba(black, 0.5);
-		position:absolute;
+		position:fixed;
+		z-index:1;
+	}
+
+	.work-curtain 
+	{
+		width:0px;
+		max-width:600px;
+		height:100%;
+		background: rgba(black, 0.5);
+		position:fixed;
+		right:0px;
 		z-index:1;
 	}
 
@@ -345,12 +359,33 @@ body
 	{
 		height:100%;
 
+		.work-selector
+		{
+			position:absolute;
+			z-index:99;			
+			right:30px;
+			top:25px;
+
+			&:hover 
+			{
+				cursor: pointer;
+			}
+
+			img 
+			{
+				height:28px;
+				width:auto;
+			}
+
+		}
+
+
 		.work-grid
 		{
 			height:100%;
 			width:100%;
 			position:absolute;
-			z-index:1;
+			z-index:3;
 
 			.fullwidth
 			{
@@ -377,6 +412,94 @@ body
 			}
 
 		}
+
+		.work-content
+		{
+			height:100%;
+			width:100%;
+			position:absolute;
+			z-index:3;
+			overflow:scrolll;
+
+			.image-holder
+			{
+				width: 100%;
+				overflow-x: scroll;
+				overflow-y: hidden;
+				white-space: nowrap;
+				height: 100%;
+				padding-bottom:10px;
+
+				img 
+				{
+					max-width: none;
+					height: 100%;
+					width: auto;
+					margin-right: 5px;
+					border-radius:5px;
+				}
+			}
+			.content-arrow-right
+			{
+				width:300px;
+				height:100%;
+				position:absolute;
+				z-index:10;
+				right:0;
+				top:0;
+
+				.arrowright
+				{
+					position:absolute;
+					top:48%;
+					right:20px;
+
+					img 
+					{
+						width:30px;
+						height:auto;
+					}
+				}
+			}
+
+			.content-arrow-left
+			{
+				width:300px;
+				height:100%;
+				position:absolute;
+				z-index:10;
+				left:0;
+				top:0;
+
+				.arrowleft
+				{
+					position:absolute;
+					top:48%;
+					left:20px;
+
+					img 
+					{
+						width:30px;
+						height:auto;
+					}
+				}
+			}
+
+			.title 
+			{
+				position:fixed;
+				z-index:11;
+				bottom:0px;
+				padding:50px;
+				width:100%;
+				height:50px;
+				background:url('#{$assets}/gradient.png');
+				background-repeat: x y;
+				color:white;
+				text-align:center;
+
+			}
+		}
 }
 
 
@@ -394,9 +517,21 @@ body
 //640px
 @media #{$small-only} 
 { 
+	.logo-holder
+	{
+		a
+		{
+			img 
+			{
+				display:none;
+			}
+		}
+	}
+
 	.left-content
 	{
 		width:100% !important;
+
 
 		.menu-holder 
 		{
@@ -448,6 +583,33 @@ body
 			}
 		}
 
+	}
+
+	.work-content
+	{
+			.image-holder
+			{
+				height: auto !important;
+				overflow-x: none !important;
+				overflow-y: none !important;
+				white-space: normal !important;
+				padding-left:2px;
+				padding-right:2px;
+
+				img 
+				{
+					max-width: 100% !important;
+					height: auto !important;
+					width: 100% !important;
+					margin-bottom:5px;
+					margin-left:0px !important;
+				}
+			}
+
+			.content-arrow-left, .content-arrow-right
+			{
+				display:none !important;
+			}
 	}
 
 }

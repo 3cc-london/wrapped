@@ -10531,29 +10531,32 @@ body {
   /* line 153, _scss/wrapped.scss */
   body .logo-holder {
     position: absolute;
-    z-index: 99;
-    top: 40px;
-    left: 40px; }
-    /* line 160, _scss/wrapped.scss */
+    z-index: 98;
+    padding: 40px;
+    width: 100%;
+    height: 100px;
+    background: url("../assets/images/gradient.png");
+    background-repeat: x y; }
+    /* line 163, _scss/wrapped.scss */
     body .logo-holder #nav-toggle {
       display: inline-block;
       vertical-align: top;
       background: grey; }
-    /* line 168, _scss/wrapped.scss */
+    /* line 171, _scss/wrapped.scss */
     body .logo-holder #toggle {
       width: 30px;
       height: 40px;
       background: transparent;
       position: absolute;
       margin-top: -40px; }
-    /* line 177, _scss/wrapped.scss */
+    /* line 180, _scss/wrapped.scss */
     body .logo-holder img {
       width: 220px;
       display: inline-block;
       vertical-align: top;
       margin-left: 80px;
       margin-top: -12px; }
-  /* line 188, _scss/wrapped.scss */
+  /* line 191, _scss/wrapped.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
@@ -10561,44 +10564,44 @@ body {
     max-width: 800px;
     position: absolute;
     z-index: 2; }
-    /* line 197, _scss/wrapped.scss */
+    /* line 200, _scss/wrapped.scss */
     body .left-content .menu-holder {
       padding-top: 120px;
       position: absolute;
       z-index: 3;
       color: white; }
-      /* line 206, _scss/wrapped.scss */
+      /* line 209, _scss/wrapped.scss */
       body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
         color: white;
         text-decoration: none; }
-      /* line 213, _scss/wrapped.scss */
+      /* line 216, _scss/wrapped.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 219, _scss/wrapped.scss */
+        /* line 222, _scss/wrapped.scss */
         body .left-content .menu-holder ul li {
           padding-top: 30px;
           padding-bottom: 30px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
           visibility: hidden; }
-          /* line 227, _scss/wrapped.scss */
+          /* line 230, _scss/wrapped.scss */
           body .left-content .menu-holder ul li img {
             width: auto;
             height: 40px; }
-    /* line 237, _scss/wrapped.scss */
+    /* line 240, _scss/wrapped.scss */
     body .left-content .social-holder {
-      position: absolute;
+      position: fixed;
       z-index: 4;
       bottom: 40px;
       color: white; }
-      /* line 244, _scss/wrapped.scss */
+      /* line 247, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 254, _scss/wrapped.scss */
+  /* line 257, _scss/wrapped.scss */
   body .text {
     min-height: 100%;
     height: auto;
@@ -10607,29 +10610,29 @@ body {
     position: absolute;
     z-index: 4;
     background: rgba(0, 0, 0, 0.5); }
-    /* line 264, _scss/wrapped.scss */
+    /* line 267, _scss/wrapped.scss */
     body .text .text-content {
       padding: 40px;
       padding-top: 120px;
       padding-bottom: 0px; }
-      /* line 270, _scss/wrapped.scss */
+      /* line 273, _scss/wrapped.scss */
       body .text .text-content .title-image {
         padding-bottom: 40px; }
-        /* line 274, _scss/wrapped.scss */
+        /* line 277, _scss/wrapped.scss */
         body .text .text-content .title-image img {
           width: auto;
           height: 50px; }
-      /* line 281, _scss/wrapped.scss */
+      /* line 284, _scss/wrapped.scss */
       body .text .text-content ul {
         color: white; }
-        /* line 285, _scss/wrapped.scss */
+        /* line 288, _scss/wrapped.scss */
         body .text .text-content ul li {
           font-family: "aktiv-grotesk-std",sans-serif;
           font-style: normal;
           font-weight: 200;
           padding: 5px;
           font-size: 1.3rem; }
-      /* line 295, _scss/wrapped.scss */
+      /* line 298, _scss/wrapped.scss */
       body .text .text-content .why-us-bottom {
         position: absolute;
         bottom: 0px;
@@ -10639,93 +10642,206 @@ body {
         font-family: "aktiv-grotesk-std",sans-serif;
         font-style: normal;
         font-weight: 200; }
-        /* line 306, _scss/wrapped.scss */
+        /* line 309, _scss/wrapped.scss */
         body .text .text-content .why-us-bottom .why-us-image {
           display: inline;
           padding-right: 20px; }
-          /* line 311, _scss/wrapped.scss */
+          /* line 314, _scss/wrapped.scss */
           body .text .text-content .why-us-bottom .why-us-image img {
             width: auto;
             height: 27px; }
-        /* line 318, _scss/wrapped.scss */
+        /* line 321, _scss/wrapped.scss */
         body .text .text-content .why-us-bottom .why-us-arrow {
           display: inline;
           margin-top: -10px; }
-          /* line 323, _scss/wrapped.scss */
+          /* line 326, _scss/wrapped.scss */
           body .text .text-content .why-us-bottom .why-us-arrow img {
             width: 12px;
             height: auto; }
-  /* line 335, _scss/wrapped.scss */
+  /* line 338, _scss/wrapped.scss */
   body .menu-curtain {
     width: 0px;
     max-width: 600px;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
-    position: absolute;
+    position: fixed;
     z-index: 1; }
-  /* line 345, _scss/wrapped.scss */
+  /* line 348, _scss/wrapped.scss */
+  body .work-curtain {
+    width: 0px;
+    max-width: 600px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    right: 0px;
+    z-index: 1; }
+  /* line 359, _scss/wrapped.scss */
   body .page-content {
     height: 100%; }
-    /* line 349, _scss/wrapped.scss */
+    /* line 363, _scss/wrapped.scss */
+    body .page-content .work-selector {
+      position: absolute;
+      z-index: 99;
+      right: 30px;
+      top: 25px; }
+      /* line 370, _scss/wrapped.scss */
+      body .page-content .work-selector:hover {
+        cursor: pointer; }
+      /* line 375, _scss/wrapped.scss */
+      body .page-content .work-selector img {
+        height: 28px;
+        width: auto; }
+    /* line 384, _scss/wrapped.scss */
     body .page-content .work-grid {
       height: 100%;
       width: 100%;
       position: absolute;
-      z-index: 1; }
-      /* line 356, _scss/wrapped.scss */
+      z-index: 3; }
+      /* line 391, _scss/wrapped.scss */
       body .page-content .work-grid .fullwidth {
         margin: 0px;
         width: 100%;
         max-width: 100%; }
-      /* line 363, _scss/wrapped.scss */
+      /* line 398, _scss/wrapped.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 367, _scss/wrapped.scss */
+        /* line 402, _scss/wrapped.scss */
         body .page-content .work-grid .row .columns {
           margin: 0px;
           padding: 0px; }
-          /* line 372, _scss/wrapped.scss */
+          /* line 407, _scss/wrapped.scss */
           body .page-content .work-grid .row .columns img {
             min-width: 100%;
             height: auto; }
+    /* line 417, _scss/wrapped.scss */
+    body .page-content .work-content {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 3;
+      overflow: scrolll; }
+      /* line 425, _scss/wrapped.scss */
+      body .page-content .work-content .image-holder {
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+        height: 100%;
+        padding-bottom: 10px; }
+        /* line 434, _scss/wrapped.scss */
+        body .page-content .work-content .image-holder img {
+          max-width: none;
+          height: 100%;
+          width: auto;
+          margin-right: 5px;
+          border-radius: 5px; }
+      /* line 443, _scss/wrapped.scss */
+      body .page-content .work-content .content-arrow-right {
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        right: 0;
+        top: 0; }
+        /* line 452, _scss/wrapped.scss */
+        body .page-content .work-content .content-arrow-right .arrowright {
+          position: absolute;
+          top: 48%;
+          right: 20px; }
+          /* line 458, _scss/wrapped.scss */
+          body .page-content .work-content .content-arrow-right .arrowright img {
+            width: 30px;
+            height: auto; }
+      /* line 466, _scss/wrapped.scss */
+      body .page-content .work-content .content-arrow-left {
+        width: 300px;
+        height: 100%;
+        position: absolute;
+        z-index: 10;
+        left: 0;
+        top: 0; }
+        /* line 475, _scss/wrapped.scss */
+        body .page-content .work-content .content-arrow-left .arrowleft {
+          position: absolute;
+          top: 48%;
+          left: 20px; }
+          /* line 481, _scss/wrapped.scss */
+          body .page-content .work-content .content-arrow-left .arrowleft img {
+            width: 30px;
+            height: auto; }
+      /* line 489, _scss/wrapped.scss */
+      body .page-content .work-content .title {
+        position: fixed;
+        z-index: 11;
+        bottom: 0px;
+        padding: 50px;
+        width: 100%;
+        height: 50px;
+        background: url("../assets/images/gradient.png");
+        background-repeat: x y;
+        color: white;
+        text-align: center; }
 
 @media screen and (max-width: 1024px) {
-  /* line 388, _scss/wrapped.scss */
+  /* line 511, _scss/wrapped.scss */
   .left-content, .text {
     width: 50% !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 398, _scss/wrapped.scss */
+  /* line 525, _scss/wrapped.scss */
+  .logo-holder a img {
+    display: none; }
+
+  /* line 532, _scss/wrapped.scss */
   .left-content {
     width: 100% !important; }
-    /* line 402, _scss/wrapped.scss */
+    /* line 537, _scss/wrapped.scss */
     .left-content .menu-holder {
       padding-top: 50px !important; }
-      /* line 408, _scss/wrapped.scss */
+      /* line 543, _scss/wrapped.scss */
       .left-content .menu-holder ul li {
         padding-top: 15px !important;
         padding-bottom: 15px !important; }
-        /* line 413, _scss/wrapped.scss */
+        /* line 548, _scss/wrapped.scss */
         .left-content .menu-holder ul li img {
           height: 25px !important; }
-    /* line 421, _scss/wrapped.scss */
+    /* line 556, _scss/wrapped.scss */
     .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 425, _scss/wrapped.scss */
+      /* line 560, _scss/wrapped.scss */
       .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
 
-  /* line 432, _scss/wrapped.scss */
+  /* line 567, _scss/wrapped.scss */
   .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 60% !important;
     height: auto !important; }
-    /* line 439, _scss/wrapped.scss */
+    /* line 574, _scss/wrapped.scss */
     .text .text-content {
       padding-top: 10px !important; }
-      /* line 443, _scss/wrapped.scss */
+      /* line 578, _scss/wrapped.scss */
       .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
-        padding-top: 100px !important; } }
+        padding-top: 100px !important; }
+
+  /* line 591, _scss/wrapped.scss */
+  .work-content .image-holder {
+    height: auto !important;
+    overflow-x: none !important;
+    overflow-y: none !important;
+    white-space: normal !important;
+    padding-left: 2px;
+    padding-right: 2px; }
+    /* line 600, _scss/wrapped.scss */
+    .work-content .image-holder img {
+      max-width: 100% !important;
+      height: auto !important;
+      width: 100% !important;
+      margin-bottom: 5px;
+      margin-left: 0px !important; }
+  /* line 610, _scss/wrapped.scss */
+  .work-content .content-arrow-left, .work-content .content-arrow-right {
+    display: none !important; } }

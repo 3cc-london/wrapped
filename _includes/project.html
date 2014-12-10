@@ -1,0 +1,15 @@
+<div class="page-content">
+	<div class="work-content">
+			<div class="image-holder">
+				{% for image in site.data.gallery.[{{page.id}}] %}
+					<img src="{{ site.data.gallery.path }}{{ image.name }}"/>
+				{% endfor %}
+			</div>
+		<div class="content-arrow-left"><div class="arrowleft"><img src="/assets/images/wrapped_arrow_left.svg"/></div></div>
+		<div class="content-arrow-right"><div class="arrowright"><img src="/assets/images/wrapped_arrow_right.svg"/></div></div>
+		<div class="title">{{ page.description }}</div>
+	</div>
+	<div class="work-selector"><img src="/assets/images/wrapped_workselector.svg"/></div>
+	<div class="work-curtain"></div>
+	{% include header.html %}
+</div>

@@ -38,6 +38,7 @@ module.exports = function(grunt) {
 
 					'<%= path.js %>/jquery-1.11.1.min.js', 
 					// Custom
+					'<%= path.js %>/jquery.mousewheel.min.js', 
 					'<%= path.js %>/<%= pkg.name %>.js', 
 				],
 				dest: 'temp/<%= pkg.name %>-build.js',
