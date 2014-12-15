@@ -1,12 +1,204 @@
 mobilepath: /assets/images/projects/mobile/
 path: /assets/images/projects/large/
+moreprojects: /assets/images/wrapped_thumbs/
 
 arcadia: 
- - name: home_5.jpg
- - name: home_5.jpg
- - name: home_5.jpg
- - name: home_5.jpg
- - name: home_5.jpg
+ - name: wrapped_arcadia10_dogs_01.jpg
+ - name: wrapped_arcadia10_dogs_02.jpg
+ - name: wrapped_arcadia10_dogs_03.jpg
+ - name: wrapped_arcadia10_dogs_04.jpg
+ - name: wrapped_arcadia10_dogs_05.jpg
+ - name: wrapped_arcadia10_dogs_06.jpg
+ - name: wrapped_arcadia10_dogs_07.jpg
+
+caterall: 
+ - name: wrapped_caterall_01.jpg
+ - name: wrapped_caterall_02.jpg
+ - name: wrapped_caterall_03.jpg
+
+evansbigsur: 
+ - name: wrapped_evans_big_sur_01.jpg
+ - name: wrapped_evans_big_sur_02.jpg
+ - name: wrapped_evans_big_sur_03.jpg
+ - name: wrapped_evans_big_sur_04.jpg
+ - name: wrapped_evans_big_sur_05.jpg
+ - name: wrapped_evans_big_sur_06.jpg
+
+evanshudson: 
+ - name: wrapped_evans_hudson_01.jpg
+ - name: wrapped_evans_hudson_02.jpg
+ - name: wrapped_evans_hudson_03.jpg
+ - name: wrapped_evans_hudson_04.jpg
+ - name: wrapped_evans_hudson_05.jpg
+ - name: wrapped_evans_hudson_06.jpg
+ - name: wrapped_evans_hudson_07.jpg
+ - name: wrapped_evans_hudson_08.jpg
+ - name: wrapped_evans_hudson_09.jpg
+ - name: wrapped_evans_hudson_10.jpg
+
+evanslingeire: 
+ - name: wrapped_evans_lingeire_01.jpg
+ - name: wrapped_evans_lingeire_02.jpg
+ - name: wrapped_evans_lingeire_03.jpg
+ - name: wrapped_evans_lingeire_04.jpg
+ - name: wrapped_evans_lingeire_05.jpg
+ - name: wrapped_evans_lingeire_06.jpg
+ - name: wrapped_evans_lingeire_07.jpg
+ - name: wrapped_evans_lingeire_08.jpg
+ - name: wrapped_evans_lingeire_09.jpg
+ - name: wrapped_evans_lingeire_10.jpg
+
+evansunlimited: 
+ - name: wrapped_evans_live_unlimited_01.jpg
+ - name: wrapped_evans_live_unlimited_02.jpg
+ - name: wrapped_evans_live_unlimited_03.jpg
+ - name: wrapped_evans_live_unlimited_04.jpg
+
+evanspalmsprings: 
+ - name: wrapped_evans_palm_springs_01.jpg
+ - name: wrapped_evans_palm_springs_02.jpg
+ - name: wrapped_evans_palm_springs_03.jpg
+ - name: wrapped_evans_palm_springs_04.jpg
+ - name: wrapped_evans_palm_springs_05.jpg
+ - name: wrapped_evans_palm_springs_06.jpg
+ - name: wrapped_evans_palm_springs_07.jpg
+ - name: wrapped_evans_palm_springs_08.jpg
+ - name: wrapped_evans_palm_springs_09.jpg
+ - name: wrapped_evans_palm_springs_10.jpg
+ - name: wrapped_evans_palm_springs_11.jpg
+ - name: wrapped_evans_palm_springs_12.jpg
+ - name: wrapped_evans_palm_springs_13.jpg
+ - name: wrapped_evans_palm_springs_14.jpg
+
+evanslookbook: 
+ - name: wrapped_evans_ss14_lookbook_01.jpg
+ - name: wrapped_evans_ss14_lookbook_02.jpg
+ - name: wrapped_evans_ss14_lookbook_03.jpg
+ - name: wrapped_evans_ss14_lookbook_04.jpg
+ - name: wrapped_evans_ss14_lookbook_05.jpg
+ - name: wrapped_evans_ss14_lookbook_06.jpg
+ - name: wrapped_evans_ss14_lookbook_07.jpg
+ - name: wrapped_evans_ss14_lookbook_08.jpg
+ - name: wrapped_evans_ss14_lookbook_09.jpg
+ - name: wrapped_evans_ss14_lookbook_10.jpg
+ - name: wrapped_evans_ss14_lookbook_11.jpg
+ - name: wrapped_evans_ss14_lookbook_12.jpg
+ - name: wrapped_evans_ss14_lookbook_13.jpg
+ - name: wrapped_evans_ss14_lookbook_14.jpg
+ - name: wrapped_evans_ss14_lookbook_15.jpg
+ - name: wrapped_evans_ss14_lookbook_16.jpg
+ - name: wrapped_evans_ss14_lookbook_17.jpg
+ - name: wrapped_evans_ss14_lookbook_18.jpg
+
+evansshow: 
+ - name: wrapped_evans_ss15_show_01.jpg
+ - name: wrapped_evans_ss15_show_02.jpg
+ - name: wrapped_evans_ss15_show_03.jpg
+ - name: wrapped_evans_ss15_show_04.jpg
+ - name: wrapped_evans_ss15_show_05.jpg
+ - name: wrapped_evans_ss15_show_06.jpg
 
 
+evansthecut2013: 
+ - name: wrapped_evans_the_cut_2013_01.jpg
+ - name: wrapped_evans_the_cut_2013_02.jpg
+ - name: wrapped_evans_the_cut_2013_03.jpg
+ - name: wrapped_evans_the_cut_2013_04.jpg
+ - name: wrapped_evans_the_cut_2013_05.jpg
+ - name: wrapped_evans_the_cut_2013_06.jpg
+ - name: wrapped_evans_the_cut_2013_07.jpg
+ - name: wrapped_evans_the_cut_2013_08.jpg
 
+evansthecut2014: 
+ - name: wrapped_evans_the_cut_2014_01.jpg
+ - name: wrapped_evans_the_cut_2014_02.jpg
+ - name: wrapped_evans_the_cut_2014_03.jpg
+ - name: wrapped_evans_the_cut_2014_04.jpg
+ - name: wrapped_evans_the_cut_2014_05.jpg
+ - name: wrapped_evans_the_cut_2014_06.jpg
+ - name: wrapped_evans_the_cut_2014_07.jpg
+ - name: wrapped_evans_the_cut_2014_08.jpg
+ - name: wrapped_evans_the_cut_2014_09.jpg
+ - name: wrapped_evans_the_cut_2014_10.jpg
+
+evansturks: 
+ - name: wrapped_evans_turks_01.jpg
+ - name: wrapped_evans_turks_02.jpg
+ - name: wrapped_evans_turks_03.jpg
+ - name: wrapped_evans_turks_04.jpg
+ - name: wrapped_evans_turks_05.jpg
+ - name: wrapped_evans_turks_06.jpg
+ - name: wrapped_evans_turks_07.jpg
+ - name: wrapped_evans_turks_08.jpg
+ - name: wrapped_evans_turks_09.jpg
+ - name: wrapped_evans_turks_010.jpg
+ - name: wrapped_evans_turks_011.jpg
+ - name: wrapped_evans_turks_012.jpg
+ - name: wrapped_evans_turks_013.jpg
+ - name: wrapped_evans_turks_014.jpg
+ - name: wrapped_evans_turks_015.jpg
+
+evanshairandbeauty: 
+ - name: wrapped_tandg36_hair_and_beauty_01.jpg
+ - name: wrapped_tandg36_hair_and_beauty_02.jpg
+ - name: wrapped_tandg36_hair_and_beauty_03.jpg
+ - name: wrapped_tandg36_hair_and_beauty_04.jpg
+ - name: wrapped_tandg36_hair_and_beauty_05.jpg
+
+toniandguystilllife: 
+ - name: wrapped_tandg36_mens_still_life_01.jpg
+ - name: wrapped_tandg36_mens_still_life_02.jpg
+
+toniandguystilllifesummer: 
+ - name: wrapped_tandg36_still_life_01.jpg
+ - name: wrapped_tandg36_still_life_02.jpg
+ - name: wrapped_tandg36_still_life_03.jpg
+
+toniandguywomanswear: 
+ - name: wrapped_tandg36_womenswear_01.jpg
+ - name: wrapped_tandg36_womenswear_02.jpg
+ - name: wrapped_tandg36_womenswear_03.jpg
+ - name: wrapped_tandg36_womenswear_04.jpg
+ - name: wrapped_tandg36_womenswear_05.jpg
+ - name: wrapped_tandg36_womenswear_06.jpg
+ - name: wrapped_tandg36_womenswear_07.jpg
+ - name: wrapped_tandg36_womenswear_08.jpg
+ - name: wrapped_tandg36_womenswear_09.jpg
+
+toniandguymanswear: 
+ - name: wrapped_tandg37_menswear_02.jpg
+ - name: wrapped_tandg37_menswear_03.jpg
+ - name: wrapped_tandg37_menswear_04.jpg
+ - name: wrapped_tandg37_menswear_05.jpg
+ - name: wrapped_tandg37_menswear_06.jpg
+ - name: wrapped_tandg37_menswear_07.jpg
+ - name: wrapped_tandg37_menswear_08.jpg
+ - name: wrapped_tandg37_menswear_09.jpg
+ - name: wrapped_tandg37_menswear_010.jpg
+ - name: wrapped_tandg37_menswear_012.jpg
+
+toniandguysopexa: 
+ - name: wrapped_tandg37_sopexa_01.jpg
+ - name: wrapped_tandg37_sopexa_02.jpg
+ - name: wrapped_tandg37_sopexa_03.jpg
+ - name: wrapped_tandg37_sopexa_04.jpg
+
+morework:
+ - {name: thumb_arcadia_10.jpg, link: /our-work/arcadia/}
+ - {name: thumb_evans_big_sur.jpg, link: /our-work/evans-big-sur/}
+ - {name: thumb_evans_hudson.jpg, link: /our-work/evans-hudson/}
+ - {name: thumb_evans_laura_catterall.jpg, link: /our-work/caterall/}
+ - {name: thumb_evans_lingerie.jpg, link: /our-work/evans-lingeire/}
+ - {name: thumb_evans_live_unlimited.jpg, link: /our-work/evans-live-unlimited/}
+ - {name: thumb_evans_palm_springs.jpg, link: /our-work/evans-palm-springs/}
+ - {name: thumb_evans_show_behind_the_scenes.jpg, link: /our-work/evans-show/}
+ - {name: thumb_evans_ss14_lookbook.jpg, link: /our-work/evans-lookbook/}
+ - {name: thumb_evans_the_cut_2013.jpg, link: /our-work/evans-the-cut-2013/}
+ - {name: thumb_evans_the_cut_2014.jpg, link: /our-work/evans-the-cut-2014/}
+ - {name: thumb_evans_turks.jpg, link: /our-work/evans-turks/}
+ - {name: thumb_toni_guy_36_beauty_still_life.jpg, link: /our-work/toniandguy-still-life-summer/}
+ - {name: thumb_toni_guy_36_grooming_still_life.jpg, link: /our-work/toniandguy-still-life/}
+ - {name: thumb_toni_guy_36_hair_beauty.jpg, link: /our-work/toniandguy-hair-and-beauty/}
+ - {name: thumb_toni_guy_36_womenswear.jpg, link: /our-work/toniandguy-womenswear/}
+ - {name: thumb_toni_guy_37_menswear.jpg, link: /our-work/toniandguy-menswear/}
+ - {name: thumb_toni_guy_37_sopexa.jpg, link: /our-work/toniandguy-sopexa/}

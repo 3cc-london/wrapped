@@ -1,35 +1,62 @@
-//BURGER ANIMATIONS
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+a.toggle {
+  display: inline-block;
+  width:28px;
+  height:28px;
   cursor: pointer;
-  border-radius: 1px;
+  text-decoration: none;
+  color:white;
+}
+a.toggle i {
+  position: relative;
+  display: inline-block;
+  width: 28px;
   height: 2px;
-  width: 27px;
+  color:white;
+  font:bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent:-55px;
+  background: white;
+  transition:all .2s ease-out;
+}
+a.toggle i::before, a.toggle i::after {
+  content:'';
+  width: 28px;
+  height: 2px;
   background: white;
   position: absolute;
-  display: block;
-  content: '';
+  left:0;
+  transition:all .2s ease-out;
 }
-#nav-toggle span:before {
+a.toggle i::before {
   top: -12px;
 }
-#nav-toggle span:after {
-  bottom: -12px; 
+a.toggle i::after {
+  bottom: -12px;
+}
+a.toggle.active i {
+  background: transparent;
+  color:white;
+}
+a.toggle.active i::before {
+  top:0;
+  -webkit-transform: rotateZ(45deg);
+     -moz-transform: rotateZ(45deg);
+      -ms-transform: rotateZ(45deg);
+       -o-transform: rotateZ(45deg);
+          transform: rotateZ(45deg);
+  color:white;
+}
+a.toggle.active i::after {
+  bottom:0;
+  -webkit-transform: rotateZ(-45deg);
+     -moz-transform: rotateZ(-45deg);
+      -ms-transform: rotateZ(-45deg);
+       -o-transform: rotateZ(-45deg);
+          transform: rotateZ(-45deg);
+          color:white;
 }
 
-//ANIMATIONS
-
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  transition: all 500ms ease-in-out;
-}
-#nav-toggle.active span {
-  background-color: transparent;
-}
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0;
-}
-#nav-toggle.active span:before {
-  transform: rotate(45deg);
-}
-#nav-toggle.active span:after {
-  transform: rotate(-45deg);
+/* Button placement */
+a.toggle {
+  color:white;
 }

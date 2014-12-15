@@ -2,7 +2,7 @@ $assets : "../assets/images";
 
 .indexcover
 	{
-	  	background: url('#{$assets}/home_5.jpg') no-repeat center center fixed; 
+	  	background: url('#{$assets}/home_5.jpg') no-repeat center center; 
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -11,7 +11,7 @@ $assets : "../assets/images";
 
 	.aboutcover
 	{
-	  	background: url('#{$assets}/cover_red.jpg') no-repeat center center fixed; 
+	  	background: url('#{$assets}/cover_red.jpg') no-repeat center center; 
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -20,7 +20,7 @@ $assets : "../assets/images";
 
 	.whyuscover
 	{
-	  	background: url('#{$assets}/cover_guy.jpg') no-repeat center center fixed; 
+	  	background: url('#{$assets}/cover_guy.jpg') no-repeat center center; 
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -29,7 +29,7 @@ $assets : "../assets/images";
 
 	.servicescover
 	{
-	  	background: url('#{$assets}/services.jpg') no-repeat center center fixed; 
+	  	background: url('#{$assets}/services.jpg') no-repeat center center; 
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;
@@ -38,7 +38,7 @@ $assets : "../assets/images";
 
 	.contactcover
 	{
-	  	background: url('#{$assets}/contact.jpg') no-repeat center center fixed; 
+	  	background: url('#{$assets}/contact.jpg') no-repeat center center; 
 	    -webkit-background-size: cover;
 	    -moz-background-size: cover;
 	    -o-background-size: cover;

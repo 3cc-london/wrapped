@@ -1,15 +1,22 @@
 <div class="page-content">
 	<div class="work-content">
 			<div class="image-holder">
-				{% for image in site.data.gallery.[{{page.id}}] %}
-					<img src="{{ site.data.gallery.path }}{{ image.name }}"/>
-				{% endfor %}
+				{% for image in site.data.gallery.[{{page.id}}] %}<img src="{{ site.data.gallery.path }}{{ image.name }}"/>{% endfor %}
 			</div>
-		<div class="content-arrow-left"><div class="arrowleft"><img src="/assets/images/wrapped_arrow_left.svg"/></div></div>
-		<div class="content-arrow-right"><div class="arrowright"><img src="/assets/images/wrapped_arrow_right.svg"/></div></div>
-		<div class="title">{{ page.description }}</div>
+		<div class="titleback"></div><div class="title"><p>{{ page.description }}</p></div>
 	</div>
 	<div class="work-selector"><img src="/assets/images/wrapped_workselector.svg"/></div>
+	<div class="right-content">
+		<div class="more-work-holder">
+			<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4 moreworkrow">
+				{% for image in site.data.gallery.morework %}
+					<li><a href="{{ image.link }}"><img src="{{ site.data.gallery.moreprojects }}{{ image.name }}"/></a></li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
 	<div class="work-curtain"></div>
+	<div class="content-arrow-left"><div class="arrowleft"><img src="/assets/images/wrapped_arrow_left.svg"/></div></div>
+	<div class="content-arrow-right"><div class="arrowright"><img src="/assets/images/wrapped_arrow_right.svg"/></div></div>
 	{% include header.html %}
 </div>
