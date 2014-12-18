@@ -2,8 +2,12 @@ $(document).ready(function () {
 
 	$('body').css('visibility','visible').hide().fadeIn('slow');
 	var curtainwidth = $('.text').width();
+	var menucurtainwidth = $('.menu-curtain').width();
 	var closed = true;
 	var selectorclosed = true;
+	var windowheight = $(window).height();
+	var windowwidth = $(window).width();
+	// $('.menu-curtain').css('max-height', windowheight,'!important');
 
 	/**
 	***	Open menu curtain function 	
@@ -13,11 +17,13 @@ $(document).ready(function () {
 		$( '.content-arrow-left' ).css("display", "none");
 		$( '.content-arrow-right' ).css("display", "none");
 		//Burger Animation
-		$(this).toggleClass('active');
+		$('a.toggle').addClass('active');
 			
 		$('.menu-curtain').animate({
 			width: '100%'
-			}, 500, function() {		    
+			}, 500, function() {
+			// Disable vertical scrolling if menu curtain is 100%
+			$('body').addClass('overflow');
 		});			
 
 
@@ -50,7 +56,9 @@ $(document).ready(function () {
 	function removeMenuCurtain(){
 		$('.menu-curtain').animate({
 			width: '0px'
-			}, 500, function() {		    
+			}, 500, function() {	
+			// Enable vertical scrolling if menu curtain is 100%
+			$('body').removeClass('overflow');	    
 		});
 
 		setTimeout(function()
@@ -160,7 +168,9 @@ $(document).ready(function () {
 
 	});
 
-	// Work Arrows
+	/**
+	***	 Work Arrows 
+	*/
 
     $('.content-arrow-right').click(function () {
          var pos = $('.image-holder').scrollLeft() + 800;
@@ -179,7 +189,9 @@ $(document).ready(function () {
 		 });
 	});
 
-	// More Work Selector Animation 
+	/**
+	***	 More Work Selector Animation 
+	*/
 
 	$( '.work-selector' ).click(function() {
 		if (selectorclosed)

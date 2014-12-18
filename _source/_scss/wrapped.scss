@@ -83,6 +83,11 @@ $darkgrey :#424242;
 
 // #{$assets}
 
+.overflow
+{
+	overflow: hidden !important;
+}
+
 body 
 {
 	height:100%;
@@ -103,9 +108,9 @@ body
 
 	p 
 	{
-		font-size:1.2rem;
+		font-size:1.1rem;
 		color:white;
-		letter-spacing:0.15em;
+		letter-spacing:0.2em;
 		font-family: "aktiv-grotesk-std",sans-serif;
 		font-style: normal;
 		font-weight: 200;
@@ -216,7 +221,7 @@ body
 					img 
 					{
 						width:auto;
-						height:70px;
+						height:60px;
 					}
 
 				}
@@ -266,7 +271,7 @@ body
 				img 
 				{
 					width:auto;
-					height:70px;
+					height:60px;
 				}
 			}
 
@@ -572,7 +577,7 @@ body
 			{
 				position:fixed;
 				z-index:11;
-				bottom:15px;
+				bottom:px;
 				width:100%;
 				text-align:center;
 
@@ -635,79 +640,82 @@ body
 //640px
 @media #{$small-only} 
 { 
-	.left-content
+	body 
 	{
-		width:100% !important;
-
-		.social-holder
+		.left-content
 		{
-			bottom:20px !important;
+			width:100% !important;
 
-			.fa 
+			.social-holder
 			{
-				font-size:1.5rem !important;
-			}
-		}
-	}
+				bottom:20px !important;
 
-	.text 
-	{
-		width:100% !important;
-		max-width:100% !important;
-		margin-top:60% !important;
-		height:auto !important;
-
-		.text-content 
-		{
-			padding-top:10px !important;
-
-			.why-us-bottom 
-			{
-				position:relative !important;
-				width:100% !important;
-				text-align:right !important;
-				padding-top:100px !important;
-			}
-		}
-
-	}
-
-	.menu-curtain 
-	{
-		max-width:100% !important;
-	}
-
-	.page-content
-	{
-		.content-arrow-left, .content-arrow-right
-		{
-			display:none !important;
-		}		
-
-		.work-content
-		{
-				.image-holder
+				.fa 
 				{
-					height: auto !important;
-					white-space: normal !important;
-
-					img 
-					{
-						max-width: 100% !important;
-						height: auto !important;
-						width: 100% !important;
-						margin-left:0px !important;
-					}
+					font-size:1.5rem !important;
 				}
+			}
 		}
 
-		.work-selector
+		.text 
 		{
-			display:none !important;
+			width:100% !important;
+			max-width:100% !important;
+			margin-top:60% !important;
+			height:auto !important;
+
+			.text-content 
+			{
+				padding-top:10px !important;
+
+				.why-us-bottom 
+				{
+					position:relative !important;
+					width:100% !important;
+					text-align:right !important;
+					padding-top:100px !important;
+				}
+			}
+
 		}
 
-	}
+		.menu-curtain 
+		{
+			max-width:100% !important;
+		}
 
+		.page-content
+		{
+			.content-arrow-left, .content-arrow-right
+			{
+				display:none !important;
+			}		
+
+			.work-content
+			{
+					.image-holder
+					{
+						height: auto !important;
+						white-space: normal !important;
+
+						img 
+						{
+							max-width: 100% !important;
+							height: auto !important;
+							width: 100% !important;
+							margin-left:0px !important;
+						}
+					}
+			}
+
+			.work-selector
+			{
+				display:none !important;
+			}
+
+		}
+		
+	}
 }
 
 

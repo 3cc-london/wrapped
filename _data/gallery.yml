@@ -183,6 +183,26 @@ toniandguysopexa:
  - name: wrapped_tandg37_sopexa_03.jpg
  - name: wrapped_tandg37_sopexa_04.jpg
 
+sirenbymarkshearwood: 
+ - name: wrapped_tandg37_womenswear_01.jpg
+ - name: wrapped_tandg37_womenswear_02.jpg
+ - name: wrapped_tandg37_womenswear_03.jpg
+ - name: wrapped_tandg37_womenswear_04.jpg
+ - name: wrapped_tandg37_womenswear_05.jpg
+ - name: wrapped_tandg37_womenswear_06.jpg
+ - name: wrapped_tandg37_womenswear_07.jpg
+ - name: wrapped_tandg37_womenswear_08.jpg
+ - name: wrapped_tandg37_womenswear_09.jpg
+
+asignlemanbymarkshearwood: 
+ - name: wrapped_tandg36_menswear_01.jpg
+ - name: wrapped_tandg36_menswear_02.jpg
+ - name: wrapped_tandg36_menswear_03.jpg
+ - name: wrapped_tandg36_menswear_04.jpg
+ - name: wrapped_tandg36_menswear_05.jpg
+ - name: wrapped_tandg36_menswear_06.jpg
+ - name: wrapped_tandg36_menswear_07.jpg
+
 morework:
  - {name: thumb_arcadia_10.jpg, link: /our-work/arcadia/}
  - {name: thumb_evans_big_sur.jpg, link: /our-work/evans-big-sur/}
