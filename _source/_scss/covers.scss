@@ -1,0 +1,56 @@
+$assets : "../assets/images";
+
+.indexcover
+	{
+	  	background: url('#{$assets}/home_5.jpg') no-repeat center center; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	.aboutcover
+	{
+	  	background: url('#{$assets}/cover_red.jpg') no-repeat center center; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	.whyuscover
+	{
+	  	background: url('#{$assets}/cover_guy.jpg') no-repeat center center; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	.servicescover
+	{
+	  	background: url('#{$assets}/services.jpg') no-repeat center center; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: cover;
+	}
+
+	.contactcover
+	{
+	  	background: url('#{$assets}/contact.jpg') no-repeat center center; 
+	    -webkit-background-size: cover;
+	    -moz-background-size: cover;
+	    -o-background-size: cover;
+	  	background-size: cover;
+	}			
+
+
+
+
+
+
+
+
+
+

@@ -10395,54 +10395,122 @@ section.fp-tabs .row {
       color: #51b4bd;
       padding: 0; }
 
-/* line 2, _scss/burger.scss */
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+/* line 1, _scss/burger.scss */
+a.toggle {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
   cursor: pointer;
-  border-radius: 1px;
+  text-decoration: none;
+  color: white; }
+
+/* line 9, _scss/burger.scss */
+a.toggle i {
+  position: relative;
+  display: inline-block;
+  width: 28px;
   height: 2px;
-  width: 27px;
+  color: white;
+  font: bold 14px/.4 Helvetica;
+  text-transform: uppercase;
+  text-indent: -55px;
   background: white;
-  position: absolute;
-  display: block;
-  content: ''; }
-
-/* line 12, _scss/burger.scss */
-#nav-toggle span:before {
-  top: -12px; }
-
-/* line 15, _scss/burger.scss */
-#nav-toggle span:after {
-  bottom: -12px; }
+  transition: all .2s ease-out; }
 
 /* line 21, _scss/burger.scss */
-#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
-  transition: all 500ms ease-in-out; }
-
-/* line 24, _scss/burger.scss */
-#nav-toggle.active span {
-  background-color: transparent; }
-
-/* line 27, _scss/burger.scss */
-#nav-toggle.active span:before, #nav-toggle.active span:after {
-  top: 0; }
+a.toggle i::before, a.toggle i::after {
+  content: '';
+  width: 28px;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left: 0;
+  transition: all .2s ease-out; }
 
 /* line 30, _scss/burger.scss */
-#nav-toggle.active span:before {
-  transform: rotate(45deg); }
+a.toggle i::before {
+  top: -12px; }
 
 /* line 33, _scss/burger.scss */
-#nav-toggle.active span:after {
-  transform: rotate(-45deg); }
+a.toggle i::after {
+  bottom: -12px; }
 
-/* line 84, _scss/wrapped.scss */
+/* line 36, _scss/burger.scss */
+a.toggle.active i {
+  background: transparent;
+  color: white; }
+
+/* line 40, _scss/burger.scss */
+a.toggle.active i::before {
+  top: 0;
+  -webkit-transform: rotateZ(45deg);
+  -moz-transform: rotateZ(45deg);
+  -ms-transform: rotateZ(45deg);
+  -o-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
+  color: white; }
+
+/* line 49, _scss/burger.scss */
+a.toggle.active i::after {
+  bottom: 0;
+  -webkit-transform: rotateZ(-45deg);
+  -moz-transform: rotateZ(-45deg);
+  -ms-transform: rotateZ(-45deg);
+  -o-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
+  color: white; }
+
+/* Button placement */
+/* line 60, _scss/burger.scss */
+a.toggle {
+  color: white; }
+
+/* line 4, _scss/covers.scss */
+.indexcover {
+  background: url("../assets/images/home_5.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 13, _scss/covers.scss */
+.aboutcover {
+  background: url("../assets/images/cover_red.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 22, _scss/covers.scss */
+.whyuscover {
+  background: url("../assets/images/cover_guy.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 31, _scss/covers.scss */
+.servicescover {
+  background: url("../assets/images/services.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 40, _scss/covers.scss */
+.contactcover {
+  background: url("../assets/images/contact.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+/* line 87, _scss/wrapped.scss */
 body {
   height: 100%;
   margin: 0px;
   font-size: 16px;
-  visibility: hidden;
-  font-family: "alternate-gothic-no-2-d",sans-serif;
-  font-style: normal;
-  font-weight: 200; }
+  visibility: hidden; }
   /* line 94, _scss/wrapped.scss */
   body h1, body h2, body h3 {
     color: white;
@@ -10452,22 +10520,30 @@ body {
     font-size: 3rem; }
   /* line 105, _scss/wrapped.scss */
   body p {
-    font-size: 1.5rem;
-    color: white; }
-  /* line 111, _scss/wrapped.scss */
+    font-size: 1.2rem;
+    color: white;
+    letter-spacing: 0.15em;
+    font-family: "aktiv-grotesk-std",sans-serif;
+    font-style: normal;
+    font-weight: 200; }
+  /* line 115, _scss/wrapped.scss */
+  body a:link, body a:visited, body a:hover, body a:active {
+    color: white;
+    text-decoration: none; }
+  /* line 121, _scss/wrapped.scss */
   body .cover-holder {
     max-width: 100%;
     height: 100%;
     position: fixed;
     z-index: 1; }
-    /* line 118, _scss/wrapped.scss */
+    /* line 128, _scss/wrapped.scss */
     body .cover-holder .cover {
       position: fixed;
       z-index: 1;
       width: 100%;
       height: 100%;
       transition: 10s ease; }
-  /* line 129, _scss/wrapped.scss */
+  /* line 139, _scss/wrapped.scss */
   body .covertransition {
     -webkit-transform: scale(1.1);
     /* Safari and Chrome */
@@ -10483,159 +10559,380 @@ body {
     -o-transition: all 10s ease;
     -ms-transition: all 10s ease;
     transition: all 10s ease; }
-  /* line 145, _scss/wrapped.scss */
-  body .indexcover {
-    background: url("../assets/images/cover_index.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
   /* line 154, _scss/wrapped.scss */
-  body .aboutcover {
-    background: url("../assets/images/cover_red.jpg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover; }
-  /* line 163, _scss/wrapped.scss */
   body .logo-holder {
     position: absolute;
-    z-index: 99;
-    top: 40px;
-    left: 40px; }
-    /* line 170, _scss/wrapped.scss */
-    body .logo-holder #nav-toggle {
-      display: inline-block;
-      vertical-align: top;
-      background: grey; }
-    /* line 178, _scss/wrapped.scss */
-    body .logo-holder #toggle {
-      width: 30px;
-      height: 40px;
-      background: transparent;
-      position: absolute;
-      margin-top: -40px; }
-    /* line 187, _scss/wrapped.scss */
+    z-index: 98;
+    padding: 40px;
+    padding-top: 25px;
+    width: 100%;
+    height: 100px;
+    background: url("../assets/images/gradient.png");
+    background-repeat: x y; }
+    /* line 165, _scss/wrapped.scss */
     body .logo-holder img {
       width: 220px;
       display: inline-block;
       vertical-align: top;
-      margin-left: 80px;
-      margin-top: -12px; }
-  /* line 198, _scss/wrapped.scss */
+      margin-left: 40px;
+      margin-top: 3px; }
+  /* line 176, _scss/wrapped.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
-    width: 25%;
-    max-width: 600px;
+    overflow-x: scroll;
+    max-height: 100%;
+    width: 40%;
+    max-width: 500px;
     position: absolute;
-    z-index: 2; }
-    /* line 207, _scss/wrapped.scss */
+    z-index: 2;
+    display: table; }
+    /* line 188, _scss/wrapped.scss */
     body .left-content .menu-holder {
-      padding-top: 120px;
-      position: absolute;
-      z-index: 4;
+      padding-top: 70px;
+      padding-bottom: 40px;
       color: white; }
-      /* line 216, _scss/wrapped.scss */
+      /* line 196, _scss/wrapped.scss */
       body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
         color: white;
         text-decoration: none; }
-      /* line 223, _scss/wrapped.scss */
+      /* line 203, _scss/wrapped.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 229, _scss/wrapped.scss */
+        /* line 209, _scss/wrapped.scss */
         body .left-content .menu-holder ul li {
-          font-size: 3.5rem;
+          padding-top: 20px;
+          padding-bottom: 20px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
-          visibility: hidden; }
-    /* line 240, _scss/wrapped.scss */
+          display: none; }
+          /* line 217, _scss/wrapped.scss */
+          body .left-content .menu-holder ul li img {
+            width: auto;
+            height: 70px; }
+    /* line 227, _scss/wrapped.scss */
     body .left-content .social-holder {
-      position: absolute;
-      z-index: 4;
-      bottom: 40px;
-      color: white; }
-      /* line 247, _scss/wrapped.scss */
+      display: table-row;
+      height: 1px;
+      color: white;
+      vertical-align: bottom; }
+      /* line 234, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 257, _scss/wrapped.scss */
+  /* line 244, _scss/wrapped.scss */
   body .text {
-    padding: 40px;
-    height: 100%;
-    width: 25%;
-    max-width: 600px;
+    min-height: 100%;
+    min-width: 380px;
+    height: auto;
+    width: 40%;
+    max-width: 500px;
     position: absolute;
-    z-index: 3;
-    padding-top: 120px; }
-    /* line 267, _scss/wrapped.scss */
-    body .text .why-us-bottom {
-      position: absolute;
-      bottom: 30px;
-      right: 20px; }
-      /* line 273, _scss/wrapped.scss */
-      body .text .why-us-bottom h3 {
-        display: inline;
-        padding-right: 20px; }
-      /* line 279, _scss/wrapped.scss */
-      body .text .why-us-bottom img {
-        width: 12px;
-        height: auto;
-        display: inline;
-        margin-top: -10px; }
-  /* line 289, _scss/wrapped.scss */
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.5);
+    padding-bottom: 40px; }
+    /* line 256, _scss/wrapped.scss */
+    body .text .text-content {
+      padding: 40px;
+      padding-top: 120px;
+      padding-bottom: 0px; }
+      /* line 262, _scss/wrapped.scss */
+      body .text .text-content .title-image {
+        padding-bottom: 40px;
+        padding-top: 20px; }
+        /* line 267, _scss/wrapped.scss */
+        body .text .text-content .title-image img {
+          width: auto;
+          height: 70px; }
+      /* line 274, _scss/wrapped.scss */
+      body .text .text-content ul {
+        color: white; }
+        /* line 278, _scss/wrapped.scss */
+        body .text .text-content ul li {
+          font-family: "aktiv-grotesk-std",sans-serif;
+          font-style: normal;
+          font-weight: 200;
+          padding: 5px;
+          font-size: 1.3rem; }
+      /* line 288, _scss/wrapped.scss */
+      body .text .text-content .why-us-bottom {
+        position: absolute;
+        bottom: 20px;
+        right: 20px;
+        letter-spacing: 0.03em;
+        font-family: "aktiv-grotesk-std",sans-serif;
+        font-style: normal;
+        font-weight: 200;
+        min-height: 150px; }
+        /* line 299, _scss/wrapped.scss */
+        body .text .text-content .why-us-bottom .why-us-image {
+          display: inline;
+          padding-right: 20px; }
+          /* line 304, _scss/wrapped.scss */
+          body .text .text-content .why-us-bottom .why-us-image img {
+            width: auto;
+            height: 27px;
+            margin-top: 150px; }
+        /* line 312, _scss/wrapped.scss */
+        body .text .text-content .why-us-bottom .why-us-arrow {
+          display: inline;
+          margin-top: -10px; }
+          /* line 317, _scss/wrapped.scss */
+          body .text .text-content .why-us-bottom .why-us-arrow img {
+            width: 12px;
+            height: auto;
+            margin-top: 150px; }
+  /* line 330, _scss/wrapped.scss */
   body .menu-curtain {
+    width: 0px;
+    max-width: 500px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    z-index: 1; }
+  /* line 340, _scss/wrapped.scss */
+  body .work-curtain {
     width: 0px;
     max-width: 600px;
     height: 100%;
-    background: black;
-    opacity: 0.6;
+    background: rgba(0, 0, 0, 0.5);
     position: absolute;
+    max-height: 100%;
+    right: 0px;
     z-index: 1; }
-  /* line 302, _scss/wrapped.scss */
-  body .page-content .menu-curtain {
-    width: 25%; }
+  /* line 352, _scss/wrapped.scss */
+  body .page-content {
+    height: 100%; }
+    /* line 356, _scss/wrapped.scss */
+    body .page-content .work-selector {
+      position: absolute;
+      z-index: 99;
+      right: 30px;
+      top: 25px; }
+      /* line 363, _scss/wrapped.scss */
+      body .page-content .work-selector:hover {
+        cursor: pointer; }
+      /* line 368, _scss/wrapped.scss */
+      body .page-content .work-selector img {
+        height: 28px;
+        width: auto; }
+    /* line 376, _scss/wrapped.scss */
+    body .page-content .content-arrow-right {
+      width: 150px;
+      height: 100%;
+      position: absolute;
+      z-index: 10;
+      right: 0px;
+      bottom: 20px; }
+      /* line 385, _scss/wrapped.scss */
+      body .page-content .content-arrow-right .arrowright {
+        position: absolute;
+        bottom: 15px;
+        right: 20px; }
+        /* line 391, _scss/wrapped.scss */
+        body .page-content .content-arrow-right .arrowright img {
+          width: 20px;
+          height: auto; }
+    /* line 399, _scss/wrapped.scss */
+    body .page-content .content-arrow-left {
+      width: 150px;
+      height: 100%;
+      position: absolute;
+      z-index: 10;
+      left: 0;
+      bottom: 20px; }
+      /* line 408, _scss/wrapped.scss */
+      body .page-content .content-arrow-left .arrowleft {
+        position: absolute;
+        bottom: 15px;
+        left: 20px; }
+        /* line 414, _scss/wrapped.scss */
+        body .page-content .content-arrow-left .arrowleft img {
+          width: 20px;
+          height: auto; }
+    /* line 422, _scss/wrapped.scss */
+    body .page-content .right-content {
+      padding: 40px;
+      padding-top: 80px;
+      height: 100%;
+      overflow-x: scroll;
+      max-height: 100%;
+      width: 100%;
+      max-width: 600px;
+      position: absolute;
+      right: 0px;
+      z-index: 2; }
+      /* line 439, _scss/wrapped.scss */
+      body .page-content .right-content .more-work-holder .moreworkrow li {
+        visibility: hidden;
+        margin: 0px;
+        padding: 0px; }
+        /* line 445, _scss/wrapped.scss */
+        body .page-content .right-content .more-work-holder .moreworkrow li img {
+          width: 100%;
+          height: auto;
+          margin: 0px;
+          padding: 0px; }
+    /* line 459, _scss/wrapped.scss */
+    body .page-content .greyback {
+      background: #424242; }
+      /* line 463, _scss/wrapped.scss */
+      body .page-content .greyback .columns {
+        background: #424242; }
+    /* line 469, _scss/wrapped.scss */
+    body .page-content .work-grid {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 3; }
+      /* line 476, _scss/wrapped.scss */
+      body .page-content .work-grid .textcover {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        z-index: 20; }
+        /* line 483, _scss/wrapped.scss */
+        body .page-content .work-grid .textcover img.textimage {
+          position: absolute;
+          z-index: 19; }
+      /* line 490, _scss/wrapped.scss */
+      body .page-content .work-grid .fullwidth {
+        margin: 0px;
+        width: 100%;
+        max-width: 100%; }
+      /* line 497, _scss/wrapped.scss */
+      body .page-content .work-grid img.a {
+        position: relative;
+        z-index: 10; }
+      /* line 503, _scss/wrapped.scss */
+      body .page-content .work-grid img.b {
+        position: absolute;
+        z-index: 9;
+        top: 0; }
+      /* line 510, _scss/wrapped.scss */
+      body .page-content .work-grid .row {
+        margin: 0px; }
+        /* line 514, _scss/wrapped.scss */
+        body .page-content .work-grid .row .columns {
+          margin: 0px;
+          padding: 0px; }
+          /* line 519, _scss/wrapped.scss */
+          body .page-content .work-grid .row .columns img {
+            min-width: 100%;
+            height: auto; }
+    /* line 529, _scss/wrapped.scss */
+    body .page-content .work-content {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      z-index: 3;
+      overflow: scrolll; }
+      /* line 537, _scss/wrapped.scss */
+      body .page-content .work-content .image-holder {
+        width: 100%;
+        overflow: scroll;
+        white-space: nowrap;
+        height: 100%; }
+        /* line 544, _scss/wrapped.scss */
+        body .page-content .work-content .image-holder img {
+          max-width: none;
+          height: 100%;
+          width: auto;
+          margin: 0px;
+          padding: 0px; }
+      /* line 554, _scss/wrapped.scss */
+      body .page-content .work-content .titleback {
+        position: fixed;
+        z-index: 11;
+        bottom: 0px;
+        width: 100%;
+        height: 100px;
+        background: url("../assets/images/gradient.png");
+        background-repeat: x y;
+        color: white;
+        text-align: center;
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        transform: rotate(180deg); }
+      /* line 572, _scss/wrapped.scss */
+      body .page-content .work-content .title {
+        position: fixed;
+        z-index: 11;
+        bottom: 15px;
+        width: 100%;
+        text-align: center; }
 
+@media screen and (max-width: 1024px) {
+  /* line 589, _scss/wrapped.scss */
+  .left-content, .text {
+    width: 100% !important; }
+    /* line 595, _scss/wrapped.scss */
+    .left-content .title-image img, .text .title-image img {
+      height: 40px !important; }
+    /* line 606, _scss/wrapped.scss */
+    .left-content .menu-holder ul li, .text .menu-holder ul li {
+      padding-top: 20px !important;
+      padding-bottom: 20px !important; }
+      /* line 611, _scss/wrapped.scss */
+      .left-content .menu-holder ul li img, .text .menu-holder ul li img {
+        height: 40px !important; }
+
+  /* line 621, _scss/wrapped.scss */
+  .menu-curtain {
+    max-width: 400px !important; }
+
+  /* line 628, _scss/wrapped.scss */
+  .page-content .content-arrow-left, .page-content .content-arrow-right {
+    width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 315, _scss/wrapped.scss */
+  /* line 639, _scss/wrapped.scss */
   .left-content {
     width: 100% !important; }
-    /* line 319, _scss/wrapped.scss */
-    .left-content .menu-holder {
-      padding-top: 50px !important; }
-      /* line 325, _scss/wrapped.scss */
-      .left-content .menu-holder ul li {
-        font-size: 2.5rem !important; }
-    /* line 332, _scss/wrapped.scss */
+    /* line 643, _scss/wrapped.scss */
     .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 336, _scss/wrapped.scss */
+      /* line 647, _scss/wrapped.scss */
       .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
 
-  /* line 345, _scss/wrapped.scss */
-  .page-content .menu-curtain {
-    width: 100% !important; }
-
-  /* line 351, _scss/wrapped.scss */
+  /* line 654, _scss/wrapped.scss */
   .text {
     width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 60% !important;
+    height: auto !important; }
+    /* line 661, _scss/wrapped.scss */
+    .text .text-content {
+      padding-top: 10px !important; }
+      /* line 665, _scss/wrapped.scss */
+      .text .text-content .why-us-bottom {
+        position: relative !important;
+        width: 100% !important;
+        text-align: right !important;
+        padding-top: 100px !important; }
+
+  /* line 676, _scss/wrapped.scss */
+  .menu-curtain {
     max-width: 100% !important; }
-    /* line 356, _scss/wrapped.scss */
-    .text .why-us-bottom {
-      position: absolute;
-      bottom: 30px;
-      right: 20px; }
-      /* line 362, _scss/wrapped.scss */
-      .text .why-us-bottom h3 {
-        display: inline;
-        padding-right: 20px; }
-      /* line 368, _scss/wrapped.scss */
-      .text .why-us-bottom img {
-        width: 12px;
-        height: auto;
-        display: inline;
-        margin-top: -10px; } }
+
+  /* line 683, _scss/wrapped.scss */
+  .page-content .content-arrow-left, .page-content .content-arrow-right {
+    display: none !important; }
+  /* line 690, _scss/wrapped.scss */
+  .page-content .work-content .image-holder {
+    height: auto !important;
+    white-space: normal !important; }
+    /* line 695, _scss/wrapped.scss */
+    .page-content .work-content .image-holder img {
+      max-width: 100% !important;
+      height: auto !important;
+      width: 100% !important;
+      margin-left: 0px !important; }
+  /* line 705, _scss/wrapped.scss */
+  .page-content .work-selector {
+    display: none !important; } }
