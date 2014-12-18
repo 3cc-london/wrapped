@@ -10574,7 +10574,7 @@ body {
       width: 220px;
       display: inline-block;
       vertical-align: top;
-      margin-left: 70px;
+      margin-left: 40px;
       margin-top: 3px; }
   /* line 176, _scss/wrapped.scss */
   body .left-content {
@@ -10589,7 +10589,7 @@ body {
     display: table; }
     /* line 188, _scss/wrapped.scss */
     body .left-content .menu-holder {
-      padding-top: 120px;
+      padding-top: 70px;
       padding-bottom: 40px;
       color: white; }
       /* line 196, _scss/wrapped.scss */
@@ -10833,7 +10833,7 @@ body {
       /* line 537, _scss/wrapped.scss */
       body .page-content .work-content .image-holder {
         width: 100%;
-        overflow-x: scroll;
+        overflow: scroll;
         white-space: nowrap;
         height: 100%; }
         /* line 544, _scss/wrapped.scss */
@@ -10870,81 +10870,69 @@ body {
 @media screen and (max-width: 1024px) {
   /* line 589, _scss/wrapped.scss */
   .left-content, .text {
-    width: 50% !important; }
-    /* line 593, _scss/wrapped.scss */
-    .left-content .menu-holder, .text .menu-holder {
-      padding-top: 50px !important; }
-      /* line 599, _scss/wrapped.scss */
-      .left-content .menu-holder ul li, .text .menu-holder ul li {
-        padding-top: 20px !important;
-        padding-bottom: 20px !important; }
-        /* line 604, _scss/wrapped.scss */
-        .left-content .menu-holder ul li img, .text .menu-holder ul li img {
-          height: 30px !important; }
-    /* line 613, _scss/wrapped.scss */
-    .left-content .social-holder .fa, .text .social-holder .fa {
-      font-size: 1.6rem !important;
-      margin-right: 25px !important; }
+    width: 100% !important; }
+    /* line 595, _scss/wrapped.scss */
+    .left-content .title-image img, .text .title-image img {
+      height: 40px !important; }
+    /* line 606, _scss/wrapped.scss */
+    .left-content .menu-holder ul li, .text .menu-holder ul li {
+      padding-top: 20px !important;
+      padding-bottom: 20px !important; }
+      /* line 611, _scss/wrapped.scss */
+      .left-content .menu-holder ul li img, .text .menu-holder ul li img {
+        height: 40px !important; }
 
-  /* line 623, _scss/wrapped.scss */
+  /* line 621, _scss/wrapped.scss */
+  .menu-curtain {
+    max-width: 400px !important; }
+
+  /* line 628, _scss/wrapped.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 638, _scss/wrapped.scss */
-  .logo-holder a img {
-    display: none; }
-
-  /* line 645, _scss/wrapped.scss */
+  /* line 639, _scss/wrapped.scss */
   .left-content {
     width: 100% !important; }
-    /* line 650, _scss/wrapped.scss */
-    .left-content .menu-holder {
-      padding-top: 50px !important; }
-      /* line 656, _scss/wrapped.scss */
-      .left-content .menu-holder ul li {
-        padding-top: 15px !important;
-        padding-bottom: 15px !important; }
-        /* line 661, _scss/wrapped.scss */
-        .left-content .menu-holder ul li img {
-          height: 25px !important; }
-    /* line 669, _scss/wrapped.scss */
+    /* line 643, _scss/wrapped.scss */
     .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 673, _scss/wrapped.scss */
+      /* line 647, _scss/wrapped.scss */
       .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
 
-  /* line 680, _scss/wrapped.scss */
+  /* line 654, _scss/wrapped.scss */
   .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 60% !important;
     height: auto !important; }
-    /* line 687, _scss/wrapped.scss */
+    /* line 661, _scss/wrapped.scss */
     .text .text-content {
       padding-top: 10px !important; }
-      /* line 691, _scss/wrapped.scss */
+      /* line 665, _scss/wrapped.scss */
       .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
         padding-top: 100px !important; }
 
-  /* line 704, _scss/wrapped.scss */
+  /* line 676, _scss/wrapped.scss */
+  .menu-curtain {
+    max-width: 100% !important; }
+
+  /* line 683, _scss/wrapped.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     display: none !important; }
-  /* line 711, _scss/wrapped.scss */
+  /* line 690, _scss/wrapped.scss */
   .page-content .work-content .image-holder {
     height: auto !important;
-    overflow-x: none !important;
-    overflow-y: none !important;
-    white-space: normal !important;
-    padding-left: 2px;
-    padding-right: 2px; }
-    /* line 720, _scss/wrapped.scss */
+    white-space: normal !important; }
+    /* line 695, _scss/wrapped.scss */
     .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
-      margin-bottom: 5px;
-      margin-left: 0px !important; } }
+      margin-left: 0px !important; }
+  /* line 705, _scss/wrapped.scss */
+  .page-content .work-selector {
+    display: none !important; } }

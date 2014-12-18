@@ -166,7 +166,7 @@ body
 			width:220px;
 			display:inline-block;
 			vertical-align:top;
-			margin-left:70px;
+			margin-left:40px;
 			margin-top:3px;
 		}
 
@@ -186,7 +186,7 @@ body
 
 		.menu-holder 
 		{
-			padding-top:120px;
+			padding-top:70px;
 			padding-bottom:40px;
 			color:white;
 
@@ -536,7 +536,7 @@ body
 			.image-holder
 			{
 				width: 100%;
-				overflow-x: scroll;
+				overflow: scroll;
 				white-space: nowrap;
 				height: 100%;
 
@@ -587,11 +587,18 @@ body
 {
 	.left-content, .text
 	{
-		width:50% !important;
+		width:100% !important;
+
+		.title-image 
+		{
+			img 
+			{
+				height:40px !important;
+			}
+		}
 
 		.menu-holder 
 		{
-			padding-top:50px !important;
 
 			ul
 			{
@@ -602,19 +609,17 @@ body
 
 					img 
 					{
-						height:30px !important;
+						height:40px !important;
 					}
 				}
 			}
 		}
-		.social-holder
-		{
-			.fa 
-			{
-				font-size:1.6rem !important;
-				margin-right:25px !important;
-			}
-		}
+
+	}
+
+	.menu-curtain 
+	{
+		max-width:400px !important;
 	}
 
 	.page-content 
@@ -630,40 +635,9 @@ body
 //640px
 @media #{$small-only} 
 { 
-	.logo-holder
-	{
-		a
-		{
-			img 
-			{
-				display:none;
-			}
-		}
-	}
-
 	.left-content
 	{
 		width:100% !important;
-
-
-		.menu-holder 
-		{
-			padding-top:50px !important;
-
-			ul
-			{
-				li 
-				{
-					padding-top:15px !important;
-					padding-bottom:15px !important;
-
-					img 
-					{
-						height:25px !important;
-					}
-				}
-			}
-		}
 
 		.social-holder
 		{
@@ -698,6 +672,11 @@ body
 
 	}
 
+	.menu-curtain 
+	{
+		max-width:100% !important;
+	}
+
 	.page-content
 	{
 		.content-arrow-left, .content-arrow-right
@@ -710,22 +689,23 @@ body
 				.image-holder
 				{
 					height: auto !important;
-					overflow-x: none !important;
-					overflow-y: none !important;
 					white-space: normal !important;
-					padding-left:2px;
-					padding-right:2px;
 
 					img 
 					{
 						max-width: 100% !important;
 						height: auto !important;
 						width: 100% !important;
-						margin-bottom:5px;
 						margin-left:0px !important;
 					}
 				}
 		}
+
+		.work-selector
+		{
+			display:none !important;
+		}
+
 	}
 
 }
