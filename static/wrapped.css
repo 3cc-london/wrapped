@@ -10479,10 +10479,9 @@ a.toggle {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
-  min-height: 100%; }
+  background-size: cover; }
 
-/* line 23, _scss/covers.scss */
+/* line 22, _scss/covers.scss */
 .whyuscover {
   background: url("../assets/images/cover_guy.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -10490,7 +10489,7 @@ a.toggle {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 32, _scss/covers.scss */
+/* line 31, _scss/covers.scss */
 .servicescover {
   background: url("../assets/images/services.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -10498,7 +10497,7 @@ a.toggle {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 41, _scss/covers.scss */
+/* line 40, _scss/covers.scss */
 .contactcover {
   background: url("../assets/images/contact.jpg") no-repeat center center;
   -webkit-background-size: cover;
@@ -10506,7 +10505,7 @@ a.toggle {
   -o-background-size: cover;
   background-size: cover; }
 
-/* line 50, _scss/covers.scss */
+/* line 49, _scss/covers.scss */
 .tripthelight {
   background: url("../assets/images/projects/large/wrapped_tandg37_still_life.jpg") no-repeat center center;
   -webkit-background-size: cover;
