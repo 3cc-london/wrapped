@@ -10916,33 +10916,34 @@ body {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 70% !important;
-    height: auto !important; }
-    /* line 668, _scss/wrapped.scss */
+    height: auto !important;
+    min-height: inherit !important; }
+    /* line 669, _scss/wrapped.scss */
     body .text .text-content {
       padding-top: 10px !important;
       padding-bottom: 0px !important; }
-      /* line 673, _scss/wrapped.scss */
+      /* line 674, _scss/wrapped.scss */
       body .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
         padding-top: 0px !important; }
-  /* line 684, _scss/wrapped.scss */
+  /* line 685, _scss/wrapped.scss */
   body .menu-curtain {
     max-width: 100% !important; }
-  /* line 691, _scss/wrapped.scss */
+  /* line 692, _scss/wrapped.scss */
   body .page-content .content-arrow-left, body .page-content .content-arrow-right {
     display: none !important; }
-  /* line 698, _scss/wrapped.scss */
+  /* line 699, _scss/wrapped.scss */
   body .page-content .work-content .image-holder {
     height: auto !important;
     white-space: normal !important; }
-    /* line 703, _scss/wrapped.scss */
+    /* line 704, _scss/wrapped.scss */
     body .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
       margin-left: 0px !important; }
-  /* line 713, _scss/wrapped.scss */
+  /* line 714, _scss/wrapped.scss */
   body .page-content .work-selector {
     display: none !important; } }
