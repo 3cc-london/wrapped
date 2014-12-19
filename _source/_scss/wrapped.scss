@@ -184,7 +184,7 @@ body
 		overflow-x:scroll;
 		max-height:100%;
 		width:40%;
-		max-width:500px;
+		max-width:450px;
 		position:absolute;
 		z-index:2;
 		display: table;
@@ -251,7 +251,7 @@ body
 		min-width:380px;
 		height:auto;
 		width:40%;
-		max-width:500px;
+		max-width:450px;
 		position:absolute;
 		z-index:4;
 		background: rgba(black, 0.5);
@@ -261,7 +261,7 @@ body
 		{
 			padding:40px;
 			padding-top:120px;
-			padding-bottom: 0px;
+			padding-bottom: 100px;
 
 			.title-image 
 			{
@@ -334,7 +334,7 @@ body
 	.menu-curtain 
 	{
 		width:0px;
-		max-width:500px;
+		max-width:450px;
 		height:100%;
 		background: rgba(black, 0.5);
 		position:fixed;
@@ -577,7 +577,7 @@ body
 			{
 				position:fixed;
 				z-index:11;
-				bottom:px;
+				bottom:15px;
 				width:100%;
 				text-align:center;
 
@@ -661,7 +661,7 @@ body
 		{
 			width:100% !important;
 			max-width:100% !important;
-			margin-top:60% !important;
+			margin-top:50% !important;
 			height:auto !important;
 
 			.text-content 

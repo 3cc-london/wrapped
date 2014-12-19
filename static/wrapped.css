@@ -10595,7 +10595,7 @@ body {
     overflow-x: scroll;
     max-height: 100%;
     width: 40%;
-    max-width: 500px;
+    max-width: 450px;
     position: absolute;
     z-index: 2;
     display: table; }
@@ -10641,7 +10641,7 @@ body {
     min-width: 380px;
     height: auto;
     width: 40%;
-    max-width: 500px;
+    max-width: 450px;
     position: absolute;
     z-index: 4;
     background: rgba(0, 0, 0, 0.5);
@@ -10650,7 +10650,7 @@ body {
     body .text .text-content {
       padding: 40px;
       padding-top: 120px;
-      padding-bottom: 0px; }
+      padding-bottom: 100px; }
       /* line 267, _scss/wrapped.scss */
       body .text .text-content .title-image {
         padding-bottom: 40px;
@@ -10700,7 +10700,7 @@ body {
   /* line 335, _scss/wrapped.scss */
   body .menu-curtain {
     width: 0px;
-    max-width: 500px;
+    max-width: 450px;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
@@ -10875,7 +10875,7 @@ body {
       body .page-content .work-content .title {
         position: fixed;
         z-index: 11;
-        bottom: px;
+        bottom: 15px;
         width: 100%;
         text-align: center; }
 
@@ -10915,7 +10915,7 @@ body {
   body .text {
     width: 100% !important;
     max-width: 100% !important;
-    margin-top: 60% !important;
+    margin-top: 50% !important;
     height: auto !important; }
     /* line 668, _scss/wrapped.scss */
     body .text .text-content {

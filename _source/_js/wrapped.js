@@ -3,6 +3,8 @@ $(document).ready(function () {
 	$('body').css('visibility','visible').hide().fadeIn('slow');
 	var curtainwidth = $('.text').width();
 	var menucurtainwidth = $('.menu-curtain').width();
+	var menucurtainheight = $('.menu-curtain').height();
+	var leftcontentheight = $('.left-curtain').height();
 	var closed = true;
 	var selectorclosed = true;
 	var windowheight = $(window).height();
@@ -23,7 +25,9 @@ $(document).ready(function () {
 			width: '100%'
 			}, 500, function() {
 			// Disable vertical scrolling if menu curtain is 100%
-			$('body').addClass('overflow');
+			$('body').toggleClass('overflow');
+			$('html').toggleClass('overflow');
+
 		});			
 
 
@@ -45,7 +49,7 @@ $(document).ready(function () {
 
 		setTimeout(function()
 			{
-				$('.social-holder > .fa').css('visibility','visible').hide().fadeIn('slow');
+				$('.social-holder > a .fa').css('visibility','visible').hide().fadeIn('slow');
 			}, 900);
 	}
 
@@ -58,7 +62,8 @@ $(document).ready(function () {
 			width: '0px'
 			}, 500, function() {	
 			// Enable vertical scrolling if menu curtain is 100%
-			$('body').removeClass('overflow');	    
+			$('body').toggleClass('overflow');	 
+			$('html').toggleClass('overflow');   
 		});
 
 		setTimeout(function()
