@@ -255,7 +255,6 @@ body
 		position:absolute;
 		z-index:4;
 		background: rgba(black, 0.5);
-		padding-bottom:40px;
 
 		.text-content
 		{
@@ -667,13 +666,14 @@ body
 			.text-content 
 			{
 				padding-top:10px !important;
+				padding-bottom:0px !important;
 
 				.why-us-bottom 
 				{
 					position:relative !important;
 					width:100% !important;
 					text-align:right !important;
-					padding-top:100px !important;
+					padding-top:0px !important;
 				}
 			}
 
