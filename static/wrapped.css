@@ -10505,45 +10505,59 @@ a.toggle {
   -o-background-size: cover;
   background-size: cover; }
 
+/* line 49, _scss/covers.scss */
+.tripthelight {
+  background: url("../assets/images/projects/large/wrapped_tandg37_still_life.jpg") no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
 /* line 87, _scss/wrapped.scss */
+.overflow {
+  overflow: hidden !important; }
+
+/* line 92, _scss/wrapped.scss */
 body {
   height: 100%;
   margin: 0px;
   font-size: 16px;
-  visibility: hidden; }
-  /* line 94, _scss/wrapped.scss */
+  visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased; }
+  /* line 100, _scss/wrapped.scss */
   body h1, body h2, body h3 {
     color: white;
     text-transform: uppercase; }
-  /* line 100, _scss/wrapped.scss */
+  /* line 106, _scss/wrapped.scss */
   body h1 {
     font-size: 3rem; }
-  /* line 105, _scss/wrapped.scss */
+  /* line 111, _scss/wrapped.scss */
   body p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: white;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.2em;
     font-family: "aktiv-grotesk-std",sans-serif;
     font-style: normal;
-    font-weight: 200; }
-  /* line 115, _scss/wrapped.scss */
+    font-weight: 200;
+    -webkit-text-stroke: 0.4px; }
+  /* line 122, _scss/wrapped.scss */
   body a:link, body a:visited, body a:hover, body a:active {
     color: white;
     text-decoration: none; }
-  /* line 121, _scss/wrapped.scss */
+  /* line 128, _scss/wrapped.scss */
   body .cover-holder {
     max-width: 100%;
     height: 100%;
     position: fixed;
     z-index: 1; }
-    /* line 128, _scss/wrapped.scss */
+    /* line 135, _scss/wrapped.scss */
     body .cover-holder .cover {
       position: fixed;
       z-index: 1;
       width: 100%;
       height: 100%;
       transition: 10s ease; }
-  /* line 139, _scss/wrapped.scss */
+  /* line 146, _scss/wrapped.scss */
   body .covertransition {
     -webkit-transform: scale(1.1);
     /* Safari and Chrome */
@@ -10559,7 +10573,7 @@ body {
     -o-transition: all 10s ease;
     -ms-transition: all 10s ease;
     transition: all 10s ease; }
-  /* line 154, _scss/wrapped.scss */
+  /* line 161, _scss/wrapped.scss */
   body .logo-holder {
     position: absolute;
     z-index: 98;
@@ -10569,95 +10583,94 @@ body {
     height: 100px;
     background: url("../assets/images/gradient.png");
     background-repeat: x y; }
-    /* line 165, _scss/wrapped.scss */
+    /* line 172, _scss/wrapped.scss */
     body .logo-holder img {
       width: 220px;
       display: inline-block;
       vertical-align: top;
       margin-left: 40px;
       margin-top: 3px; }
-  /* line 176, _scss/wrapped.scss */
+  /* line 183, _scss/wrapped.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
     overflow-x: scroll;
     max-height: 100%;
     width: 40%;
-    max-width: 500px;
+    max-width: 450px;
     position: absolute;
     z-index: 2;
     display: table; }
-    /* line 188, _scss/wrapped.scss */
+    /* line 195, _scss/wrapped.scss */
     body .left-content .menu-holder {
       padding-top: 70px;
       padding-bottom: 40px;
       color: white; }
-      /* line 196, _scss/wrapped.scss */
+      /* line 203, _scss/wrapped.scss */
       body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
         color: white;
         text-decoration: none; }
-      /* line 203, _scss/wrapped.scss */
+      /* line 210, _scss/wrapped.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 209, _scss/wrapped.scss */
+        /* line 216, _scss/wrapped.scss */
         body .left-content .menu-holder ul li {
           padding-top: 20px;
           padding-bottom: 20px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
           display: none; }
-          /* line 217, _scss/wrapped.scss */
+          /* line 224, _scss/wrapped.scss */
           body .left-content .menu-holder ul li img {
             width: auto;
-            height: 70px; }
-    /* line 227, _scss/wrapped.scss */
+            height: 60px; }
+    /* line 234, _scss/wrapped.scss */
     body .left-content .social-holder {
       display: table-row;
       height: 1px;
       color: white;
       vertical-align: bottom; }
-      /* line 234, _scss/wrapped.scss */
+      /* line 241, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 244, _scss/wrapped.scss */
+  /* line 251, _scss/wrapped.scss */
   body .text {
     min-height: 100%;
     min-width: 380px;
     height: auto;
     width: 40%;
-    max-width: 500px;
+    max-width: 450px;
     position: absolute;
     z-index: 4;
-    background: rgba(0, 0, 0, 0.5);
-    padding-bottom: 40px; }
-    /* line 256, _scss/wrapped.scss */
+    background: rgba(0, 0, 0, 0.5); }
+    /* line 262, _scss/wrapped.scss */
     body .text .text-content {
       padding: 40px;
       padding-top: 120px;
-      padding-bottom: 0px; }
-      /* line 262, _scss/wrapped.scss */
+      padding-bottom: 100px; }
+      /* line 268, _scss/wrapped.scss */
       body .text .text-content .title-image {
         padding-bottom: 40px;
         padding-top: 20px; }
-        /* line 267, _scss/wrapped.scss */
+        /* line 273, _scss/wrapped.scss */
         body .text .text-content .title-image img {
           width: auto;
-          height: 70px; }
-      /* line 274, _scss/wrapped.scss */
+          height: 60px; }
+      /* line 280, _scss/wrapped.scss */
       body .text .text-content ul {
         color: white; }
-        /* line 278, _scss/wrapped.scss */
+        /* line 284, _scss/wrapped.scss */
         body .text .text-content ul li {
           font-family: "aktiv-grotesk-std",sans-serif;
           font-style: normal;
           font-weight: 200;
           padding: 5px;
           font-size: 1.3rem; }
-      /* line 288, _scss/wrapped.scss */
+      /* line 294, _scss/wrapped.scss */
       body .text .text-content .why-us-bottom {
         position: absolute;
         bottom: 20px;
@@ -10667,33 +10680,33 @@ body {
         font-style: normal;
         font-weight: 200;
         min-height: 150px; }
-        /* line 299, _scss/wrapped.scss */
+        /* line 305, _scss/wrapped.scss */
         body .text .text-content .why-us-bottom .why-us-image {
           display: inline;
           padding-right: 20px; }
-          /* line 304, _scss/wrapped.scss */
+          /* line 310, _scss/wrapped.scss */
           body .text .text-content .why-us-bottom .why-us-image img {
             width: auto;
             height: 27px;
             margin-top: 150px; }
-        /* line 312, _scss/wrapped.scss */
+        /* line 318, _scss/wrapped.scss */
         body .text .text-content .why-us-bottom .why-us-arrow {
           display: inline;
           margin-top: -10px; }
-          /* line 317, _scss/wrapped.scss */
+          /* line 323, _scss/wrapped.scss */
           body .text .text-content .why-us-bottom .why-us-arrow img {
             width: 12px;
             height: auto;
             margin-top: 150px; }
-  /* line 330, _scss/wrapped.scss */
+  /* line 336, _scss/wrapped.scss */
   body .menu-curtain {
     width: 0px;
-    max-width: 500px;
+    max-width: 450px;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1; }
-  /* line 340, _scss/wrapped.scss */
+  /* line 346, _scss/wrapped.scss */
   body .work-curtain {
     width: 0px;
     max-width: 600px;
@@ -10703,23 +10716,23 @@ body {
     max-height: 100%;
     right: 0px;
     z-index: 1; }
-  /* line 352, _scss/wrapped.scss */
+  /* line 358, _scss/wrapped.scss */
   body .page-content {
     height: 100%; }
-    /* line 356, _scss/wrapped.scss */
+    /* line 362, _scss/wrapped.scss */
     body .page-content .work-selector {
       position: absolute;
       z-index: 99;
       right: 30px;
       top: 25px; }
-      /* line 363, _scss/wrapped.scss */
+      /* line 369, _scss/wrapped.scss */
       body .page-content .work-selector:hover {
         cursor: pointer; }
-      /* line 368, _scss/wrapped.scss */
+      /* line 374, _scss/wrapped.scss */
       body .page-content .work-selector img {
         height: 28px;
         width: auto; }
-    /* line 376, _scss/wrapped.scss */
+    /* line 382, _scss/wrapped.scss */
     body .page-content .content-arrow-right {
       width: 150px;
       height: 100%;
@@ -10727,16 +10740,16 @@ body {
       z-index: 10;
       right: 0px;
       bottom: 20px; }
-      /* line 385, _scss/wrapped.scss */
+      /* line 391, _scss/wrapped.scss */
       body .page-content .content-arrow-right .arrowright {
         position: absolute;
         bottom: 15px;
         right: 20px; }
-        /* line 391, _scss/wrapped.scss */
+        /* line 397, _scss/wrapped.scss */
         body .page-content .content-arrow-right .arrowright img {
           width: 20px;
           height: auto; }
-    /* line 399, _scss/wrapped.scss */
+    /* line 405, _scss/wrapped.scss */
     body .page-content .content-arrow-left {
       width: 150px;
       height: 100%;
@@ -10744,16 +10757,16 @@ body {
       z-index: 10;
       left: 0;
       bottom: 20px; }
-      /* line 408, _scss/wrapped.scss */
+      /* line 414, _scss/wrapped.scss */
       body .page-content .content-arrow-left .arrowleft {
         position: absolute;
         bottom: 15px;
         left: 20px; }
-        /* line 414, _scss/wrapped.scss */
+        /* line 420, _scss/wrapped.scss */
         body .page-content .content-arrow-left .arrowleft img {
           width: 20px;
           height: auto; }
-    /* line 422, _scss/wrapped.scss */
+    /* line 428, _scss/wrapped.scss */
     body .page-content .right-content {
       padding: 40px;
       padding-top: 80px;
@@ -10765,85 +10778,85 @@ body {
       position: absolute;
       right: 0px;
       z-index: 2; }
-      /* line 439, _scss/wrapped.scss */
+      /* line 445, _scss/wrapped.scss */
       body .page-content .right-content .more-work-holder .moreworkrow li {
         visibility: hidden;
         margin: 0px;
         padding: 0px; }
-        /* line 445, _scss/wrapped.scss */
+        /* line 451, _scss/wrapped.scss */
         body .page-content .right-content .more-work-holder .moreworkrow li img {
           width: 100%;
           height: auto;
           margin: 0px;
           padding: 0px; }
-    /* line 459, _scss/wrapped.scss */
+    /* line 465, _scss/wrapped.scss */
     body .page-content .greyback {
       background: #424242; }
-      /* line 463, _scss/wrapped.scss */
+      /* line 469, _scss/wrapped.scss */
       body .page-content .greyback .columns {
         background: #424242; }
-    /* line 469, _scss/wrapped.scss */
+    /* line 475, _scss/wrapped.scss */
     body .page-content .work-grid {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3; }
-      /* line 476, _scss/wrapped.scss */
+      /* line 482, _scss/wrapped.scss */
       body .page-content .work-grid .textcover {
         width: 100%;
         height: 100%;
         position: relative;
         z-index: 20; }
-        /* line 483, _scss/wrapped.scss */
+        /* line 489, _scss/wrapped.scss */
         body .page-content .work-grid .textcover img.textimage {
           position: absolute;
           z-index: 19; }
-      /* line 490, _scss/wrapped.scss */
+      /* line 496, _scss/wrapped.scss */
       body .page-content .work-grid .fullwidth {
         margin: 0px;
         width: 100%;
         max-width: 100%; }
-      /* line 497, _scss/wrapped.scss */
+      /* line 503, _scss/wrapped.scss */
       body .page-content .work-grid img.a {
         position: relative;
         z-index: 10; }
-      /* line 503, _scss/wrapped.scss */
+      /* line 509, _scss/wrapped.scss */
       body .page-content .work-grid img.b {
         position: absolute;
         z-index: 9;
         top: 0; }
-      /* line 510, _scss/wrapped.scss */
+      /* line 516, _scss/wrapped.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 514, _scss/wrapped.scss */
+        /* line 520, _scss/wrapped.scss */
         body .page-content .work-grid .row .columns {
           margin: 0px;
           padding: 0px; }
-          /* line 519, _scss/wrapped.scss */
+          /* line 525, _scss/wrapped.scss */
           body .page-content .work-grid .row .columns img {
             min-width: 100%;
             height: auto; }
-    /* line 529, _scss/wrapped.scss */
+    /* line 535, _scss/wrapped.scss */
     body .page-content .work-content {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3;
       overflow: scrolll; }
-      /* line 537, _scss/wrapped.scss */
+      /* line 543, _scss/wrapped.scss */
       body .page-content .work-content .image-holder {
         width: 100%;
         overflow: scroll;
         white-space: nowrap;
         height: 100%; }
-        /* line 544, _scss/wrapped.scss */
+        /* line 550, _scss/wrapped.scss */
         body .page-content .work-content .image-holder img {
           max-width: none;
           height: 100%;
           width: auto;
           margin: 0px;
           padding: 0px; }
-      /* line 554, _scss/wrapped.scss */
+      /* line 560, _scss/wrapped.scss */
       body .page-content .work-content .titleback {
         position: fixed;
         z-index: 11;
@@ -10859,7 +10872,7 @@ body {
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
         transform: rotate(180deg); }
-      /* line 572, _scss/wrapped.scss */
+      /* line 578, _scss/wrapped.scss */
       body .page-content .work-content .title {
         position: fixed;
         z-index: 11;
@@ -10868,71 +10881,70 @@ body {
         text-align: center; }
 
 @media screen and (max-width: 1024px) {
-  /* line 589, _scss/wrapped.scss */
+  /* line 595, _scss/wrapped.scss */
   .left-content, .text {
     width: 100% !important; }
-    /* line 595, _scss/wrapped.scss */
+    /* line 601, _scss/wrapped.scss */
     .left-content .title-image img, .text .title-image img {
       height: 40px !important; }
-    /* line 606, _scss/wrapped.scss */
+    /* line 612, _scss/wrapped.scss */
     .left-content .menu-holder ul li, .text .menu-holder ul li {
       padding-top: 20px !important;
       padding-bottom: 20px !important; }
-      /* line 611, _scss/wrapped.scss */
+      /* line 617, _scss/wrapped.scss */
       .left-content .menu-holder ul li img, .text .menu-holder ul li img {
         height: 40px !important; }
 
-  /* line 621, _scss/wrapped.scss */
+  /* line 627, _scss/wrapped.scss */
   .menu-curtain {
     max-width: 400px !important; }
 
-  /* line 628, _scss/wrapped.scss */
+  /* line 634, _scss/wrapped.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 639, _scss/wrapped.scss */
-  .left-content {
+  /* line 647, _scss/wrapped.scss */
+  body .left-content {
     width: 100% !important; }
-    /* line 643, _scss/wrapped.scss */
-    .left-content .social-holder {
+    /* line 651, _scss/wrapped.scss */
+    body .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 647, _scss/wrapped.scss */
-      .left-content .social-holder .fa {
+      /* line 655, _scss/wrapped.scss */
+      body .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
-
-  /* line 654, _scss/wrapped.scss */
-  .text {
+  /* line 662, _scss/wrapped.scss */
+  body .text {
     width: 100% !important;
     max-width: 100% !important;
-    margin-top: 60% !important;
-    height: auto !important; }
-    /* line 661, _scss/wrapped.scss */
-    .text .text-content {
-      padding-top: 10px !important; }
-      /* line 665, _scss/wrapped.scss */
-      .text .text-content .why-us-bottom {
+    margin-top: 70% !important;
+    height: auto !important;
+    min-height: 600px !important; }
+    /* line 670, _scss/wrapped.scss */
+    body .text .text-content {
+      padding-top: 10px !important;
+      padding-bottom: 0px !important; }
+      /* line 675, _scss/wrapped.scss */
+      body .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
-        padding-top: 100px !important; }
-
-  /* line 676, _scss/wrapped.scss */
-  .menu-curtain {
+        padding-top: 0px !important; }
+  /* line 686, _scss/wrapped.scss */
+  body .menu-curtain {
     max-width: 100% !important; }
-
-  /* line 683, _scss/wrapped.scss */
-  .page-content .content-arrow-left, .page-content .content-arrow-right {
+  /* line 693, _scss/wrapped.scss */
+  body .page-content .content-arrow-left, body .page-content .content-arrow-right {
     display: none !important; }
-  /* line 690, _scss/wrapped.scss */
-  .page-content .work-content .image-holder {
+  /* line 700, _scss/wrapped.scss */
+  body .page-content .work-content .image-holder {
     height: auto !important;
     white-space: normal !important; }
-    /* line 695, _scss/wrapped.scss */
-    .page-content .work-content .image-holder img {
+    /* line 705, _scss/wrapped.scss */
+    body .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
       margin-left: 0px !important; }
-  /* line 705, _scss/wrapped.scss */
-  .page-content .work-selector {
+  /* line 715, _scss/wrapped.scss */
+  body .page-content .work-selector {
     display: none !important; } }
