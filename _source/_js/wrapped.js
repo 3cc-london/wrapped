@@ -1,3 +1,10 @@
+$(window).load(function() {
+  setTimeout(function()
+  {
+    $('.white-curtain').css({'display': 'none'});
+  }, 800);
+});
+
 $(document).ready(function () {
 
 	$('body').css('visibility','visible').hide().fadeIn('slow');

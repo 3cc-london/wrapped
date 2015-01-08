@@ -10545,19 +10545,82 @@ body {
     color: white;
     text-decoration: none; }
   /* line 128, _scss/wrapped.scss */
+  body .white-curtain {
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: fixed;
+    z-index: 9998;
+    display: block; }
+    /* line 137, _scss/wrapped.scss */
+    body .white-curtain .logo-holder {
+      position: absolute;
+      z-index: 9999;
+      padding: 40px;
+      padding-top: 25px;
+      width: 100%;
+      height: 100px;
+      background: url("../assets/images/gradient.png");
+      background-repeat: x y;
+      @-webkit-keyframes pulse_animation {
+        /* line 164, _scss/wrapped.scss */
+        0% {
+          -webkit-transform: scale(1); }
+
+        /* line 165, _scss/wrapped.scss */
+        30% {
+          -webkit-transform: scale(1); }
+
+        /* line 166, _scss/wrapped.scss */
+        40% {
+          -webkit-transform: scale(1.03); }
+
+        /* line 167, _scss/wrapped.scss */
+        50% {
+          -webkit-transform: scale(1); }
+
+        /* line 168, _scss/wrapped.scss */
+        60% {
+          -webkit-transform: scale(1); }
+
+        /* line 169, _scss/wrapped.scss */
+        70% {
+          -webkit-transform: scale(1.02); }
+
+        /* line 170, _scss/wrapped.scss */
+        80% {
+          -webkit-transform: scale(1); }
+
+        /* line 171, _scss/wrapped.scss */
+        100% {
+          -webkit-transform: scale(1); } }
+ }
+      /* line 148, _scss/wrapped.scss */
+      body .white-curtain .logo-holder img {
+        width: 220px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 40px;
+        margin-top: 3px;
+        -webkit-animation-name: 'pulse_animation';
+        -webkit-animation-duration: 2000ms;
+        -webkit-transform-origin: 70% 70%;
+        -webkit-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear; }
+  /* line 177, _scss/wrapped.scss */
   body .cover-holder {
     max-width: 100%;
     height: 100%;
     position: fixed;
     z-index: 1; }
-    /* line 135, _scss/wrapped.scss */
+    /* line 184, _scss/wrapped.scss */
     body .cover-holder .cover {
       position: fixed;
       z-index: 1;
       width: 100%;
       height: 100%;
       transition: 10s ease; }
-  /* line 146, _scss/wrapped.scss */
+  /* line 195, _scss/wrapped.scss */
   body .covertransition {
     -webkit-transform: scale(1.1);
     /* Safari and Chrome */
@@ -10573,7 +10636,7 @@ body {
     -o-transition: all 10s ease;
     -ms-transition: all 10s ease;
     transition: all 10s ease; }
-  /* line 161, _scss/wrapped.scss */
+  /* line 210, _scss/wrapped.scss */
   body .logo-holder {
     position: absolute;
     z-index: 98;
@@ -10583,14 +10646,14 @@ body {
     height: 100px;
     background: url("../assets/images/gradient.png");
     background-repeat: x y; }
-    /* line 172, _scss/wrapped.scss */
+    /* line 221, _scss/wrapped.scss */
     body .logo-holder img {
       width: 220px;
       display: inline-block;
       vertical-align: top;
       margin-left: 40px;
       margin-top: 3px; }
-  /* line 183, _scss/wrapped.scss */
+  /* line 232, _scss/wrapped.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
@@ -10601,43 +10664,43 @@ body {
     position: absolute;
     z-index: 2;
     display: table; }
-    /* line 195, _scss/wrapped.scss */
+    /* line 244, _scss/wrapped.scss */
     body .left-content .menu-holder {
       padding-top: 70px;
       padding-bottom: 40px;
       color: white; }
-      /* line 203, _scss/wrapped.scss */
+      /* line 252, _scss/wrapped.scss */
       body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
         color: white;
         text-decoration: none; }
-      /* line 210, _scss/wrapped.scss */
+      /* line 259, _scss/wrapped.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 216, _scss/wrapped.scss */
+        /* line 265, _scss/wrapped.scss */
         body .left-content .menu-holder ul li {
           padding-top: 20px;
           padding-bottom: 20px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
           display: none; }
-          /* line 224, _scss/wrapped.scss */
+          /* line 273, _scss/wrapped.scss */
           body .left-content .menu-holder ul li img {
             width: auto;
             height: 60px; }
-    /* line 234, _scss/wrapped.scss */
+    /* line 283, _scss/wrapped.scss */
     body .left-content .social-holder {
       display: table-row;
       height: 1px;
       color: white;
       vertical-align: bottom; }
-      /* line 241, _scss/wrapped.scss */
+      /* line 290, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 251, _scss/wrapped.scss */
+  /* line 300, _scss/wrapped.scss */
   body .text {
     min-height: 100%;
     min-width: 380px;
@@ -10647,30 +10710,30 @@ body {
     position: absolute;
     z-index: 4;
     background: rgba(0, 0, 0, 0.5); }
-    /* line 262, _scss/wrapped.scss */
+    /* line 311, _scss/wrapped.scss */
     body .text .text-content {
       padding: 40px;
       padding-top: 120px;
       padding-bottom: 100px; }
-      /* line 268, _scss/wrapped.scss */
+      /* line 317, _scss/wrapped.scss */
       body .text .text-content .title-image {
         padding-bottom: 40px;
         padding-top: 20px; }
-        /* line 273, _scss/wrapped.scss */
+        /* line 322, _scss/wrapped.scss */
         body .text .text-content .title-image img {
           width: auto;
           height: 60px; }
-      /* line 280, _scss/wrapped.scss */
+      /* line 329, _scss/wrapped.scss */
       body .text .text-content ul {
         color: white; }
-        /* line 284, _scss/wrapped.scss */
+        /* line 333, _scss/wrapped.scss */
         body .text .text-content ul li {
           font-family: "aktiv-grotesk-std",sans-serif;
           font-style: normal;
           font-weight: 200;
           padding: 5px;
           font-size: 1.3rem; }
-      /* line 294, _scss/wrapped.scss */
+      /* line 343, _scss/wrapped.scss */
       body .text .text-content .why-us-bottom {
         position: absolute;
         bottom: 20px;
@@ -10680,25 +10743,25 @@ body {
         font-style: normal;
         font-weight: 200;
         min-height: 150px; }
-        /* line 305, _scss/wrapped.scss */
+        /* line 354, _scss/wrapped.scss */
         body .text .text-content .why-us-bottom .why-us-image {
           display: inline;
           padding-right: 20px; }
-          /* line 310, _scss/wrapped.scss */
+          /* line 359, _scss/wrapped.scss */
           body .text .text-content .why-us-bottom .why-us-image img {
             width: auto;
             height: 27px;
             margin-top: 150px; }
-        /* line 318, _scss/wrapped.scss */
+        /* line 367, _scss/wrapped.scss */
         body .text .text-content .why-us-bottom .why-us-arrow {
           display: inline;
           margin-top: -10px; }
-          /* line 323, _scss/wrapped.scss */
+          /* line 372, _scss/wrapped.scss */
           body .text .text-content .why-us-bottom .why-us-arrow img {
             width: 12px;
             height: auto;
             margin-top: 150px; }
-  /* line 336, _scss/wrapped.scss */
+  /* line 385, _scss/wrapped.scss */
   body .menu-curtain {
     width: 0px;
     max-width: 450px;
@@ -10706,7 +10769,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1; }
-  /* line 346, _scss/wrapped.scss */
+  /* line 395, _scss/wrapped.scss */
   body .work-curtain {
     width: 0px;
     max-width: 600px;
@@ -10716,23 +10779,23 @@ body {
     max-height: 100%;
     right: 0px;
     z-index: 1; }
-  /* line 358, _scss/wrapped.scss */
+  /* line 407, _scss/wrapped.scss */
   body .page-content {
     height: 100%; }
-    /* line 362, _scss/wrapped.scss */
+    /* line 411, _scss/wrapped.scss */
     body .page-content .work-selector {
       position: absolute;
       z-index: 99;
       right: 30px;
       top: 25px; }
-      /* line 369, _scss/wrapped.scss */
+      /* line 418, _scss/wrapped.scss */
       body .page-content .work-selector:hover {
         cursor: pointer; }
-      /* line 374, _scss/wrapped.scss */
+      /* line 423, _scss/wrapped.scss */
       body .page-content .work-selector img {
         height: 28px;
         width: auto; }
-    /* line 382, _scss/wrapped.scss */
+    /* line 431, _scss/wrapped.scss */
     body .page-content .content-arrow-right {
       width: 150px;
       height: 100%;
@@ -10740,16 +10803,16 @@ body {
       z-index: 10;
       right: 0px;
       bottom: 20px; }
-      /* line 391, _scss/wrapped.scss */
+      /* line 440, _scss/wrapped.scss */
       body .page-content .content-arrow-right .arrowright {
         position: absolute;
         bottom: 15px;
         right: 20px; }
-        /* line 397, _scss/wrapped.scss */
+        /* line 446, _scss/wrapped.scss */
         body .page-content .content-arrow-right .arrowright img {
           width: 20px;
           height: auto; }
-    /* line 405, _scss/wrapped.scss */
+    /* line 454, _scss/wrapped.scss */
     body .page-content .content-arrow-left {
       width: 150px;
       height: 100%;
@@ -10757,16 +10820,16 @@ body {
       z-index: 10;
       left: 0;
       bottom: 20px; }
-      /* line 414, _scss/wrapped.scss */
+      /* line 463, _scss/wrapped.scss */
       body .page-content .content-arrow-left .arrowleft {
         position: absolute;
         bottom: 15px;
         left: 20px; }
-        /* line 420, _scss/wrapped.scss */
+        /* line 469, _scss/wrapped.scss */
         body .page-content .content-arrow-left .arrowleft img {
           width: 20px;
           height: auto; }
-    /* line 428, _scss/wrapped.scss */
+    /* line 477, _scss/wrapped.scss */
     body .page-content .right-content {
       padding: 40px;
       padding-top: 80px;
@@ -10778,85 +10841,85 @@ body {
       position: absolute;
       right: 0px;
       z-index: 2; }
-      /* line 445, _scss/wrapped.scss */
+      /* line 494, _scss/wrapped.scss */
       body .page-content .right-content .more-work-holder .moreworkrow li {
         visibility: hidden;
         margin: 0px;
         padding: 0px; }
-        /* line 451, _scss/wrapped.scss */
+        /* line 500, _scss/wrapped.scss */
         body .page-content .right-content .more-work-holder .moreworkrow li img {
           width: 100%;
           height: auto;
           margin: 0px;
           padding: 0px; }
-    /* line 465, _scss/wrapped.scss */
+    /* line 514, _scss/wrapped.scss */
     body .page-content .greyback {
       background: #424242; }
-      /* line 469, _scss/wrapped.scss */
+      /* line 518, _scss/wrapped.scss */
       body .page-content .greyback .columns {
         background: #424242; }
-    /* line 475, _scss/wrapped.scss */
+    /* line 524, _scss/wrapped.scss */
     body .page-content .work-grid {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3; }
-      /* line 482, _scss/wrapped.scss */
+      /* line 531, _scss/wrapped.scss */
       body .page-content .work-grid .textcover {
         width: 100%;
         height: 100%;
         position: relative;
         z-index: 20; }
-        /* line 489, _scss/wrapped.scss */
+        /* line 538, _scss/wrapped.scss */
         body .page-content .work-grid .textcover img.textimage {
           position: absolute;
           z-index: 19; }
-      /* line 496, _scss/wrapped.scss */
+      /* line 545, _scss/wrapped.scss */
       body .page-content .work-grid .fullwidth {
         margin: 0px;
         width: 100%;
         max-width: 100%; }
-      /* line 503, _scss/wrapped.scss */
+      /* line 552, _scss/wrapped.scss */
       body .page-content .work-grid img.a {
         position: relative;
         z-index: 10; }
-      /* line 509, _scss/wrapped.scss */
+      /* line 558, _scss/wrapped.scss */
       body .page-content .work-grid img.b {
         position: absolute;
         z-index: 9;
         top: 0; }
-      /* line 516, _scss/wrapped.scss */
+      /* line 565, _scss/wrapped.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 520, _scss/wrapped.scss */
+        /* line 569, _scss/wrapped.scss */
         body .page-content .work-grid .row .columns {
           margin: 0px;
           padding: 0px; }
-          /* line 525, _scss/wrapped.scss */
+          /* line 574, _scss/wrapped.scss */
           body .page-content .work-grid .row .columns img {
             min-width: 100%;
             height: auto; }
-    /* line 535, _scss/wrapped.scss */
+    /* line 584, _scss/wrapped.scss */
     body .page-content .work-content {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3;
       overflow: scrolll; }
-      /* line 543, _scss/wrapped.scss */
+      /* line 592, _scss/wrapped.scss */
       body .page-content .work-content .image-holder {
         width: 100%;
         overflow: scroll;
         white-space: nowrap;
         height: 100%; }
-        /* line 550, _scss/wrapped.scss */
+        /* line 599, _scss/wrapped.scss */
         body .page-content .work-content .image-holder img {
           max-width: none;
           height: 100%;
           width: auto;
           margin: 0px;
           padding: 0px; }
-      /* line 560, _scss/wrapped.scss */
+      /* line 609, _scss/wrapped.scss */
       body .page-content .work-content .titleback {
         position: fixed;
         z-index: 11;
@@ -10872,7 +10935,7 @@ body {
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
         transform: rotate(180deg); }
-      /* line 578, _scss/wrapped.scss */
+      /* line 627, _scss/wrapped.scss */
       body .page-content .work-content .title {
         position: fixed;
         z-index: 11;
@@ -10881,70 +10944,70 @@ body {
         text-align: center; }
 
 @media screen and (max-width: 1024px) {
-  /* line 595, _scss/wrapped.scss */
+  /* line 644, _scss/wrapped.scss */
   .left-content, .text {
     width: 100% !important; }
-    /* line 601, _scss/wrapped.scss */
+    /* line 650, _scss/wrapped.scss */
     .left-content .title-image img, .text .title-image img {
       height: 40px !important; }
-    /* line 612, _scss/wrapped.scss */
+    /* line 661, _scss/wrapped.scss */
     .left-content .menu-holder ul li, .text .menu-holder ul li {
       padding-top: 20px !important;
       padding-bottom: 20px !important; }
-      /* line 617, _scss/wrapped.scss */
+      /* line 666, _scss/wrapped.scss */
       .left-content .menu-holder ul li img, .text .menu-holder ul li img {
         height: 40px !important; }
 
-  /* line 627, _scss/wrapped.scss */
+  /* line 676, _scss/wrapped.scss */
   .menu-curtain {
     max-width: 400px !important; }
 
-  /* line 634, _scss/wrapped.scss */
+  /* line 683, _scss/wrapped.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 647, _scss/wrapped.scss */
+  /* line 696, _scss/wrapped.scss */
   body .left-content {
     width: 100% !important; }
-    /* line 651, _scss/wrapped.scss */
+    /* line 700, _scss/wrapped.scss */
     body .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 655, _scss/wrapped.scss */
+      /* line 704, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
-  /* line 662, _scss/wrapped.scss */
+  /* line 711, _scss/wrapped.scss */
   body .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 70% !important;
     height: auto !important;
     min-height: 600px !important; }
-    /* line 670, _scss/wrapped.scss */
+    /* line 719, _scss/wrapped.scss */
     body .text .text-content {
       padding-top: 10px !important;
       padding-bottom: 0px !important; }
-      /* line 675, _scss/wrapped.scss */
+      /* line 724, _scss/wrapped.scss */
       body .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
         padding-top: 0px !important; }
-  /* line 686, _scss/wrapped.scss */
+  /* line 735, _scss/wrapped.scss */
   body .menu-curtain {
     max-width: 100% !important; }
-  /* line 693, _scss/wrapped.scss */
+  /* line 742, _scss/wrapped.scss */
   body .page-content .content-arrow-left, body .page-content .content-arrow-right {
     display: none !important; }
-  /* line 700, _scss/wrapped.scss */
+  /* line 749, _scss/wrapped.scss */
   body .page-content .work-content .image-holder {
     height: auto !important;
     white-space: normal !important; }
-    /* line 705, _scss/wrapped.scss */
+    /* line 754, _scss/wrapped.scss */
     body .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
       margin-left: 0px !important; }
-  /* line 715, _scss/wrapped.scss */
+  /* line 764, _scss/wrapped.scss */
   body .page-content .work-selector {
     display: none !important; } }
