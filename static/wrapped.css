@@ -10887,39 +10887,40 @@ body {
       body .page-content .work-grid img.b {
         position: absolute;
         z-index: 9;
+        left: 0px;
         top: 0; }
-      /* line 565, _scss/wrapped.scss */
+      /* line 566, _scss/wrapped.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 569, _scss/wrapped.scss */
+        /* line 570, _scss/wrapped.scss */
         body .page-content .work-grid .row .columns {
           margin: 0px;
           padding: 0px; }
-          /* line 574, _scss/wrapped.scss */
+          /* line 575, _scss/wrapped.scss */
           body .page-content .work-grid .row .columns img {
             min-width: 100%;
             height: auto; }
-    /* line 584, _scss/wrapped.scss */
+    /* line 585, _scss/wrapped.scss */
     body .page-content .work-content {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3;
       overflow: scrolll; }
-      /* line 592, _scss/wrapped.scss */
+      /* line 593, _scss/wrapped.scss */
       body .page-content .work-content .image-holder {
         width: 100%;
         overflow: scroll;
         white-space: nowrap;
         height: 100%; }
-        /* line 599, _scss/wrapped.scss */
+        /* line 600, _scss/wrapped.scss */
         body .page-content .work-content .image-holder img {
           max-width: none;
           height: 100%;
           width: auto;
           margin: 0px;
           padding: 0px; }
-      /* line 609, _scss/wrapped.scss */
+      /* line 610, _scss/wrapped.scss */
       body .page-content .work-content .titleback {
         position: fixed;
         z-index: 11;
@@ -10935,7 +10936,7 @@ body {
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
         transform: rotate(180deg); }
-      /* line 627, _scss/wrapped.scss */
+      /* line 628, _scss/wrapped.scss */
       body .page-content .work-content .title {
         position: fixed;
         z-index: 11;
@@ -10944,70 +10945,70 @@ body {
         text-align: center; }
 
 @media screen and (max-width: 1024px) {
-  /* line 644, _scss/wrapped.scss */
+  /* line 645, _scss/wrapped.scss */
   .left-content, .text {
     width: 100% !important; }
-    /* line 650, _scss/wrapped.scss */
+    /* line 651, _scss/wrapped.scss */
     .left-content .title-image img, .text .title-image img {
       height: 40px !important; }
-    /* line 661, _scss/wrapped.scss */
+    /* line 662, _scss/wrapped.scss */
     .left-content .menu-holder ul li, .text .menu-holder ul li {
       padding-top: 20px !important;
       padding-bottom: 20px !important; }
-      /* line 666, _scss/wrapped.scss */
+      /* line 667, _scss/wrapped.scss */
       .left-content .menu-holder ul li img, .text .menu-holder ul li img {
         height: 40px !important; }
 
-  /* line 676, _scss/wrapped.scss */
+  /* line 677, _scss/wrapped.scss */
   .menu-curtain {
     max-width: 400px !important; }
 
-  /* line 683, _scss/wrapped.scss */
+  /* line 684, _scss/wrapped.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 696, _scss/wrapped.scss */
+  /* line 697, _scss/wrapped.scss */
   body .left-content {
     width: 100% !important; }
-    /* line 700, _scss/wrapped.scss */
+    /* line 701, _scss/wrapped.scss */
     body .left-content .social-holder {
       bottom: 20px !important; }
-      /* line 704, _scss/wrapped.scss */
+      /* line 705, _scss/wrapped.scss */
       body .left-content .social-holder .fa {
         font-size: 1.5rem !important; }
-  /* line 711, _scss/wrapped.scss */
+  /* line 712, _scss/wrapped.scss */
   body .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 70% !important;
     height: auto !important;
     min-height: 600px !important; }
-    /* line 719, _scss/wrapped.scss */
+    /* line 720, _scss/wrapped.scss */
     body .text .text-content {
       padding-top: 10px !important;
       padding-bottom: 0px !important; }
-      /* line 724, _scss/wrapped.scss */
+      /* line 725, _scss/wrapped.scss */
       body .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
         padding-top: 0px !important; }
-  /* line 735, _scss/wrapped.scss */
+  /* line 736, _scss/wrapped.scss */
   body .menu-curtain {
     max-width: 100% !important; }
-  /* line 742, _scss/wrapped.scss */
+  /* line 743, _scss/wrapped.scss */
   body .page-content .content-arrow-left, body .page-content .content-arrow-right {
     display: none !important; }
-  /* line 749, _scss/wrapped.scss */
+  /* line 750, _scss/wrapped.scss */
   body .page-content .work-content .image-holder {
     height: auto !important;
     white-space: normal !important; }
-    /* line 754, _scss/wrapped.scss */
+    /* line 755, _scss/wrapped.scss */
     body .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
       margin-left: 0px !important; }
-  /* line 764, _scss/wrapped.scss */
+  /* line 765, _scss/wrapped.scss */
   body .page-content .work-selector {
     display: none !important; } }
