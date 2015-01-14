@@ -69,7 +69,6 @@ $(document).ready(function () {
 		lockGrid();
 		checkGridHeight();
 
-
 		$('.text').css('visibility','hidden').hide().fadeOut('slow');
 		$('.menu-curtain ').css("z-index","3");
 		$('.left-content').css("z-index","4");
