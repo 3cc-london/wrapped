@@ -1,0 +1,619 @@
+body 
+{
+	height:100%;
+	margin:0px;
+	font-size:16px;
+	visibility:hidden;
+	-webkit-font-smoothing: subpixel-antialiased;
+	h1,h2,h3 {
+		color:white;
+		text-transform: uppercase;
+	}
+	h1 {
+		font-size:3rem;
+	}
+	p {
+		font-size:1.1rem;
+		color:white;
+		letter-spacing:0.2em;
+		font-family: "aktiv-grotesk-std",sans-serif;
+		font-style: normal;
+		font-weight: 200;
+		-webkit-text-stroke: 0.40px
+	}
+	a:link, a:visited, a:hover, a:active
+	{
+		color:white;
+		text-decoration:none;
+	}
+	.cover-holder {
+		max-width:100%;
+		height:100%;
+		position:fixed;
+		z-index:1;
+		.cover 
+		{		
+			position:fixed;
+			z-index:1;
+			width:100%;
+			height:100%;
+			transition: 5s ease;
+		}
+	}
+	.covertransition {
+		-webkit-transform:scale(1.02); /* Safari and Chrome */
+		-moz-transform:scale(1.02); /* Firefox */
+		-ms-transform:scale(1.02); /* IE 9 */
+		-o-transform:scale(1.02); /* Opera */
+		transform:scale(1.02);
+
+		-webkit-transition: all 05s ease;
+		-moz-transition:    all 05s ease;
+		-o-transition:      all 05s ease;
+		-ms-transition:     all 05s ease;
+		transition:         all 05s ease; 
+	}
+
+	.logo-holder
+	{
+		position:absolute;
+		z-index:98;
+		padding:40px;
+		padding-top:25px;
+		width:100%;
+		height:100px;
+		background:url('#{$assets}/gradient.png');
+		background-repeat: x y;
+
+		img 
+		{
+			width:220px;
+			display:inline-block;
+			vertical-align:top;
+			margin-left:40px;
+			margin-top:3px;
+		}
+
+	}
+
+	.left-content
+	{
+		padding:40px;
+		height:100%;
+		overflow-x:scroll;
+		max-height:100%;
+		width:40%;
+		max-width:450px;
+		position:absolute;
+		z-index:2;
+		display: table;
+
+		.menu-holder 
+		{
+			padding-top:70px;
+			padding-bottom:40px;
+			color:white;
+
+			.menu 
+			{
+				a:link, a:visited, a:hover, a:active 
+				{
+					color:white;
+					text-decoration:none;
+				}
+			}
+
+			ul 
+			{
+				list-style-type: none;
+				margin:0px;
+				padding:0px;
+
+				li 	
+				{
+					padding-top:20px;
+					padding-bottom:20px;
+					letter-spacing: 0.2em;
+					text-transform: uppercase;
+					display:none;
+
+					img 
+					{
+						width:auto;
+						height:60px;
+					}
+
+				}
+			}
+		}
+		
+		.social-holder
+		{
+			display: table-row;
+			height: 1px;
+			color:white;
+			vertical-align:bottom;
+
+			.fa 
+			{
+				font-size:2rem;
+				margin-right:50px;
+				visibility:hidden;
+			}
+		}
+		
+	}
+
+	.text 
+	{
+		min-height:100%;
+		min-width:380px;
+		height:auto;
+		width:40%;
+		max-width:450px;
+		position:absolute;
+		z-index:4;
+		background: rgba(black, 0.5);
+
+		.text-content
+		{
+			padding:40px;
+			padding-top:120px;
+			padding-bottom: 100px;
+
+			.title-image 
+			{
+				padding-bottom:40px;
+				padding-top:20px;
+
+				img 
+				{
+					width:auto;
+					height:60px;
+				}
+			}
+
+			ul 
+			{
+				color:white;
+
+				li 
+				{
+					font-family: "aktiv-grotesk-std",sans-serif;
+					font-style: normal;
+					font-weight: 200;
+					padding:5px;
+					font-size:1.3rem;
+				}
+			}
+
+			.why-us-bottom 
+			{
+				position:absolute;
+				bottom:20px;
+				right:20px;
+				letter-spacing:0.03em;
+				font-family: "aktiv-grotesk-std",sans-serif;
+				font-style: normal;
+				font-weight: 200;
+				min-height:150px;
+
+				.why-us-image
+				{
+					display:inline;
+					padding-right:20px;
+
+					img 
+					{
+						width:auto;
+						height:27px;
+						margin-top:150px;
+					}
+				}
+
+				.why-us-arrow
+				{
+					display:inline;
+					margin-top:-10px;
+
+					img 
+					{
+						width:12px;
+						height:auto;
+						margin-top:150px;				
+					}
+				}
+			}
+			
+		}
+
+	}
+
+	.menu-curtain 
+	{
+		width:0px;
+		max-width:450px;
+		height:100%;
+		background: rgba(black, 0.5);
+		position:fixed;
+		z-index:1;
+	}
+
+	.work-curtain 
+	{
+		width:0px;
+		max-width:600px;
+		height:100%;
+		background: rgba(black, 0.5);
+		position:absolute;
+		max-height:100%;
+		right:0px;
+		z-index:1;
+	}
+
+	.page-content
+	{
+		height:100%;
+
+		.work-selector
+		{
+			position:absolute;
+			z-index:99;			
+			right:30px;
+			top:25px;
+
+			&:hover 
+			{
+				cursor: pointer;
+			}
+
+			img 
+			{
+				height:28px;
+				width:auto;
+			}
+
+		}
+
+			.content-arrow-right
+			{
+				width:150px;
+				height:100%;
+				position:absolute;
+				z-index:10;
+				right:0px;
+				bottom:20px;
+
+				.arrowright
+				{
+					position:absolute;
+					bottom:15px;
+					right:20px;
+
+					img 
+					{
+						width:20px;
+						height:auto;
+					}
+				}
+			}
+
+			.content-arrow-left
+			{
+				width:150px;
+				height:100%;
+				position:absolute;
+				z-index:10;
+				left:0;
+				bottom:20px;
+
+				.arrowleft
+				{
+					position:absolute;
+					bottom:15px;
+					left:20px;
+
+					img 
+					{
+						width:20px;
+						height:auto;
+					}
+				}
+			}
+
+		.right-content
+		{
+			padding:40px;
+			padding-top:80px;
+			height:100%;
+			overflow-x:scroll;
+			max-height:100%;
+			width:100%;
+			max-width:600px;
+			position:absolute;
+			right:0px;
+			z-index:2;
+
+			.more-work-holder
+			{
+				.moreworkrow
+				{
+					li 
+					{
+						visibility: hidden;
+						margin:0px;
+						padding:0px;
+
+						img 
+						{
+							width:100%;
+							height:auto;
+							margin:0px;
+							padding:0px;
+						}				
+					}
+				}
+
+			}
+
+		}
+
+		.greyback
+		{
+			background:$darkgrey;
+
+			.columns
+			{
+				background:$darkgrey;
+			}
+		}
+
+		.work-grid
+		{
+			height:100%;
+			width:100%;
+			position:absolute;
+			z-index:3;
+
+			.textcover
+			{
+				width: 100%;
+				height: 100%;
+				position: relative;
+				z-index: 20;
+
+				img.textimage
+				{
+					position:absolute;
+					z-index: 19;
+				}
+			}
+
+			.fullwidth
+			{
+				margin:0px;
+				width:100%;
+				max-width:100%;
+			}
+
+			img.a 
+			{
+				position: relative;
+				z-index: 10; 
+			}
+				
+			img.b 
+			{
+				position: absolute;
+				z-index: 9; 
+				top:0;
+			}
+
+			.row 
+			{
+				margin:0px;
+
+				.columns
+				{
+					margin:0px;
+					padding:0px;
+
+					img  
+					{
+						min-width: 100%;
+						height: auto;
+					}
+				}
+			}
+
+		}
+
+		.work-content
+		{
+			height:100%;
+			width:100%;
+			position:absolute;
+			z-index:3;
+			overflow:scrolll;
+
+			.image-holder
+			{
+				width: 100%;
+				overflow: scroll;
+				white-space: nowrap;
+				height: 100%;
+
+				img 
+				{
+					max-width: none;
+					height: 100%;
+					width: auto;
+					margin:0px;
+					padding:0px;
+				}
+			}
+
+			.titleback
+			{
+				position:fixed;
+				z-index:11;
+				bottom:0px;
+				width:100%;
+				height:100px;
+				background:url('#{$assets}/gradient.png');
+				background-repeat: x y;
+				color:white;
+				text-align:center;
+				-webkit-transform: rotate(180deg);
+				-moz-transform: rotate(180deg);
+				-ms-transform: rotate(180deg);
+				-o-transform: rotate(180deg);
+				transform: rotate(180deg);
+
+			}
+			.title
+			{
+				position:fixed;
+				z-index:11;
+				bottom:15px;
+				width:100%;
+				text-align:center;
+
+			}
+		}
+}
+
+
+}
+
+@media screen and (max-width: 1024px)
+{
+	.left-content, .text
+	{
+		width:100% !important;
+
+		.title-image 
+		{
+			img 
+			{
+				height:40px !important;
+			}
+		}
+
+		.menu-holder 
+		{
+
+			ul
+			{
+				li 
+				{
+					padding-top:20px !important;
+					padding-bottom:20px !important;
+
+					img 
+					{
+						height:40px !important;
+					}
+				}
+			}
+		}
+
+	}
+
+	.menu-curtain 
+	{
+		max-width:400px !important;
+	}
+
+	.page-content 
+	{
+		.content-arrow-left, .content-arrow-right
+		{
+			width:100px !important;
+		}
+	}
+
+}
+
+//640px
+@media #{$small-only} 
+{ 
+	body 
+	{
+		.left-content
+		{
+			width:100% !important;
+
+			.social-holder
+			{
+				bottom:20px !important;
+
+				.fa 
+				{
+					font-size:1.5rem !important;
+				}
+			}
+		}
+
+		.text 
+		{
+			width:100% !important;
+			max-width:100% !important;
+			margin-top:70% !important;
+			height:auto !important;
+			min-height: 600px !important;
+
+			.text-content 
+			{
+				padding-top:10px !important;
+				padding-bottom:0px !important;
+
+				.why-us-bottom 
+				{
+					position:relative !important;
+					width:100% !important;
+					text-align:right !important;
+					padding-top:0px !important;
+				}
+			}
+
+		}
+
+		.menu-curtain 
+		{
+			max-width:100% !important;
+		}
+
+		.page-content
+		{
+			.content-arrow-left, .content-arrow-right
+			{
+				display:none !important;
+			}		
+
+			.work-content
+			{
+					.image-holder
+					{
+						height: auto !important;
+						white-space: normal !important;
+
+						img 
+						{
+							max-width: 100% !important;
+							height: auto !important;
+							width: 100% !important;
+							margin-left:0px !important;
+						}
+					}
+			}
+
+			.work-selector
+			{
+				display:none !important;
+			}
+
+		}
+		
+	}
+}
