@@ -60,3 +60,13 @@ a.toggle.active i::after {
 a.toggle {
   color:white;
 }
+@media #{$small-only} 
+{ 
+    a.toggle {
+        .active {
+            .blog {
+                display:none;
+            }
+        }
+    }
+}

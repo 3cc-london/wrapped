@@ -63,17 +63,80 @@ body
 		width:100%;
 		height:100px;
 		background:url('#{$assets}/gradient.png');
-		background-repeat: x y;
-
-		img 
-		{
-			width:220px;
+		background-repeat: x y;    
+		> a {
 			display:inline-block;
-			vertical-align:top;
-			margin-left:40px;
-			margin-top:3px;
+			> img {
+				width:220px;
+				display:inline-block;
+				vertical-align:top;
+				margin-left:30px;
+				margin-top:3px;
+				float:none;
+			}
 		}
+	}
 
+	.rightcontent {
+		position:absolute;
+		z-index:2;
+		width:100%;
+		height:100%;
+		> .blog{
+			width:100%;
+			height:100%;
+			max-width:1000px;
+			margin:auto;
+			padding-top:100px;
+			&.menuactive {
+				opacity:0.3;
+			}
+			> .title-holder {
+				width:100%;
+				text-align:center;
+				padding-bottom: 50px;
+				max-width: 70%;
+				margin: auto;
+				> img {
+					max-height:40px;
+					max-width:100%;
+				}
+			}
+			> .row {
+				margin-bottom:50px;
+				> .columns {
+					&.image {
+						max-width:100%;
+					}
+					&.copy {
+						> a {
+							> h1 {
+								color:white;
+								margin:0px;
+								font-size:1.6rem;
+								line-height:100%;
+							}
+						}
+						> p {
+							color:#FAFAFA;
+							> a {
+								font-size:0.9rem;
+							}
+						}
+					}
+					&.blogarticle {
+						> h1 {
+							text-align:center;
+						}
+						> p {
+							&.intro {
+								text-align:center;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 
 	.left-content
@@ -122,7 +185,6 @@ body
 						width:auto;
 						height:60px;
 					}
-
 				}
 			}
 		}
@@ -141,7 +203,6 @@ body
 				visibility:hidden;
 			}
 		}
-		
 	}
 
 	.text 
@@ -224,9 +285,7 @@ body
 					}
 				}
 			}
-			
 		}
-
 	}
 
 	.menu-curtain 
@@ -272,54 +331,53 @@ body
 				height:28px;
 				width:auto;
 			}
-
 		}
 
-			.content-arrow-right
+		.content-arrow-right
+		{
+			width:150px;
+			height:100%;
+			position:absolute;
+			z-index:10;
+			right:0px;
+			bottom:20px;
+
+			.arrowright
 			{
-				width:150px;
-				height:100%;
 				position:absolute;
-				z-index:10;
-				right:0px;
-				bottom:20px;
+				bottom:15px;
+				right:20px;
 
-				.arrowright
+				img 
 				{
-					position:absolute;
-					bottom:15px;
-					right:20px;
-
-					img 
-					{
-						width:20px;
-						height:auto;
-					}
+					width:20px;
+					height:auto;
 				}
 			}
+		}
 
-			.content-arrow-left
+		.content-arrow-left
+		{
+			width:150px;
+			height:100%;
+			position:absolute;
+			z-index:10;
+			left:0;
+			bottom:20px;
+
+			.arrowleft
 			{
-				width:150px;
-				height:100%;
 				position:absolute;
-				z-index:10;
-				left:0;
-				bottom:20px;
+				bottom:15px;
+				left:20px;
 
-				.arrowleft
+				img 
 				{
-					position:absolute;
-					bottom:15px;
-					left:20px;
-
-					img 
-					{
-						width:20px;
-						height:auto;
-					}
+					width:20px;
+					height:auto;
 				}
 			}
+		}
 
 		.right-content
 		{
@@ -355,7 +413,6 @@ body
 				}
 
 			}
-
 		}
 
 		.greyback
@@ -425,7 +482,6 @@ body
 					}
 				}
 			}
-
 		}
 
 		.work-content
@@ -481,9 +537,7 @@ body
 
 			}
 		}
-}
-
-
+	}
 }
 
 @media screen and (max-width: 1024px)
@@ -540,6 +594,10 @@ body
 { 
 	body 
 	{
+		h1 {
+			font-size:1.5rem;
+		}
+
 		.left-content
 		{
 			width:100% !important;
@@ -593,19 +651,19 @@ body
 
 			.work-content
 			{
-					.image-holder
-					{
-						height: auto !important;
-						white-space: normal !important;
+				.image-holder
+				{
+					height: auto !important;
+					white-space: normal !important;
 
-						img 
-						{
-							max-width: 100% !important;
-							height: auto !important;
-							width: 100% !important;
-							margin-left:0px !important;
-						}
+					img 
+					{
+						max-width: 100% !important;
+						height: auto !important;
+						width: 100% !important;
+						margin-left:0px !important;
 					}
+				}
 			}
 
 			.work-selector
@@ -613,7 +671,36 @@ body
 				display:none !important;
 			}
 
+			.rightcontent {
+				> .blog{
+					> .row {
+						max-width:85%;
+						margin:auto;
+						> .columns {
+							&.copy {
+								> a {
+									> h1 {
+										margin-top:20px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
-		
+	}
+}
+@media screen and (max-width: 320px)
+{
+	.logo-holder
+	{ 
+		> a {
+			> img {
+				width: 180px !important;
+				margin-top: 7px !important;
+				margin-left: 20px !important;
+			}
+		}
 	}
 }
