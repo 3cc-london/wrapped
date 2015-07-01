@@ -448,7 +448,7 @@ body {
 
 /* line 396, /home/vagrant/web/wrapped/_source/bower_components/foundation/scss/foundation/components/_global.scss */
 body {
-  background: #F4F4F4;
+  background: #FFFFFF;
   color: #A6A6A6;
   padding: 0;
   margin: 0;
@@ -1737,6 +1737,10 @@ select {
     right: 91.66667%;
     left: auto; } }
 /* line 1, _scss/_global.scss */
+html {
+  overflow-x: hidden; }
+
+/* line 4, _scss/_global.scss */
 .overflow {
   overflow: hidden !important; }
 
@@ -1961,44 +1965,61 @@ body {
       margin: auto;
       padding-top: 100px; }
       /* line 91, _scss/_styles.scss */
-      body .rightcontent > .blog.menuactive {
-        opacity: 0.3; }
-      /* line 94, _scss/_styles.scss */
       body .rightcontent > .blog > .title-holder {
         width: 100%;
         text-align: center;
         padding-bottom: 50px;
         max-width: 70%;
         margin: auto; }
-        /* line 100, _scss/_styles.scss */
+        /* line 97, _scss/_styles.scss */
         body .rightcontent > .blog > .title-holder > img {
           max-height: 40px;
           max-width: 100%; }
-      /* line 105, _scss/_styles.scss */
+      /* line 102, _scss/_styles.scss */
       body .rightcontent > .blog > .row {
-        margin-bottom: 50px; }
-        /* line 108, _scss/_styles.scss */
-        body .rightcontent > .blog > .row > .columns.image {
+        margin-bottom: 50px;
+        padding: 0px 20px 0px 20px; }
+        /* line 106, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div.image {
           max-width: 100%; }
-        /* line 113, _scss/_styles.scss */
-        body .rightcontent > .blog > .row > .columns.copy > a > h1 {
+        /* line 110, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div.blog-article > img, body .rightcontent > .blog > .row > div.blog-article p {
+          margin-top: 20px;
+          margin-bottom: 20px; }
+        /* line 114, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div.blog-article p {
+          text-align: left;
+          margin-top: 20px;
+          margin-bottom: 20px; }
+          /* line 118, _scss/_styles.scss */
+          body .rightcontent > .blog > .row > div.blog-article p.intro {
+            margin-bottom: 20px; }
+        /* line 122, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div.blog-article > h1, body .rightcontent > .blog > .row > div.blog-article .intro {
+          text-align: center;
+          max-width: 85%;
+          margin: auto; }
+        /* line 127, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div.blog-article p, body .rightcontent > .blog > .row > div.blog-article h1 {
+          max-width: 85%;
+          margin-left: auto;
+          margin-right: auto; }
+        /* line 132, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div.blog-article h1 {
+          margin-bottom: 40px; }
+        /* line 137, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div > a > h1 {
           color: white;
           margin: 0px;
           font-size: 1.6rem;
           line-height: 100%; }
-        /* line 120, _scss/_styles.scss */
-        body .rightcontent > .blog > .row > .columns.copy > p {
+        /* line 144, _scss/_styles.scss */
+        body .rightcontent > .blog > .row > div > p {
           color: #FAFAFA; }
-          /* line 122, _scss/_styles.scss */
-          body .rightcontent > .blog > .row > .columns.copy > p > a {
+          /* line 146, _scss/_styles.scss */
+          body .rightcontent > .blog > .row > div > p > a {
             font-size: 0.9rem; }
-        /* line 128, _scss/_styles.scss */
-        body .rightcontent > .blog > .row > .columns.blogarticle > h1 {
-          text-align: center; }
-        /* line 132, _scss/_styles.scss */
-        body .rightcontent > .blog > .row > .columns.blogarticle > p.intro {
-          text-align: center; }
-  /* line 142, _scss/_styles.scss */
+  /* line 155, _scss/_styles.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
@@ -2009,43 +2030,46 @@ body {
     position: absolute;
     z-index: 2;
     display: table; }
-    /* line 154, _scss/_styles.scss */
+    /* line 167, _scss/_styles.scss */
     body .left-content .menu-holder {
       padding-top: 70px;
       padding-bottom: 40px;
       color: white; }
-      /* line 162, _scss/_styles.scss */
-      body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
-        color: white;
-        text-decoration: none; }
-      /* line 169, _scss/_styles.scss */
+      /* line 173, _scss/_styles.scss */
+      body .left-content .menu-holder .menu {
+        margin-bottom: 60px; }
+        /* line 176, _scss/_styles.scss */
+        body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
+          color: white;
+          text-decoration: none; }
+      /* line 183, _scss/_styles.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 175, _scss/_styles.scss */
+        /* line 189, _scss/_styles.scss */
         body .left-content .menu-holder ul li {
           padding-top: 20px;
           padding-bottom: 20px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
           display: none; }
-          /* line 183, _scss/_styles.scss */
+          /* line 197, _scss/_styles.scss */
           body .left-content .menu-holder ul li img {
             width: auto;
             height: 60px; }
-    /* line 192, _scss/_styles.scss */
+    /* line 206, _scss/_styles.scss */
     body .left-content .social-holder {
-      display: table-row;
-      height: 1px;
       color: white;
-      vertical-align: bottom; }
-      /* line 199, _scss/_styles.scss */
+      position: absolute;
+      bottom: 60px;
+      width: 100%; }
+      /* line 213, _scss/_styles.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 208, _scss/_styles.scss */
+  /* line 222, _scss/_styles.scss */
   body .text {
     min-height: 100%;
     min-width: 380px;
@@ -2055,30 +2079,30 @@ body {
     position: absolute;
     z-index: 4;
     background: rgba(0, 0, 0, 0.5); }
-    /* line 219, _scss/_styles.scss */
+    /* line 233, _scss/_styles.scss */
     body .text .text-content {
       padding: 40px;
       padding-top: 120px;
       padding-bottom: 100px; }
-      /* line 225, _scss/_styles.scss */
+      /* line 239, _scss/_styles.scss */
       body .text .text-content .title-image {
         padding-bottom: 40px;
         padding-top: 20px; }
-        /* line 230, _scss/_styles.scss */
+        /* line 244, _scss/_styles.scss */
         body .text .text-content .title-image img {
           width: auto;
           height: 60px; }
-      /* line 237, _scss/_styles.scss */
+      /* line 251, _scss/_styles.scss */
       body .text .text-content ul {
         color: white; }
-        /* line 241, _scss/_styles.scss */
+        /* line 255, _scss/_styles.scss */
         body .text .text-content ul li {
           font-family: "aktiv-grotesk-std",sans-serif;
           font-style: normal;
           font-weight: 200;
           padding: 5px;
           font-size: 1.3rem; }
-      /* line 251, _scss/_styles.scss */
+      /* line 265, _scss/_styles.scss */
       body .text .text-content .why-us-bottom {
         position: absolute;
         bottom: 20px;
@@ -2088,25 +2112,25 @@ body {
         font-style: normal;
         font-weight: 200;
         min-height: 150px; }
-        /* line 262, _scss/_styles.scss */
+        /* line 276, _scss/_styles.scss */
         body .text .text-content .why-us-bottom .why-us-image {
           display: inline;
           padding-right: 20px; }
-          /* line 267, _scss/_styles.scss */
+          /* line 281, _scss/_styles.scss */
           body .text .text-content .why-us-bottom .why-us-image img {
             width: auto;
             height: 27px;
             margin-top: 150px; }
-        /* line 275, _scss/_styles.scss */
+        /* line 289, _scss/_styles.scss */
         body .text .text-content .why-us-bottom .why-us-arrow {
           display: inline;
           margin-top: -10px; }
-          /* line 280, _scss/_styles.scss */
+          /* line 294, _scss/_styles.scss */
           body .text .text-content .why-us-bottom .why-us-arrow img {
             width: 12px;
             height: auto;
             margin-top: 150px; }
-  /* line 291, _scss/_styles.scss */
+  /* line 305, _scss/_styles.scss */
   body .menu-curtain {
     width: 0px;
     max-width: 450px;
@@ -2114,7 +2138,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1; }
-  /* line 301, _scss/_styles.scss */
+  /* line 315, _scss/_styles.scss */
   body .work-curtain {
     width: 0px;
     max-width: 600px;
@@ -2124,23 +2148,23 @@ body {
     max-height: 100%;
     right: 0px;
     z-index: 1; }
-  /* line 313, _scss/_styles.scss */
+  /* line 327, _scss/_styles.scss */
   body .page-content {
     height: 100%; }
-    /* line 317, _scss/_styles.scss */
+    /* line 331, _scss/_styles.scss */
     body .page-content .work-selector {
       position: absolute;
       z-index: 99;
       right: 30px;
       top: 25px; }
-      /* line 324, _scss/_styles.scss */
+      /* line 338, _scss/_styles.scss */
       body .page-content .work-selector:hover {
         cursor: pointer; }
-      /* line 329, _scss/_styles.scss */
+      /* line 343, _scss/_styles.scss */
       body .page-content .work-selector img {
         height: 28px;
         width: auto; }
-    /* line 336, _scss/_styles.scss */
+    /* line 350, _scss/_styles.scss */
     body .page-content .content-arrow-right {
       width: 150px;
       height: 100%;
@@ -2148,16 +2172,16 @@ body {
       z-index: 10;
       right: 0px;
       bottom: 20px; }
-      /* line 345, _scss/_styles.scss */
+      /* line 359, _scss/_styles.scss */
       body .page-content .content-arrow-right .arrowright {
         position: absolute;
         bottom: 15px;
         right: 20px; }
-        /* line 351, _scss/_styles.scss */
+        /* line 365, _scss/_styles.scss */
         body .page-content .content-arrow-right .arrowright img {
           width: 20px;
           height: auto; }
-    /* line 359, _scss/_styles.scss */
+    /* line 373, _scss/_styles.scss */
     body .page-content .content-arrow-left {
       width: 150px;
       height: 100%;
@@ -2165,16 +2189,16 @@ body {
       z-index: 10;
       left: 0;
       bottom: 20px; }
-      /* line 368, _scss/_styles.scss */
+      /* line 382, _scss/_styles.scss */
       body .page-content .content-arrow-left .arrowleft {
         position: absolute;
         bottom: 15px;
         left: 20px; }
-        /* line 374, _scss/_styles.scss */
+        /* line 388, _scss/_styles.scss */
         body .page-content .content-arrow-left .arrowleft img {
           width: 20px;
           height: auto; }
-    /* line 382, _scss/_styles.scss */
+    /* line 396, _scss/_styles.scss */
     body .page-content .right-content {
       padding: 40px;
       padding-top: 80px;
@@ -2186,85 +2210,85 @@ body {
       position: absolute;
       right: 0px;
       z-index: 2; }
-      /* line 399, _scss/_styles.scss */
+      /* line 413, _scss/_styles.scss */
       body .page-content .right-content .more-work-holder .moreworkrow li {
         visibility: hidden;
         margin: 0px;
         padding: 0px; }
-        /* line 405, _scss/_styles.scss */
+        /* line 419, _scss/_styles.scss */
         body .page-content .right-content .more-work-holder .moreworkrow li img {
           width: 100%;
           height: auto;
           margin: 0px;
           padding: 0px; }
-    /* line 418, _scss/_styles.scss */
+    /* line 432, _scss/_styles.scss */
     body .page-content .greyback {
       background: #424242; }
-      /* line 422, _scss/_styles.scss */
+      /* line 436, _scss/_styles.scss */
       body .page-content .greyback .columns {
         background: #424242; }
-    /* line 428, _scss/_styles.scss */
+    /* line 442, _scss/_styles.scss */
     body .page-content .work-grid {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3; }
-      /* line 435, _scss/_styles.scss */
+      /* line 449, _scss/_styles.scss */
       body .page-content .work-grid .textcover {
         width: 100%;
         height: 100%;
         position: relative;
         z-index: 20; }
-        /* line 442, _scss/_styles.scss */
+        /* line 456, _scss/_styles.scss */
         body .page-content .work-grid .textcover img.textimage {
           position: absolute;
           z-index: 19; }
-      /* line 449, _scss/_styles.scss */
+      /* line 463, _scss/_styles.scss */
       body .page-content .work-grid .fullwidth {
         margin: 0px;
         width: 100%;
         max-width: 100%; }
-      /* line 456, _scss/_styles.scss */
+      /* line 470, _scss/_styles.scss */
       body .page-content .work-grid img.a {
         position: relative;
         z-index: 10; }
-      /* line 462, _scss/_styles.scss */
+      /* line 476, _scss/_styles.scss */
       body .page-content .work-grid img.b {
         position: absolute;
         z-index: 9;
         top: 0; }
-      /* line 469, _scss/_styles.scss */
+      /* line 483, _scss/_styles.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 473, _scss/_styles.scss */
+        /* line 487, _scss/_styles.scss */
         body .page-content .work-grid .row .columns {
           margin: 0px;
           padding: 0px; }
-          /* line 478, _scss/_styles.scss */
+          /* line 492, _scss/_styles.scss */
           body .page-content .work-grid .row .columns img {
             min-width: 100%;
             height: auto; }
-    /* line 487, _scss/_styles.scss */
+    /* line 501, _scss/_styles.scss */
     body .page-content .work-content {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3;
       overflow: scrolll; }
-      /* line 495, _scss/_styles.scss */
+      /* line 509, _scss/_styles.scss */
       body .page-content .work-content .image-holder {
         width: 100%;
         overflow: scroll;
         white-space: nowrap;
         height: 100%; }
-        /* line 502, _scss/_styles.scss */
+        /* line 516, _scss/_styles.scss */
         body .page-content .work-content .image-holder img {
           max-width: none;
           height: 100%;
           width: auto;
           margin: 0px;
           padding: 0px; }
-      /* line 512, _scss/_styles.scss */
+      /* line 526, _scss/_styles.scss */
       body .page-content .work-content .titleback {
         position: fixed;
         z-index: 11;
@@ -2280,7 +2304,7 @@ body {
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
         transform: rotate(180deg); }
-      /* line 530, _scss/_styles.scss */
+      /* line 544, _scss/_styles.scss */
       body .page-content .work-content .title {
         position: fixed;
         z-index: 11;
@@ -2289,85 +2313,99 @@ body {
         text-align: center; }
 
 @media screen and (max-width: 1024px) {
-  /* line 545, _scss/_styles.scss */
+  /* line 559, _scss/_styles.scss */
   .left-content, .text {
     width: 100% !important; }
-    /* line 551, _scss/_styles.scss */
+    /* line 565, _scss/_styles.scss */
     .left-content .title-image img, .text .title-image img {
       height: 40px !important; }
-    /* line 562, _scss/_styles.scss */
+    /* line 576, _scss/_styles.scss */
     .left-content .menu-holder ul li, .text .menu-holder ul li {
       padding-top: 20px !important;
       padding-bottom: 20px !important; }
-      /* line 567, _scss/_styles.scss */
+      /* line 581, _scss/_styles.scss */
       .left-content .menu-holder ul li img, .text .menu-holder ul li img {
         height: 40px !important; }
 
-  /* line 577, _scss/_styles.scss */
+  /* line 591, _scss/_styles.scss */
   .menu-curtain {
     max-width: 400px !important; }
 
-  /* line 584, _scss/_styles.scss */
+  /* line 598, _scss/_styles.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 597, _scss/_styles.scss */
+  /* line 610, _scss/_styles.scss */
   body h1 {
     font-size: 1.5rem; }
-  /* line 601, _scss/_styles.scss */
+  /* line 614, _scss/_styles.scss */
   body .left-content {
     width: 100% !important; }
-    /* line 605, _scss/_styles.scss */
-    body .left-content .social-holder {
-      bottom: 20px !important; }
-      /* line 609, _scss/_styles.scss */
-      body .left-content .social-holder .fa {
-        font-size: 1.5rem !important; }
-  /* line 616, _scss/_styles.scss */
+    /* line 618, _scss/_styles.scss */
+    body .left-content .menu {
+      margin-bottom: 20px; }
+    /* line 624, _scss/_styles.scss */
+    body .left-content .social-holder .fa {
+      font-size: 1.5rem !important; }
+  /* line 631, _scss/_styles.scss */
   body .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 70% !important;
     height: auto !important;
     min-height: 600px !important; }
-    /* line 624, _scss/_styles.scss */
+    /* line 639, _scss/_styles.scss */
     body .text .text-content {
       padding-top: 10px !important;
       padding-bottom: 0px !important; }
-      /* line 629, _scss/_styles.scss */
+      /* line 644, _scss/_styles.scss */
       body .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
         padding-top: 0px !important; }
-  /* line 640, _scss/_styles.scss */
+  /* line 655, _scss/_styles.scss */
   body .menu-curtain {
     max-width: 100% !important; }
-  /* line 647, _scss/_styles.scss */
+  /* line 662, _scss/_styles.scss */
   body .page-content .content-arrow-left, body .page-content .content-arrow-right {
     display: none !important; }
-  /* line 654, _scss/_styles.scss */
+  /* line 669, _scss/_styles.scss */
   body .page-content .work-content .image-holder {
     height: auto !important;
     white-space: normal !important; }
-    /* line 659, _scss/_styles.scss */
+    /* line 674, _scss/_styles.scss */
     body .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
       margin-left: 0px !important; }
-  /* line 669, _scss/_styles.scss */
+  /* line 684, _scss/_styles.scss */
   body .page-content .work-selector {
     display: none !important; }
-  /* line 676, _scss/_styles.scss */
-  body .page-content .rightcontent > .blog > .row {
-    max-width: 85%;
-    margin: auto; }
-    /* line 682, _scss/_styles.scss */
-    body .page-content .rightcontent > .blog > .row > .columns.copy > a > h1 {
-      margin-top: 20px; } }
+  /* line 690, _scss/_styles.scss */
+  body .page-content .rightcontent > .blog {
+    text-align: center; }
+    /* line 692, _scss/_styles.scss */
+    body .page-content .rightcontent > .blog > .row {
+      margin-bottom: 20px; }
+      /* line 694, _scss/_styles.scss */
+      body .page-content .rightcontent > .blog > .row.article {
+        margin-top: 50% !important; }
+      /* line 697, _scss/_styles.scss */
+      body .page-content .rightcontent > .blog > .row > .columns {
+        padding-top: 20px; }
+        /* line 701, _scss/_styles.scss */
+        body .page-content .rightcontent > .blog > .row > .columns.copy > a > h1 {
+          margin-top: 20px; }
+      /* line 708, _scss/_styles.scss */
+      body .page-content .rightcontent > .blog > .row > .columns.blog-article {
+        margin-top: 30%; }
+      /* line 711, _scss/_styles.scss */
+      body .page-content .rightcontent > .blog > .row > .columns p {
+        font-size: 0.9rem; } }
 @media screen and (max-width: 320px) {
-  /* line 699, _scss/_styles.scss */
+  /* line 726, _scss/_styles.scss */
   .logo-holder > a > img {
     width: 180px !important;
     margin-top: 7px !important;

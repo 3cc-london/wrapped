@@ -30,7 +30,6 @@ $(document).ready(function () {
 		$( '.content-arrow-right' ).css("display", "none");
 		//Burger Animation
 		$('a.toggle').addClass('active');
-		$('.blog').addClass('menuactive');
 			
 		$('.menu-curtain').animate({
 			width: '100%'
@@ -90,7 +89,6 @@ $(document).ready(function () {
 		setTimeout(function()
 		{
 			$('.menu-curtain ').css("z-index","1");
-			$('.blog').removeClass('menuactive');
 		}, 500);
 	}
 
