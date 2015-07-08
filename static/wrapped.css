@@ -1882,41 +1882,44 @@ body {
   visibility: hidden;
   -webkit-font-smoothing: subpixel-antialiased; }
   /* line 8, _scss/_styles.scss */
-  body h1, body h2, body h3 {
+  body h1 {
+    color: white; }
+  /* line 11, _scss/_styles.scss */
+  body h2, body h3 {
     color: white;
     text-transform: uppercase; }
-  /* line 12, _scss/_styles.scss */
+  /* line 15, _scss/_styles.scss */
   body h1, body p {
     letter-spacing: 0.2em;
     font-family: "aktiv-grotesk-std",sans-serif;
     font-style: normal;
     font-weight: 200; }
-  /* line 18, _scss/_styles.scss */
+  /* line 21, _scss/_styles.scss */
   body h1 {
     font-size: 3rem; }
-  /* line 21, _scss/_styles.scss */
+  /* line 24, _scss/_styles.scss */
   body p {
     font-size: 1.1rem;
     color: white;
     -webkit-text-stroke: 0.4px; }
-  /* line 26, _scss/_styles.scss */
+  /* line 29, _scss/_styles.scss */
   body a:link, body a:visited, body a:hover, body a:active {
     color: white;
     text-decoration: none; }
-  /* line 31, _scss/_styles.scss */
+  /* line 34, _scss/_styles.scss */
   body .cover-holder {
     max-width: 100%;
     height: 100%;
     position: fixed;
     z-index: 1; }
-    /* line 36, _scss/_styles.scss */
+    /* line 39, _scss/_styles.scss */
     body .cover-holder .cover {
       position: fixed;
       z-index: 1;
       width: 100%;
       height: 100%;
       transition: 5s ease; }
-  /* line 45, _scss/_styles.scss */
+  /* line 48, _scss/_styles.scss */
   body .covertransition {
     -webkit-transform: scale(1.02);
     /* Safari and Chrome */
@@ -1932,7 +1935,7 @@ body {
     -o-transition: all 05s ease;
     -ms-transition: all 05s ease;
     transition: all 05s ease; }
-  /* line 59, _scss/_styles.scss */
+  /* line 62, _scss/_styles.scss */
   body .logo-holder {
     position: absolute;
     z-index: 98;
@@ -1942,10 +1945,10 @@ body {
     height: 100px;
     background: url("../assets/images/gradient.png");
     background-repeat: x y; }
-    /* line 69, _scss/_styles.scss */
+    /* line 72, _scss/_styles.scss */
     body .logo-holder > a {
       display: inline-block; }
-      /* line 71, _scss/_styles.scss */
+      /* line 74, _scss/_styles.scss */
       body .logo-holder > a > img {
         width: 220px;
         display: inline-block;
@@ -1953,20 +1956,20 @@ body {
         margin-left: 30px;
         margin-top: 3px;
         float: none; }
-  /* line 82, _scss/_styles.scss */
+  /* line 85, _scss/_styles.scss */
   body .rightcontent {
     position: absolute;
     z-index: 2;
     width: 100%;
     height: 100%; }
-    /* line 87, _scss/_styles.scss */
+    /* line 90, _scss/_styles.scss */
     body .rightcontent > .blog {
       width: 100%;
       height: 100%;
       max-width: 1000px;
       margin: auto;
       padding-top: 100px; }
-      /* line 93, _scss/_styles.scss */
+      /* line 96, _scss/_styles.scss */
       body .rightcontent > .blog > .title-holder {
         width: 100%;
         text-align: center;
@@ -1974,64 +1977,64 @@ body {
         max-width: 70%;
         margin: auto;
         margin-top: 50px; }
-        /* line 100, _scss/_styles.scss */
+        /* line 103, _scss/_styles.scss */
         body .rightcontent > .blog > .title-holder > img {
           width: 50%; }
-      /* line 104, _scss/_styles.scss */
+      /* line 107, _scss/_styles.scss */
       body .rightcontent > .blog > .row {
         margin-bottom: 50px;
         padding: 0px 20px 0px 20px; }
-        /* line 108, _scss/_styles.scss */
+        /* line 111, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div.image {
           max-width: 100%; }
-        /* line 112, _scss/_styles.scss */
+        /* line 115, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div.blog-article > img, body .rightcontent > .blog > .row > div.blog-article p {
           margin-top: 20px;
           margin-bottom: 20px; }
-        /* line 116, _scss/_styles.scss */
+        /* line 119, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div.blog-article p {
           text-align: left;
           margin-top: 20px;
           margin-bottom: 20px; }
-          /* line 120, _scss/_styles.scss */
+          /* line 123, _scss/_styles.scss */
           body .rightcontent > .blog > .row > div.blog-article p.intro {
             margin-bottom: 20px; }
-        /* line 124, _scss/_styles.scss */
+        /* line 127, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div.blog-article > h1, body .rightcontent > .blog > .row > div.blog-article .intro {
           text-align: center;
           max-width: 85%;
           margin: auto; }
-        /* line 129, _scss/_styles.scss */
+        /* line 132, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div.blog-article p, body .rightcontent > .blog > .row > div.blog-article h1 {
           max-width: 85%;
           margin-left: auto;
           margin-right: auto; }
-        /* line 134, _scss/_styles.scss */
+        /* line 137, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div.blog-article h1 {
           margin-bottom: 40px; }
-        /* line 139, _scss/_styles.scss */
+        /* line 142, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div > a > h1 {
           color: white;
           margin: 0px;
           font-size: 1.6rem;
           line-height: 100%; }
-        /* line 146, _scss/_styles.scss */
+        /* line 149, _scss/_styles.scss */
         body .rightcontent > .blog > .row > div > p {
           color: #FAFAFA; }
-          /* line 148, _scss/_styles.scss */
+          /* line 151, _scss/_styles.scss */
           body .rightcontent > .blog > .row > div > p > a {
             font-size: 0.9rem; }
-        /* line 153, _scss/_styles.scss */
+        /* line 156, _scss/_styles.scss */
         body .rightcontent > .blog > .row.intro {
           margin-bottom: 80px; }
-          /* line 155, _scss/_styles.scss */
+          /* line 158, _scss/_styles.scss */
           body .rightcontent > .blog > .row.intro > .columns {
             padding-top: 0px; }
-            /* line 157, _scss/_styles.scss */
+            /* line 160, _scss/_styles.scss */
             body .rightcontent > .blog > .row.intro > .columns > p {
               margin: 0px;
               text-align: center; }
-  /* line 167, _scss/_styles.scss */
+  /* line 170, _scss/_styles.scss */
   body .left-content {
     padding: 40px;
     height: 100%;
@@ -2042,46 +2045,46 @@ body {
     position: absolute;
     z-index: 2;
     display: table; }
-    /* line 179, _scss/_styles.scss */
+    /* line 182, _scss/_styles.scss */
     body .left-content .menu-holder {
       padding-top: 70px;
       padding-bottom: 40px;
       color: white; }
-      /* line 185, _scss/_styles.scss */
+      /* line 188, _scss/_styles.scss */
       body .left-content .menu-holder .menu {
         margin-bottom: 60px; }
-        /* line 188, _scss/_styles.scss */
+        /* line 191, _scss/_styles.scss */
         body .left-content .menu-holder .menu a:link, body .left-content .menu-holder .menu a:visited, body .left-content .menu-holder .menu a:hover, body .left-content .menu-holder .menu a:active {
           color: white;
           text-decoration: none; }
-      /* line 195, _scss/_styles.scss */
+      /* line 198, _scss/_styles.scss */
       body .left-content .menu-holder ul {
         list-style-type: none;
         margin: 0px;
         padding: 0px; }
-        /* line 201, _scss/_styles.scss */
+        /* line 204, _scss/_styles.scss */
         body .left-content .menu-holder ul li {
           padding-top: 20px;
           padding-bottom: 20px;
           letter-spacing: 0.2em;
           text-transform: uppercase;
           display: none; }
-          /* line 209, _scss/_styles.scss */
+          /* line 212, _scss/_styles.scss */
           body .left-content .menu-holder ul li img {
             width: auto;
             height: 60px; }
-    /* line 218, _scss/_styles.scss */
+    /* line 221, _scss/_styles.scss */
     body .left-content .social-holder {
       color: white;
       position: absolute;
       bottom: 60px;
       width: 100%; }
-      /* line 225, _scss/_styles.scss */
+      /* line 228, _scss/_styles.scss */
       body .left-content .social-holder .fa {
         font-size: 2rem;
         margin-right: 50px;
         visibility: hidden; }
-  /* line 234, _scss/_styles.scss */
+  /* line 237, _scss/_styles.scss */
   body .text {
     min-height: 100%;
     min-width: 380px;
@@ -2091,30 +2094,30 @@ body {
     position: absolute;
     z-index: 4;
     background: rgba(0, 0, 0, 0.5); }
-    /* line 245, _scss/_styles.scss */
+    /* line 248, _scss/_styles.scss */
     body .text .text-content {
       padding: 40px;
       padding-top: 120px;
       padding-bottom: 100px; }
-      /* line 251, _scss/_styles.scss */
+      /* line 254, _scss/_styles.scss */
       body .text .text-content .title-image {
         padding-bottom: 40px;
         padding-top: 20px; }
-        /* line 256, _scss/_styles.scss */
+        /* line 259, _scss/_styles.scss */
         body .text .text-content .title-image img {
           width: auto;
           height: 60px; }
-      /* line 263, _scss/_styles.scss */
+      /* line 266, _scss/_styles.scss */
       body .text .text-content ul {
         color: white; }
-        /* line 267, _scss/_styles.scss */
+        /* line 270, _scss/_styles.scss */
         body .text .text-content ul li {
           font-family: "aktiv-grotesk-std",sans-serif;
           font-style: normal;
           font-weight: 200;
           padding: 5px;
           font-size: 1.3rem; }
-      /* line 277, _scss/_styles.scss */
+      /* line 280, _scss/_styles.scss */
       body .text .text-content .why-us-bottom {
         position: absolute;
         bottom: 20px;
@@ -2124,25 +2127,25 @@ body {
         font-style: normal;
         font-weight: 200;
         min-height: 150px; }
-        /* line 288, _scss/_styles.scss */
+        /* line 291, _scss/_styles.scss */
         body .text .text-content .why-us-bottom .why-us-image {
           display: inline;
           padding-right: 20px; }
-          /* line 293, _scss/_styles.scss */
+          /* line 296, _scss/_styles.scss */
           body .text .text-content .why-us-bottom .why-us-image img {
             width: auto;
             height: 27px;
             margin-top: 150px; }
-        /* line 301, _scss/_styles.scss */
+        /* line 304, _scss/_styles.scss */
         body .text .text-content .why-us-bottom .why-us-arrow {
           display: inline;
           margin-top: -10px; }
-          /* line 306, _scss/_styles.scss */
+          /* line 309, _scss/_styles.scss */
           body .text .text-content .why-us-bottom .why-us-arrow img {
             width: 12px;
             height: auto;
             margin-top: 150px; }
-  /* line 317, _scss/_styles.scss */
+  /* line 320, _scss/_styles.scss */
   body .menu-curtain {
     width: 0px;
     max-width: 450px;
@@ -2150,7 +2153,7 @@ body {
     background: rgba(0, 0, 0, 0.5);
     position: fixed;
     z-index: 1; }
-  /* line 327, _scss/_styles.scss */
+  /* line 330, _scss/_styles.scss */
   body .work-curtain {
     width: 0px;
     max-width: 600px;
@@ -2160,23 +2163,23 @@ body {
     max-height: 100%;
     right: 0px;
     z-index: 1; }
-  /* line 339, _scss/_styles.scss */
+  /* line 342, _scss/_styles.scss */
   body .page-content {
     height: 100%; }
-    /* line 343, _scss/_styles.scss */
+    /* line 346, _scss/_styles.scss */
     body .page-content .work-selector {
       position: absolute;
       z-index: 99;
       right: 30px;
       top: 25px; }
-      /* line 350, _scss/_styles.scss */
+      /* line 353, _scss/_styles.scss */
       body .page-content .work-selector:hover {
         cursor: pointer; }
-      /* line 355, _scss/_styles.scss */
+      /* line 358, _scss/_styles.scss */
       body .page-content .work-selector img {
         height: 28px;
         width: auto; }
-    /* line 362, _scss/_styles.scss */
+    /* line 365, _scss/_styles.scss */
     body .page-content .content-arrow-right {
       width: 150px;
       height: 100%;
@@ -2184,16 +2187,16 @@ body {
       z-index: 10;
       right: 0px;
       bottom: 20px; }
-      /* line 371, _scss/_styles.scss */
+      /* line 374, _scss/_styles.scss */
       body .page-content .content-arrow-right .arrowright {
         position: absolute;
         bottom: 15px;
         right: 20px; }
-        /* line 377, _scss/_styles.scss */
+        /* line 380, _scss/_styles.scss */
         body .page-content .content-arrow-right .arrowright img {
           width: 20px;
           height: auto; }
-    /* line 385, _scss/_styles.scss */
+    /* line 388, _scss/_styles.scss */
     body .page-content .content-arrow-left {
       width: 150px;
       height: 100%;
@@ -2201,16 +2204,16 @@ body {
       z-index: 10;
       left: 0;
       bottom: 20px; }
-      /* line 394, _scss/_styles.scss */
+      /* line 397, _scss/_styles.scss */
       body .page-content .content-arrow-left .arrowleft {
         position: absolute;
         bottom: 15px;
         left: 20px; }
-        /* line 400, _scss/_styles.scss */
+        /* line 403, _scss/_styles.scss */
         body .page-content .content-arrow-left .arrowleft img {
           width: 20px;
           height: auto; }
-    /* line 408, _scss/_styles.scss */
+    /* line 411, _scss/_styles.scss */
     body .page-content .right-content {
       padding: 40px;
       padding-top: 80px;
@@ -2222,85 +2225,85 @@ body {
       position: absolute;
       right: 0px;
       z-index: 2; }
-      /* line 425, _scss/_styles.scss */
+      /* line 428, _scss/_styles.scss */
       body .page-content .right-content .more-work-holder .moreworkrow li {
         visibility: hidden;
         margin: 0px;
         padding: 0px; }
-        /* line 431, _scss/_styles.scss */
+        /* line 434, _scss/_styles.scss */
         body .page-content .right-content .more-work-holder .moreworkrow li img {
           width: 100%;
           height: auto;
           margin: 0px;
           padding: 0px; }
-    /* line 444, _scss/_styles.scss */
+    /* line 447, _scss/_styles.scss */
     body .page-content .greyback {
       background: #424242; }
-      /* line 448, _scss/_styles.scss */
+      /* line 451, _scss/_styles.scss */
       body .page-content .greyback .columns {
         background: #424242; }
-    /* line 454, _scss/_styles.scss */
+    /* line 457, _scss/_styles.scss */
     body .page-content .work-grid {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3; }
-      /* line 461, _scss/_styles.scss */
+      /* line 464, _scss/_styles.scss */
       body .page-content .work-grid .textcover {
         width: 100%;
         height: 100%;
         position: relative;
         z-index: 20; }
-        /* line 468, _scss/_styles.scss */
+        /* line 471, _scss/_styles.scss */
         body .page-content .work-grid .textcover img.textimage {
           position: absolute;
           z-index: 19; }
-      /* line 475, _scss/_styles.scss */
+      /* line 478, _scss/_styles.scss */
       body .page-content .work-grid .fullwidth {
         margin: 0px;
         width: 100%;
         max-width: 100%; }
-      /* line 482, _scss/_styles.scss */
+      /* line 485, _scss/_styles.scss */
       body .page-content .work-grid img.a {
         position: relative;
         z-index: 10; }
-      /* line 488, _scss/_styles.scss */
+      /* line 491, _scss/_styles.scss */
       body .page-content .work-grid img.b {
         position: absolute;
         z-index: 9;
         top: 0; }
-      /* line 495, _scss/_styles.scss */
+      /* line 498, _scss/_styles.scss */
       body .page-content .work-grid .row {
         margin: 0px; }
-        /* line 499, _scss/_styles.scss */
+        /* line 502, _scss/_styles.scss */
         body .page-content .work-grid .row .columns {
           margin: 0px;
           padding: 0px; }
-          /* line 504, _scss/_styles.scss */
+          /* line 507, _scss/_styles.scss */
           body .page-content .work-grid .row .columns img {
             min-width: 100%;
             height: auto; }
-    /* line 513, _scss/_styles.scss */
+    /* line 516, _scss/_styles.scss */
     body .page-content .work-content {
       height: 100%;
       width: 100%;
       position: absolute;
       z-index: 3;
       overflow: scrolll; }
-      /* line 521, _scss/_styles.scss */
+      /* line 524, _scss/_styles.scss */
       body .page-content .work-content .image-holder {
         width: 100%;
         overflow: scroll;
         white-space: nowrap;
         height: 100%; }
-        /* line 528, _scss/_styles.scss */
+        /* line 531, _scss/_styles.scss */
         body .page-content .work-content .image-holder img {
           max-width: none;
           height: 100%;
           width: auto;
           margin: 0px;
           padding: 0px; }
-      /* line 538, _scss/_styles.scss */
+      /* line 541, _scss/_styles.scss */
       body .page-content .work-content .titleback {
         position: fixed;
         z-index: 11;
@@ -2316,7 +2319,7 @@ body {
         -ms-transform: rotate(180deg);
         -o-transform: rotate(180deg);
         transform: rotate(180deg); }
-      /* line 556, _scss/_styles.scss */
+      /* line 559, _scss/_styles.scss */
       body .page-content .work-content .title {
         position: fixed;
         z-index: 11;
@@ -2325,114 +2328,114 @@ body {
         text-align: center; }
 
 @media screen and (max-width: 1024px) {
-  /* line 571, _scss/_styles.scss */
+  /* line 574, _scss/_styles.scss */
   .left-content, .text {
     width: 100% !important; }
-    /* line 577, _scss/_styles.scss */
+    /* line 580, _scss/_styles.scss */
     .left-content .title-image img, .text .title-image img {
       height: 40px !important; }
-    /* line 588, _scss/_styles.scss */
+    /* line 591, _scss/_styles.scss */
     .left-content .menu-holder ul li, .text .menu-holder ul li {
       padding-top: 20px !important;
       padding-bottom: 20px !important; }
-      /* line 593, _scss/_styles.scss */
+      /* line 596, _scss/_styles.scss */
       .left-content .menu-holder ul li img, .text .menu-holder ul li img {
         height: 40px !important; }
 
-  /* line 603, _scss/_styles.scss */
+  /* line 606, _scss/_styles.scss */
   .menu-curtain {
     max-width: 400px !important; }
 
-  /* line 610, _scss/_styles.scss */
+  /* line 613, _scss/_styles.scss */
   .page-content .content-arrow-left, .page-content .content-arrow-right {
     width: 100px !important; } }
 @media only screen and (max-width: 40em) {
-  /* line 622, _scss/_styles.scss */
+  /* line 625, _scss/_styles.scss */
   body h1 {
     font-size: 1.5rem; }
-  /* line 626, _scss/_styles.scss */
+  /* line 629, _scss/_styles.scss */
   body .left-content {
     width: 100% !important; }
-    /* line 630, _scss/_styles.scss */
+    /* line 633, _scss/_styles.scss */
     body .left-content .menu {
       margin-bottom: 20px; }
-    /* line 636, _scss/_styles.scss */
+    /* line 639, _scss/_styles.scss */
     body .left-content .social-holder .fa {
       font-size: 1.5rem !important; }
-  /* line 643, _scss/_styles.scss */
+  /* line 646, _scss/_styles.scss */
   body .text {
     width: 100% !important;
     max-width: 100% !important;
     margin-top: 70% !important;
     height: auto !important;
     min-height: 600px !important; }
-    /* line 651, _scss/_styles.scss */
+    /* line 654, _scss/_styles.scss */
     body .text .text-content {
       padding-top: 10px !important;
       padding-bottom: 0px !important; }
-      /* line 656, _scss/_styles.scss */
+      /* line 659, _scss/_styles.scss */
       body .text .text-content .why-us-bottom {
         position: relative !important;
         width: 100% !important;
         text-align: right !important;
         padding-top: 0px !important; }
-  /* line 667, _scss/_styles.scss */
+  /* line 670, _scss/_styles.scss */
   body .menu-curtain {
     max-width: 100% !important; }
-  /* line 674, _scss/_styles.scss */
+  /* line 677, _scss/_styles.scss */
   body .page-content .content-arrow-left, body .page-content .content-arrow-right {
     display: none !important; }
-  /* line 681, _scss/_styles.scss */
+  /* line 684, _scss/_styles.scss */
   body .page-content .work-content .image-holder {
     height: auto !important;
     white-space: normal !important; }
-    /* line 686, _scss/_styles.scss */
+    /* line 689, _scss/_styles.scss */
     body .page-content .work-content .image-holder img {
       max-width: 100% !important;
       height: auto !important;
       width: 100% !important;
       margin-left: 0px !important; }
-  /* line 696, _scss/_styles.scss */
+  /* line 699, _scss/_styles.scss */
   body .page-content .work-selector {
     display: none !important; }
-  /* line 702, _scss/_styles.scss */
+  /* line 705, _scss/_styles.scss */
   body .page-content .rightcontent > .blog {
     text-align: center; }
-    /* line 704, _scss/_styles.scss */
+    /* line 707, _scss/_styles.scss */
     body .page-content .rightcontent > .blog > .title-holder {
       margin-top: 50px;
       padding-bottom: 50px; }
-    /* line 708, _scss/_styles.scss */
+    /* line 711, _scss/_styles.scss */
     body .page-content .rightcontent > .blog > .row {
       margin-bottom: 20px; }
-      /* line 710, _scss/_styles.scss */
+      /* line 713, _scss/_styles.scss */
       body .page-content .rightcontent > .blog > .row.article {
         margin-top: 50% !important; }
-      /* line 713, _scss/_styles.scss */
+      /* line 716, _scss/_styles.scss */
       body .page-content .rightcontent > .blog > .row > .columns {
         padding-top: 20px; }
-        /* line 717, _scss/_styles.scss */
+        /* line 720, _scss/_styles.scss */
         body .page-content .rightcontent > .blog > .row > .columns.copy > a > h1 {
           margin-top: 20px; }
-      /* line 724, _scss/_styles.scss */
+      /* line 727, _scss/_styles.scss */
       body .page-content .rightcontent > .blog > .row > .columns.blog-article {
         margin-top: 50px; }
-      /* line 727, _scss/_styles.scss */
+      /* line 730, _scss/_styles.scss */
       body .page-content .rightcontent > .blog > .row > .columns p {
         font-size: 0.9rem;
         text-align: left; }
-      /* line 732, _scss/_styles.scss */
+      /* line 735, _scss/_styles.scss */
       body .page-content .rightcontent > .blog > .row.intro {
         margin-bottom: 50px; }
-        /* line 734, _scss/_styles.scss */
+        /* line 737, _scss/_styles.scss */
         body .page-content .rightcontent > .blog > .row.intro > .columns {
           padding-top: 0px; }
-          /* line 736, _scss/_styles.scss */
+          /* line 739, _scss/_styles.scss */
           body .page-content .rightcontent > .blog > .row.intro > .columns > p {
             margin: 0px;
             text-align: center; } }
 @media screen and (max-width: 320px) {
-  /* line 753, _scss/_styles.scss */
+  /* line 756, _scss/_styles.scss */
   .logo-holder > a > img {
     width: 180px !important;
     margin-top: 7px !important;
