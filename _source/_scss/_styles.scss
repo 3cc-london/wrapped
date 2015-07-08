@@ -9,16 +9,18 @@ body
 		color:white;
 		text-transform: uppercase;
 	}
+	h1, p {
+		letter-spacing:0.2em;
+		font-family: "aktiv-grotesk-std",sans-serif;
+		font-style: normal;
+		font-weight: 200;
+	}
 	h1 {
 		font-size:3rem;
 	}
 	p {
 		font-size:1.1rem;
 		color:white;
-		letter-spacing:0.2em;
-		font-family: "aktiv-grotesk-std",sans-serif;
-		font-style: normal;
-		font-weight: 200;
 		-webkit-text-stroke: 0.40px
 	}
 	a:link, a:visited, a:hover, a:active
@@ -94,9 +96,9 @@ body
 				padding-bottom: 50px;
 				max-width: 70%;
 				margin: auto;
+				margin-top:50px;
 				> img {
-					max-height:40px;
-					max-width:100%;
+					width:50%;
 				}
 			}
 			> .row {
@@ -145,6 +147,16 @@ body
 						color:#FAFAFA;
 						> a {
 							font-size:0.9rem;
+						}
+					}
+				}
+				&.intro {
+					margin-bottom:80px;
+					> .columns {
+						padding-top:0px;
+						> p {
+							margin:0px;
+							text-align:center;
 						}
 					}
 				}
@@ -689,6 +701,10 @@ body
 			.rightcontent {
 				> .blog{
 					text-align: center;
+					> .title-holder {
+						margin-top:50px;
+						padding-bottom:50px;
+					}
 					> .row {
 						margin-bottom:20px;
 						&.article {
@@ -706,10 +722,21 @@ body
 						}
 						> .columns {
 							&.blog-article {
-								margin-top:30%;
+								margin-top:50px;
 							}
 							p {
 								font-size:0.9rem;
+								text-align:left;
+							}
+						}
+						&.intro {
+							margin-bottom:50px;
+							> .columns {
+								padding-top:0px;
+								> p {
+									margin:0px;
+									text-align:center;
+								}
 							}
 						}
 					}
