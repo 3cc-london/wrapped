@@ -114,14 +114,14 @@ body
 					&.blog-article {
 						> img, p {
 							margin-top:20px;
-							margin-bottom:20px;
+							margin-bottom:10px;
 						}
 						p {
 							text-align:left;
 							margin-top:20px;
 							margin-bottom:20px;
 							&.intro {
-								margin-bottom:20px;
+								margin-bottom:10px;
 							}
 						}
 						> h1, .intro {
@@ -136,6 +136,15 @@ body
 						}
 						h1 {
 							margin-bottom:40px;
+						}
+						> span {
+							color:white;
+							letter-spacing: 0.2em;
+							font-family: "aktiv-grotesk-std",sans-serif;
+							font-style: normal;
+							font-weight: 200;
+							color: white;
+							font-size: 0.8rem;
 						}
 					}
 					> a {
